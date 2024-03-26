@@ -12,7 +12,7 @@ For more recent years of the competition (2021-2023), the competition software s
 
 Next, I looked up each horse in the United States Dressage Federation (USDF) database, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN FEI Young Horse tests. 
 
-I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. Finding this information required a lot of detective work in some cases, frequently utilizing Horse Telex (www.horsetelex.com), a pedigree database. I also utilized old Eurodressage and DressageDaily articles about various years of the championships. 
+I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing Horse Telex (www.horsetelex.com), a pedigree database. I also utilized old Eurodressage and DressageDaily articles about various years of the championships. 
 
 ## Analysis Overview
 
@@ -27,10 +27,12 @@ Do horses that compete in the 4, 5, and 6 Year Old divisions make it to FEI?
 
 To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total.
 
-The overwhelming majority made it to FEI (69.81%). 21.54% competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
+The overwhelming majority, 363 horses total, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
 
 #### CDI vs Non-CDI Horses
-Unsurprisingly, most horses (67.50%) never competed in a CDI (international competition). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
+Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed in a CDI (international competition). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
+
+169 horses (32.50%) participated in at least one CDI at any level other than a Young Horse division.
 
 #### Top Ten vs Bottom Ten Placing Horses
 Are horses placing in the top ten vs bottom ten more likely to make it to FEI? Yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
