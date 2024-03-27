@@ -16,7 +16,7 @@ I had the most difficulty acquiring the data on bloodlines and breeders, ironica
 
 ## Analysis Overview
 
-For the analysis of competitve careers of participants, I am focusing on the years 2002-2019. Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse can compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age versus the most common (9-10 years old).
+For the analysis of competitve careers of participants, I am focusing on the years 2002-2019. Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse can compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old).
 
 The analysis of bloodlines and other breeding data will look at all years of the program (2002-2023). 
 
@@ -25,7 +25,7 @@ The analysis of bloodlines and other breeding data will look at all years of the
 #### FEI vs Non-FEI Horses
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to FEI? 
 
-To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total.
+To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total. 
 
 The overwhelming majority, 363 horses total, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
 
@@ -41,8 +41,8 @@ This finding may be influenced by the years this project is analyzing. In the ea
 
 ### 2002 - 2023, All Divisions (4/5/6/7 Year Old, Developing Prix St. Georges, Developing Grand Prix)
 
-#### Highest Level Shown, USA Bred vs All Other Countries
-At the lower levels, there is a fairly balanced split between horses bred in the USA, and those bred in other countries. However, at the FEI levels, most horses are foreign-bred, with the most noticable difference being at the Grand Prix level (80 American-bred, 168 foreign-bred). There are likely many reasons for this:
+#### US-Bred vs All Other Countries
+Far more horses participating in the championships are foreign-bred than bred in the USA. 307 horses were bred in the USA (36.85%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
 
 * Many people shop for horses in Europe because it is easier to see many horses in one location vs the USA
 * Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
@@ -69,7 +69,7 @@ The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten we
 
 Once again, the prevalence of null values (just over 7% of the data) in the damsire column affects the completeness of this data. 
 
-#### Top Ten Breeders Represented 
+#### Top Ten Most Prominent Breeders 
 The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 16 horses. The rest of the top ten were Maryanna Haymon (USA, 12 horses), Nancy Holowesko (USA, 9 horses), Leatherdale Farms (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 5 horses), and Jackie Ahl-Eckhaus (USA, 5 horses). 
 
 This column had the most null values overall—47 missing values, which equates to 9% of the total. 
@@ -78,7 +78,7 @@ This column had the most null values overall—47 missing values, which equates 
 The horse with the most appearances at the Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and also competed two years each in the Developing Prix St. Georges and Developing Grand Prix divisions. 
 
 ## Acknowledgements
-The following sites were utilized to gather this data:
+The following sites were utilized to research this project and gather this data:
 
 * USDF (www.usdf.org)
 * USEF (www.usef.org)
