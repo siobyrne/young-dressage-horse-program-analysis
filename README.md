@@ -75,7 +75,9 @@ The most prominent breeder over all years and divions is DG Bar Ranch (USA), wit
 This column had the most null values overall—47 missing values, which equates to 9% of the total. 
 
 #### Most Championship Appearances
-The horse with the most appearances at the Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and also competed two years each in the Developing Prix St. Georges and Developing Grand Prix divisions. 
+The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
+
+He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions.
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather this data:
