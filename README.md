@@ -39,6 +39,9 @@ Are horses placing in the top ten vs bottom ten more likely to make it to FEI? Y
 
 This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. 
 
+#### International Team Horses
+Four horses from this time period went on to make international teams (0.77%), defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games for Sweden), and Sanceo (Pan American and Olympic Games for the United States).
+
 ### 2002 - 2023, All Divisions (4/5/6/7 Year Old, Developing Prix St. Georges, Developing Grand Prix)
 
 #### US-Bred vs All Other Countries
