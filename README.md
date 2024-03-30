@@ -3,20 +3,22 @@
 ## Introduction
 The aim of this project is to analyze data from the USEF Young and Developing Horse programs over the years. The program can be divisive—some claim that horses that participate in these programs end up washing out, or that many do not make it to the FEI levels. Since these programs have now been in place for over 20 years, there is a significant amount of data available to look at regarding the competitive careers of horses involved in these programs.
 
+My aim is to update this project at the end of each competition season. 
+
 ## Data Acquisition and Cleaning
 The current format of the competition for all divisions (4/5/6/7 Year Old, Developing Prix St. Georges, and Developing Grand Prix) involves two rounds, with round one counting for 40% of the overall score, and round two counting for 60% of the overall score. Overall scores determine the final placings. 
 
 To further complicate matters, early years of this program invited more horses to participate, and held both Final and Consolation Final rounds. To simplify this analysis, I did not include any Consolation Final results. 
 
-For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula. While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, please contact me at (byrne.sio@gmail.com) and I will make the correction.
+For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, please contact me at (byrne.sio@gmail.com) and I will make the correction.
 
 Next, I looked up each horse in the United States Dressage Federation (USDF) database, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN FEI Young Horse tests. 
 
-I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing Horse Telex (www.horsetelex.com), a pedigree database. I also utilized old Eurodressage and DressageDaily articles about various years of the championships. 
+I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing Horse Telex (www.horsetelex.com), a pedigree database. I also utilized old Eurodressage (www.eurodressage.com) and DressageDaily (www.dressagedaily.com) articles about various years of the championships. 
 
 ## Analysis Overview
 
-For the analysis of competitve careers of participants, I am focusing on the years 2002-2019. Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse can compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old).
+For the analysis of competitve careers of participants, I am focusing on the years 2002-2019. Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old).
 
 The analysis of bloodlines and other breeding data will look at all years of the program (2002-2023). 
 
@@ -35,12 +37,12 @@ Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed 
 169 horses (32.50%) participated in at least one CDI at any level other than a Young Horse division.
 
 #### Top Ten vs Bottom Ten Placing Horses
-Are horses placing in the top ten vs bottom ten more likely to make it to FEI? Yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
+Are horses placing in the top ten vs bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
 
 This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. 
 
 #### International Team Horses
-Four horses from this time period went on to make international teams (0.77%), defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games for Sweden), and Sanceo (Pan American and Olympic Games for the United States).
+Four horses from this time period went on to make international teams (0.77%), defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Sweden), and Sanceo (Pan American and Olympic Games, for the United States).
 
 ### 2002 - 2023, All Divisions (4/5/6/7 Year Old, Developing Prix St. Georges, Developing Grand Prix)
 
@@ -54,6 +56,8 @@ Far more horses participating in the championships are foreign-bred than bred in
 * Hard to get top American-bred foals into the hands of riders that can develop them to Grand Prix
 * USA lacks a well-developed pipeline from foal to young horse to FEI
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
+
+#### Median Scores
 
 
 #### Top Ten Sires Represented
@@ -81,6 +85,9 @@ This column had the most null values overall—47 missing values, which equates 
 The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
 
 He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions.
+
+## Final Thoughts
+I am a dressage trainer and competitor myself, and an agnostic when it comes to the Young Horse program. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather this data:
