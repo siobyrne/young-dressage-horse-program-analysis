@@ -1,7 +1,7 @@
 # Markel/USEF Young and Developing Dressage Horse Championship Data Analysis
 
 ## Introduction
-The aim of this project is to analyze data from the USEF Young and Developing Horse programs over the years. The program can be divisive—some claim that horses that participate in these programs end up washing out, or that many do not make it to the FEI levels. Since these programs have now been in place for over 20 years, there is a significant amount of data available to look at regarding the competitive careers of horses involved in these programs.
+The aim of this project is to analyze data from the USEF Young and Developing Horse programs over the years. The program can be divisive—some claim that horses that participate in these programs end up washing out, or that many do not make it to the FEI level. 
 
 My aim is to update this project at the end of each competition season. 
 
@@ -57,7 +57,8 @@ Far more horses participating in the championships are foreign-bred than bred in
 * USA lacks a well-developed pipeline from foal to young horse to FEI
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
-#### Median Scores
+#### Overall Scores Analysis
+I wanted to look at overall scores over the years, to see if there was a correlation between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. 
 
 
 #### Top Ten Sires Represented
