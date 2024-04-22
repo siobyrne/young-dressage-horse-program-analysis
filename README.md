@@ -58,11 +58,13 @@ Far more horses participating in the championships are foreign-bred than bred in
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
 #### Overall Scores Analysis
-I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. 
+I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old divivsion in this analysis, as this division has only been offered since 2022, and therefore does not have many datapoints. 
 
 For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an usually low overall score. All other scores were retained. 
 
 All divisions had weak-to-moderate positive r-values, indicating a lot of variance in the model. 
+
+### Score Distribution by Sire 
 
 
 #### Top Ten Sires Represented
