@@ -5,12 +5,14 @@ The aim of this project is to analyze data from the USEF Young and Developing Ho
 
 My aim is to update this project at the end of each competition season. 
 
+Questions, comments, corrections, or suggestions for further areas of exploration are welcome—contact me by email at (young.dressage.horse.project@gmail.com).
+
 ## Data Acquisition and Cleaning
 The current format of the competition for all divisions (4/5/6/7 Year Old, Developing Prix St. Georges, and Developing Grand Prix) involves two rounds, with round one counting for 40% of the overall score, and round two counting for 60% of the overall score. Overall scores determine the final placings. 
 
 To further complicate matters, early years of this program invited more horses to participate, and held both Final and Consolation Final rounds. To simplify this analysis, I did not include any Consolation Final results. 
 
-For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, please contact me at (byrne.sio@gmail.com) and I will make the correction.
+For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, please contact me at (young.dressage.horse.project@gmail.com) and I will make the correction.
 
 Next, I looked up each horse in the United States Dressage Federation (USDF) database, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN FEI Young Horse tests. 
 
@@ -29,7 +31,7 @@ Do horses that compete in the 4, 5, and 6 Year Old divisions make it to FEI?
 
 To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total. 
 
-The overwhelming majority, 363 horses total, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
+The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
 
 #### CDI vs Non-CDI Horses
 Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed in a CDI (international competition). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
@@ -78,10 +80,14 @@ Frustratingly, this column had the second most null values of all the columns (1
 #### Top Ten Sires of Grand Prix Horses
 The top sire of Grand Prix horses (2002-2023, all divisions) was also Sandro Hit (12). The rest of the top ten were Jazz (8), Sir Donnerhall I (7), Florestan I (5), Florencio I (5), Rotspon (4), Fidertanz (4), Sir Sinclair (3), Hotline (3), and Furstenball (3). 
 
+#### Highest Percentage of Grand Prix Horses by Sire
+
 #### Top Ten Damsires of Grand Prix Horses
 The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten were Rubinstein (6), Rotspon (6), Ferro (5), Weltmeyer (4), Rohdiamant (4), Jazz (4), Sandro Hit (3), Sir Donnerhall (1), and Krack C (1). 
 
 Once again, the prevalence of null values (just over 7% of the data) in the damsire column affects the completeness of this data. 
+
+#### Highest Percentage of Grand Prix Horses by Damsire
 
 #### Top Ten Most Prominent Breeders 
 The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 16 horses. The rest of the top ten were Maryanna Haymon (USA, 12 horses), Nancy Holowesko (USA, 9 horses), Leatherdale Farms (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 5 horses), and Jackie Ahl-Eckhaus (USA, 5 horses). 
