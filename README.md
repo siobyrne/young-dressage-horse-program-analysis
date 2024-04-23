@@ -46,7 +46,7 @@ This finding may be influenced by the years this project is analyzing. In the ea
 #### International Team Horses
 Four horses from this time period went on to make international teams (0.77%), defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Sweden), and Sanceo (Pan American and Olympic Games, for the United States).
 
-### 2002 - 2023, All Divisions (4/5/6/7 Year Old, Developing Prix St. Georges, Developing Grand Prix)
+### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix)
 
 #### US-Bred vs All Other Countries
 Far more horses participating in the championships are foreign-bred than bred in the USA. 307 horses were bred in the USA (36.85%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
@@ -65,6 +65,16 @@ I wanted to look at overall scores over the years, to see if there was a relatio
 For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an usually low overall score. All other scores were retained. 
 
 All divisions had weak-to-moderate positive r-values, indicating a lot of variance in the model. 
+
+#### USEF 4 Year Old Scores Analysis
+
+#### FEI 5 Year Old Scores Analysis
+
+#### FEI 6 Year Old Scores Analysis
+
+#### Developing Prix St. Georges Scores Analysis
+
+#### Developing Grand Prix Scores Analysis
 
 ### Score Distribution by Sire 
 
