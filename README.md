@@ -91,6 +91,8 @@ Frustratingly, this column had the second most null values of all the columns (1
 The top sire of Grand Prix horses (2002-2023, all divisions) was also Sandro Hit (12). The rest of the top ten were Jazz (8), Sir Donnerhall I (7), Florestan I (5), Florencio I (5), Rotspon (4), Fidertanz (4), Sir Sinclair (3), Hotline (3), and Furstenball (3). 
 
 #### Highest Percentage of Grand Prix Horses by Sire
+When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 5 or more offspring total, in order to have a better sample size. The top producer was Quaterback, who had 4 out of 6 offspring at Grand Prix (66.67%). 
+
 
 #### Top Ten Damsires of Grand Prix Horses
 The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten were Rubinstein (6), Rotspon (6), Ferro (5), Weltmeyer (4), Rohdiamant (4), Jazz (4), Sandro Hit (3), Sir Donnerhall (1), and Krack C (1). 
