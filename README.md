@@ -41,23 +41,12 @@ Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed 
 #### Top Ten vs Bottom Ten Placing Horses
 Are horses placing in the top ten vs bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
 
-This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. 
+When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%)  out of 138 that made it to Grand Prix placed in the top ten of their division. 
+
+This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. It is also possible that horses that place in the top ten are ridden and trained by more experienced individuals, which may up their odds of making it to the higher levels. 
 
 #### International Team Horses
-Four horses from this time period went on to make international teams (0.77%), defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Sweden), and Sanceo (Pan American and Olympic Games, for the United States).
-
-### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix)
-
-#### US-Bred vs All Other Countries
-Far more horses participating in the championships are foreign-bred than bred in the USA. 307 horses were bred in the USA (36.85%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
-
-* Many people shop for horses in Europe because it is easier to see many horses in one location vs the USA
-* Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
-* European countries produce far more warmblood foals than the USA
-* Bias against American breeders—some may think American-bred foals aren't as good as those produced in Europe
-* Hard to get top American-bred foals into the hands of riders that can develop them to Grand Prix
-* USA lacks a well-developed pipeline from foal to young horse to FEI
-* More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
+Four horses from this time period went on to make international teams (0.77%), which I defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Sweden), and Sanceo (Pan American and Olympic Games, for the United States).
 
 ### Overall Scores Analysis, 2002-2023
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old divivsion in this analysis, as this division has only been offered since 2022, and therefore does not have many datapoints. 
@@ -76,40 +65,53 @@ All divisions had weak-to-moderate positive r-values, indicating a lot of varian
 
 #### Developing Grand Prix Scores Analysis
 
+### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
+
+#### US-Bred vs All Other Countries
+Far more horses participating in the championships are foreign-bred than bred in the USA. 307 horses were bred in the USA (36.85%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
+
+* Many people shop for horses in Europe because it is easier to see many horses in one location vs the USA
+* Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
+* European countries produce far more warmblood foals than the USA
+* Bias against American breeders—some may think American-bred foals aren't as good as those produced in Europe
+* Hard to get top American-bred foals into the hands of riders that can develop them to Grand Prix
+* USA lacks a well-developed pipeline from foal to young horse to FEI
+* More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
+
 ### Score Distribution by Sire 
 
 
-#### Top Ten Sires Represented
+#### Top Ten Sires Represented by Offspring Count
 The stallion with the most offspring competing (2002 to 2023, all divisions) was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven horses in this category.
 
-#### Top Ten Damsires Represented
+#### Top Ten Damsires Represented by Offspring Count
 The damsire with the most offspring competing (2002 to 2023, all divisions) was Rubinstein (25). The rest of the top ten were De Niro (18), Sandro Hit (17), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (13), Krack C (11), Sir Donnerhall I (11), and Rohdiamant (11). 
 
 Frustratingly, this column had the second most null values of all the columns (18 missing values / 3.5% of the total)—I hope to resolve this in future iterations of this project.
 
-#### Top Ten Sires of Grand Prix Horses
+#### Top Ten Sires of Grand Prix Horses by Offspring Count
 The top sire of Grand Prix horses (2002-2023, all divisions) was also Sandro Hit (12). The rest of the top ten were Jazz (8), Sir Donnerhall I (7), Florestan I (5), Florencio I (5), Rotspon (4), Fidertanz (4), Sir Sinclair (3), Hotline (3), and Furstenball (3). 
 
 #### Highest Percentage of Grand Prix Horses by Sire
 When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 5 or more offspring total, in order to have a better sample size. The top producer was Quaterback, who had 4 out of 6 offspring at Grand Prix (66.67%). 
 
 
-#### Top Ten Damsires of Grand Prix Horses
+#### Top Ten Damsires of Grand Prix Horses by Offspring Count
 The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten were Rubinstein (6), Rotspon (6), Ferro (5), Weltmeyer (4), Rohdiamant (4), Jazz (4), Sandro Hit (3), Sir Donnerhall (1), and Krack C (1). 
 
-Once again, the prevalence of null values (just over 7% of the data) in the damsire column affects the completeness of this data. 
+Once again, the prevalence of null values (just over 3.5%) in the damsire column affects the completeness of this data. 
 
 #### Highest Percentage of Grand Prix Horses by Damsire
 
-#### Top Ten Most Prominent Breeders 
+#### Top Ten Most Prominent Breeders by Horse Count
 The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 16 horses. The rest of the top ten were Maryanna Haymon (USA, 12 horses), Nancy Holowesko (USA, 9 horses), Leatherdale Farms (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 5 horses), and Jackie Ahl-Eckhaus (USA, 5 horses). 
 
-This column had the most null values overall—47 missing values, which equates to 9% of the total. 
+This column had the most null values overall—47 missing values, which equates to 9% of the total. This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical, it would help American sporthorse breeding to make this data easily available. 
 
 #### Most Championship Appearances
 The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
 
-He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions.
+He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions, and went on to compete at the CDI level at Grand Prix. 
 
 ## Final Thoughts
 I am a dressage trainer and competitor myself, and an agnostic when it comes to the Young Horse program. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
