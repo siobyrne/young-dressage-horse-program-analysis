@@ -6,6 +6,9 @@ figure.titleweight: bold
 ### LINES
 lines.linewidth: 1.0
 
+### LEGEND
+legend.facecolor: ghostwhite
+
 ### FONTS
 font.family: sans-serif
 font.sans-serif: Avenir, 'Avenir Next LT Pro', Arial, Helvetica, sans-serif
