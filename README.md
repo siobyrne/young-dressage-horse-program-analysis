@@ -27,9 +27,9 @@ The analysis of bloodlines and other breeding data will look at all years of the
 ### 2002 - 2019, 4/5/6 Year Old Division Competitive Outcomes
 
 #### FEI vs Non-FEI Horses
-Do horses that compete in the 4, 5, and 6 Year Old divisions make it to FEI? 
+Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
-To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total. 
+To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total, and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions. Those levels are comprised of Junior, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
 
 The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
 
@@ -39,11 +39,11 @@ Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed 
 169 horses (32.50%) participated in at least one CDI at any level other than a Young Horse division.
 
 #### Top Ten vs Bottom Ten Placing Horses
-Are horses placing in the top ten vs bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
+Are horses placing in the top ten versus the  bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
 
 When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%)  out of 138 that made it to Grand Prix placed in the top ten of their division. 
 
-This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. It is also possible that horses that place in the top ten are ridden and trained by more experienced individuals, which may up their odds of making it to the higher levels. 
+This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. It is also possible that the quality of horse that places in the top ten is more likely to be ridden and trained by more experienced individuals, which may up their odds of making it to the higher levels. 
 
 #### International Team Horses
 Four horses from this time period went on to make international teams (0.77%), which I defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Sweden), and Sanceo (Pan American and Olympic Games, for the United States).
