@@ -17,7 +17,10 @@ font.size: 10
 ### TICKS
 xtick.bottom: true
 xtick.direction: out
+xtick.fontsize: 8
+xtick.major.pad: 5.0
 ytick.direction: out
+ytick.fontsize: 8
 
 ### AXES
 axes.facecolor: "#E5E4E2"
