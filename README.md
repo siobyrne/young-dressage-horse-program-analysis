@@ -95,9 +95,9 @@ For each division, my first step was to find the upper and lower quantiles, and 
 ### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 PLaceholder text
 
-### Score Distribution by Sire 
+### Analysis of Scores by Sire 
 
-#### Summary Statistics for Scores, Young Horse Divisions 
+#### Summary Statistics for Scores by Sire, Young Horse Divisions 
 Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the summary statistics for scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size.
 
 The highest median score in the Young Horse divisions is Belissimo M, with 8.208 (8 offspring). Close behind is Grand Galaxy Win, with a median score of 8.154 (11 offspring). 
@@ -121,7 +121,9 @@ The highest median score in the Young Horse divisions is Belissimo M, with 8.208
 | Sir Donnerhall I |                 24 |      7.80379 |          7.718 |             0.382872 |   0.146591 |
 | Sir Sinclair     |                  9 |      7.66511 |          7.68  |             0.423529 |   0.179377 |
 
-#### Summary Statistics for Scores, Developing Horse Divisions
+![Young Horse Scores by Sire Boxplot](images/yh-score-by-sire-boxplot.png)
+
+#### Summary Statistics for Scores by Sire, Developing Horse Divisions
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
@@ -147,6 +149,19 @@ The highest median score in the Young Horse divisions is Belissimo M, with 8.208
 | Vivaldi          |                  4 |      69.191  |        68.997  |              2.28054 |    5.20086 |
 | Wagnis           |                  4 |      71.1148 |        69.919  |              2.80298 |    7.85668 |
 
+![Developing Horse Scores by Sire Boxplot](images/dh-score-by-sire-boxplot.png)
+
+#### Distribution of Scores by Sire, Young Horse Division
+
+
+![Young Horse Scores by Sire Histogram](images/yh-score-by-sire.png)
+
+#### Distribution of Scores by Sire, Developing Horse Division
+
+
+![Developing Horse Scores by Sire Histogram](images/dh-score-by-sire.png)
+
+
 #### US-Bred vs All Other Countries
 Far more horses participating in the championships are foreign-bred than bred in the USA. 307 horses were bred in the USA (36.85%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
 
@@ -158,13 +173,16 @@ Far more horses participating in the championships are foreign-bred than bred in
 * USA lacks a well-developed pipeline from foal to young horse to FEI
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
+
+![Horses by Country Bred](images/horses-by-country.png)
+
 #### Top Ten Sires Represented by Offspring Count
-The stallion with the most offspring competing (2002 to 2023, all divisions) was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven horses in this category.
+The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven horses in this category.
 
 ![Top Ten Sires](images/top-10-sires.png)
 
 #### Top Ten Damsires Represented by Offspring Count
-The damsire with the most offspring competing (2002 to 2023, all divisions) was Rubinstein (25). The rest of the top ten were De Niro (18), Sandro Hit (17), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (13), Krack C (11), Sir Donnerhall I (11), and Rohdiamant (11). 
+The damsire with the most offspring competing was Rubinstein (25). The rest of the top ten were De Niro (18), Sandro Hit (17), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (13), Krack C (11), Sir Donnerhall I (11), and Rohdiamant (11). 
 
 Frustratingly, this column had the second most null values of all the columns (18 missing values / 3.5% of the total)—I hope to resolve this in future iterations of this project.
 
