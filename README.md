@@ -83,24 +83,38 @@ I wanted to look at overall scores over the years, to see if there was a relatio
 For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an usually low overall score. All other scores were retained. 
 
 #### USEF 4 Year Old Scores Analysis
+![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
+
+![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
 
 #### FEI 5 Year Old Scores Analysis
+![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
+
+![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
 
 #### FEI 6 Year Old Scores Analysis
+![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
+
+![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
 
 #### Developing Prix St. Georges Scores Analysis
+![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
+
+![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
 
 #### Developing Grand Prix Scores Analysis
+![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
+
+![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
 
 ### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
-PLaceholder text
 
 ### Analysis of Scores by Sire 
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of  scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size (although clearly, the sample sizes are not that large regardless). 
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the summary statistics for scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size.
+The sire with the highest median score in the Young Horse divisions is Belissimo M (8.208). Close behind is Grand Galaxy Win, with a median score of 8.154. 
 
-The highest median score in the Young Horse divisions is Belissimo M, with 8.208 (8 offspring). Close behind is Grand Galaxy Win, with a median score of 8.154 (11 offspring). 
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
@@ -124,6 +138,8 @@ The highest median score in the Young Horse divisions is Belissimo M, with 8.208
 ![Young Horse Scores by Sire Boxplot](images/yh-score-by-sire-boxplot.png)
 
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
+The sire with the highest median score in the Developing Horse divisions is Wagnis (69.919%). Runner up is Charmeur (69.152%). 
+
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
