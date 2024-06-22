@@ -27,10 +27,11 @@ The analysis of bloodlines and other breeding data will look at all years of the
 ### 2002 - 2019, 4/5/6 Year Old Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved
+The figure below shows the breakdown of the highest level achieved in competition by the 520 horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2019. 
 
 ![Highest Level Breakdown](images/highest-level-breakdown.png)
 
-#### FEI vs Non-FEI Horses
+#### FEI Level Competitive Outcomes
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
 To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total, and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions. Those levels are comprised of Junior, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
@@ -39,7 +40,13 @@ The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.5
 
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
-#### CDI vs Non-CDI Horses
+
+Of the horses that made it to FEI, 38.02% of them made it to Grand Prix. 50.7% of horses made it to either Grand Prix or the medium tour levels (I-A, I-B, I-2), and 48.76% competed at the small tour (Prix St. Georges, I-1) level. 
+
+![FEI Level Breakdown](images/fei-level-breakdown.png)
+
+
+#### CDI Level Competitive Outcomes
 Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed in a CDI (Concours de Dressage International). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
 
 169 horses (32.50%) participated in at least one CDI at any level other than a Young Horse division.
@@ -49,7 +56,7 @@ Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed 
 #### Top Ten vs Bottom Ten Placing Horses
 Are horses placing in the top ten versus the  bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
 
-![FEI Levels b y Placing](images/fei-by-placing.png)
+![FEI Levels by Placing](images/fei-by-placing.png)
 
 
 When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%)  out of 138 that made it to Grand Prix placed in the top ten of their division. 
