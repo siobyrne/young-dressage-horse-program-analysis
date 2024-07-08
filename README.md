@@ -20,9 +20,9 @@ I had the most difficulty acquiring the data on bloodlines and breeders, ironica
 
 ## Analysis Overview
 
-For the analysis of competitve careers of participants, I am focusing on the years 2002-2019. Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old).
+For the analysis of competitve careers of participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2019 (n=520). Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
 
-The analysis of bloodlines and other breeding data will look at all years of the program (2002-2023). 
+The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2023, and all Young and Developing Horse divisons (n=841). 
 
 ### 2002 - 2019, 4/5/6 Year Old Division Competitive Outcomes
 
@@ -47,9 +47,9 @@ Of the horses that made it to FEI, 38.02% of them made it to Grand Prix. 50.7% o
 
 
 #### CDI Level Competitive Outcomes
-Unsurprisingly, the vast majority of horses, 351 total (67.50%), never competed in a CDI (Concours de Dressage International). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
+Unsurprisingly, the vast majority of horses, 351 total (67.5%), never competed in a CDI (Concours de Dressage International). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
 
-169 horses (32.50%) participated in at least one CDI at any level other than a Young Horse division.
+169 horses (32.5%) participated in at least one CDI at any level other than a Young Horse division.
 
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
@@ -75,7 +75,7 @@ Four horses from this time period went on to make international teams (0.77%), w
 | Sanceo       | San Remo    | Ramiro's Son II | Germany        | Gerhard Dustmann          | Hanoverian | Olympic Games and Pan American Games |
 | Lucky Strike | Lord Laurie | His Highness    | Germany        | Monika Hartwitch          | Hanoverian | Pan American Games                   |
 
-### Overall Scores Analysis, 2002-2023
+### 2002 - 2023, Overall Scores Analysis
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below.
 
 | Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -87,9 +87,11 @@ I wanted to look at overall scores over the years, to see if there was a relatio
 | FEI7       |                 28 |     70.6219  |        71.3295 |             8.93975  |  79.9191   |
 | USEF4      |                267 |      7.59232 |         7.62   |             0.801735 |   0.642779 |
 
-The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by 1 place. As an example, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
+The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by one place. See the FEI 5 Year Old Final for an example (https://inside.fei.org/system/files/Young%20Horses%205%20YO%20Final%202022.pdf). For instance, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
 
-In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%.
+In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%. See the USEF Developing Prix St. Georges test for an example (https://www.usdf.org/docs/showflash/web/tests/2023/2023%20Developing%20Horse%20Prix%20St%20George.pdf?t=7/8/2024%207:36:58%20PM).
+
+#### Methodology
 
 For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. 
 
@@ -100,6 +102,7 @@ I then created a scatterplot from the remaining scores, performed a linear regre
 
 #### USEF 4 Year Old Scores Analysis
 ![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
+
 *Box and whisker plot for the USEF 4 Year Old Division Scores*
 
 From the box and whisker plot of all of the scores, I was able to identify the following outliers:
