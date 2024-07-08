@@ -29,12 +29,12 @@ The analysis of bloodlines and other breeding data will look at all years of the
 #### Highest Level of Competition Achieved
 The figure below shows the breakdown of the highest level achieved in competition by the 520 horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2019. 
 
-![Highest Level Breakdown](images/highest-level-breakdown.png)
+![Highest Level Competed Breakdown](images/highest-level-breakdown.png)
 
 #### FEI Level Competitive Outcomes
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
-To answer this question, I looked only at horses that competed in the 4/5/6 Year Old divisions during the years 2002-2019, 520 horses total, and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions. Those levels are comprised of Junior, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
+To answer this question, I looked at the  competitive record of each of the 520 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions. Those levels are comprised of Junior, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
 
 The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
 
@@ -59,7 +59,7 @@ Are horses placing in the top ten versus the  bottom ten more likely to make it 
 ![FEI Levels by Placing](images/fei-by-placing.png)
 
 
-When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%)  out of 138 that made it to Grand Prix placed in the top ten of their division. 
+When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%) out of 138 that made it to Grand Prix placed in the top ten of their division. 
 
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
@@ -76,7 +76,7 @@ Four horses from this time period went on to make international teams (0.77%), w
 | Lucky Strike | Lord Laurie | His Highness    | Germany        | Monika Hartwitch          | Hanoverian | Pan American Games                   |
 
 ### Overall Scores Analysis, 2002-2023
-I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old divivsion in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below.
+I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below.
 
 | Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
@@ -87,32 +87,134 @@ I wanted to look at overall scores over the years, to see if there was a relatio
 | FEI7       |                 28 |     70.6219  |        71.3295 |             8.93975  |  79.9191   |
 | USEF4      |                267 |      7.59232 |         7.62   |             0.801735 |   0.642779 |
 
-For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an usually low overall score. All other scores were retained. 
+The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by 1 place. As an example, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
+
+In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%.
+
+For each division, my first step was to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. 
+
+After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an usually low overall score. All other scores were retained. 
+
+I then created a scatterplot from the remaining scores, performed a linear regression on the data, and calculated the Pearson correlation coefficient and p-value. 
+ 
 
 #### USEF 4 Year Old Scores Analysis
 ![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
+*Box and whisker plot for the USEF 4 Year Old Division Scores*
+
+From the box and whisker plot of all of the scores, I was able to identify the following outliers:
+
+|      |   Year | Division   | Horse          |   OverallPlacing | HighestLevel     | CDI   |   USDFNumber |   OverallScore |
+|-----:|-------:|:-----------|:---------------|-----------------:|:-----------------|:------|-------------:|---------------:|
+|  176 |   2007 | USEF4      | Rebecca        |               20 | Second Level     | No    |      1063158 |          5.94  |
+|  525 |   2013 | USEF4      | Floretienne    |               14 | Grand Prix       | Yes   |      1101450 |          2.792 |
+|  717 |   2016 | USEF4      | Jagger         |               14 | Prix St. Georges | Yes   |      1111241 |          3.048 |
+| 1128 |   2022 | USEF4      | Furst Dream    |                1 | FEI 5 Year Old   | No    |      1150621 |          9.292 |
+| 1140 |   2022 | USEF4      | Fantastic M.R. |               13 | First Level      | No    |      1150825 |          2.976 |
+| 1223 |   2023 | USEF4      | Maisie CF      |               16 | USEF 4 Year Old  | No    |      1149166 |          2.904 |
+
+Four of the six outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
+*Scatterplot and linear regression for the USEF 4 Year Old Division Scores*
 
 #### FEI 5 Year Old Scores Analysis
 ![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
+*Box and whisker plot for the FEI 5 Year Old Division Scores*
+
+From the box and whisker plot of all of the scores, I was able to identify the following outliers:
+
+|      |   Year | Division   | Horse                |   OverallPlacing | HighestLevel     | CDI   |   USDFNumber |   OverallScore |
+|-----:|-------:|:-----------|:---------------------|-----------------:|:-----------------|:------|-------------:|---------------:|
+|   14 |   2004 | FEI5       | Royal Prince         |                1 | Prix St. Georges | No    |      1016896 |          9.14  |
+|   30 |   2004 | FEI5       | Finnegan             |               17 | Prix St. Georges | No    |        37180 |          6.22  |
+|   31 |   2004 | FEI5       | Cacique              |               18 | I-1              | Yes   |      1007175 |          5.94  |
+|  328 |   2010 | FEI5       | Desaronno            |               14 | I-A              | No    |      1078702 |          4.56  |
+|  373 |   2011 | FEI5       | Folkestone OLD       |               15 | I-1              | Yes   |      1089283 |          3.112 |
+|  500 |   2013 | FEI5       | Fashion Designer OLD |                1 | I-2              | No    |      1101394 |          9.012 |
+|  770 |   2017 | FEI5       | Elfenspiel           |               14 | Third Level      | No    |      1121076 |          2.904 |
+|  901 |   2019 | FEI5       | Sole Mio             |                1 | Grand Prix       | Yes   |      1129247 |          9.056 |
+|  914 |   2019 | FEI5       | Jett MVS             |               14 | I-2              | Yes   |      1130539 |          3.016 |
+|  982 |   2020 | FEI5       | Royal Heiress        |               14 | Second Level     | No    |      1130730 |          2.944 |
+| 1039 |   2021 | FEI5       | Glory Day            |                1 | I-1              | Yes   |      1141214 |          9.518 |
+| 1040 |   2021 | FEI5       | Vianne               |                2 | Fourth Level     | No    |      1140513 |          8.964 |
+| 1115 |   2022 | FEI5       | Valor                |                1 | Third Level      | No    |      1150257 |          9.248 |
+| 1206 |   2023 | FEI5       | Superior 9           |               14 | FEI 5 Year Old   | No    |      1152807 |          3.432 |
+| 1207 |   2023 | FEI5       | Notilas MVS          |               15 | Second Level     | No    |      1153400 |          3.144 |
+
+7 of the 15 outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
+*Scatterplot and linear regression for the FEI 5 Year Old Division Scores*
 
 #### FEI 6 Year Old Scores Analysis
 ![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
+*Box and whisker plot for the FEI 6 Year Old Division Scores*
+
+From the box and whisker plot of all of the scores, I was able to identify the following outliers:
+
+|      |   Year | Division   | Horse            |   OverallPlacing | HighestLevel     | CDI   |   USDFNumber |   OverallScore |
+|-----:|-------:|:-----------|:-----------------|-----------------:|:-----------------|:------|-------------:|---------------:|
+|   46 |   2004 | FEI6       | Caletino         |               15 | FEI 6 Year Old   | No    |        47196 |          5.8   |
+|  156 |   2007 | FEI6       | UB 40            |               14 | Prix St. Georges | No    |      1042261 |          2.808 |
+|  261 |   2009 | FEI6       | Bijoux           |               12 | Fourth Level     | No    |      1072366 |          2.744 |
+|  262 |   2009 | FEI6       | Reliance         |               13 | Prix St. Georges | No    |      1061628 |          2.424 |
+|  488 |   2013 | FEI6       | Vitalis          |                1 | I-1              | Yes   |      1101036 |          9.152 |
+|  561 |   2014 | FEI6       | Dancing Hit      |               14 | Prix St. Georges | No    |      1101614 |          2.904 |
+|  689 |   2016 | FEI6       | Silberpfeil      |               12 | Grand Prix       | Yes   |      1106756 |          2.888 |
+|  690 |   2016 | FEI6       | Fling            |               13 | Fourth Level     | No    |      1117170 |          2.856 |
+|  826 |   2018 | FEI6       | Hotshot          |               15 | I-2              | Yes   |      1117466 |          2.92  |
+| 1190 |   2023 | FEI6       | Dante Rubin M.R. |               13 | Fourth Level     | No    |      1146715 |          4.668 |
+| 1191 |   2023 | FEI6       | Strike           |               14 | FEI 6 Year Old   | No    |      1158656 |          3.064 |
+| 1192 |   2023 | FEI6       | Makanabria DG    |               15 | Third Level      | No    |      1145365 |          2.912 |
+
+10 of the 12 outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
+*Scatterplot and linear regression for the FEI 6 Year Old Division Scores*
 
 #### Developing Prix St. Georges Scores Analysis
 ![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
+*Box and whisker plot for the Developing Prix St. Georges Division Scores*
+
+From the box and whisker plot of all of the scores, I was able to identify the following outliers:
+
+|      |   Year | Division   | Horse                   |   OverallPlacing | HighestLevel     | CDI   |   USDFNumber |   OverallScore |
+|-----:|-------:|:-----------|:------------------------|-----------------:|:-----------------|:------|-------------:|---------------:|
+|  193 |   2008 | DHPSG      | Amidala                 |               17 | Grand Prix       | Yes   |      1031631 |         55.913 |
+|  249 |   2009 | DHPSG      | Collector's Item        |               15 | I-1              | No    |      1035043 |         58.45  |
+|  533 |   2014 | DHPSG      | Sanceo                  |                1 | Grand Prix       | Yes   |      1083924 |         76.515 |
+| 1023 |   2021 | DHPSG      | WEC's Senor Rubinstein  |               14 | Grand Prix       | Yes   |      1124842 |         26.509 |
+| 1024 |   2021 | DHPSG      | Atterupgaards Belafonte |               15 | I-1              | Yes   |      1145410 |         26.49  |
+| 1161 |   2023 | DHPSG      | Giovanni-Bell           |               10 | Prix St. Georges | No    |      1157255 |         43.333 |
+| 1162 |   2023 | DHPSG      | S Express               |               11 | Prix St. Georges | No    |      1158953 |         39.778 |
+| 1163 |   2023 | DHPSG      | Der Fiete               |               12 | I-2              | No    |      1140436 |         38.361 |
+
+Five of the eight outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
+*Scatterplot and linear regression for the Developing Prix St. Georges Division Scores*
 
 #### Developing Grand Prix Scores Analysis
 ![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
+*Box and whisker plot for the Developing Grand Prix Division Scores*
+
+From the box and whisker plot of all of the scores, I was able to identify the following outliers:
+
+|      |   Year | Division   | Horse                  |   OverallPlacing | HighestLevel   | CDI   |   USDFNumber |   OverallScore |
+|-----:|-------:|:-----------|:-----------------------|-----------------:|:---------------|:------|-------------:|---------------:|
+|  412 |   2012 | DHGP       | Veva Rose              |                9 | Grand Prix     | No    |      1091827 |         54.271 |
+|  473 |   2013 | DHGP       | Elijah                 |                6 | I-2            | No    |      1013250 |         56.649 |
+|  869 |   2019 | DHGP       | Faberge Blue           |               14 | Grand Prix     | Yes   |      1107486 |         25.666 |
+|  870 |   2019 | DHGP       | Pik L's Donabella HU   |               15 | I-2            | No    |      1099805 |         23.254 |
+|  998 |   2021 | DHGP       | Serenade MF            |                1 | Grand Prix     | Yes   |      1103046 |         75.519 |
+| 1150 |   2023 | DHGP       | Incredible Jacky       |               10 | I-2            | No    |      1136100 |         56.128 |
+| 1151 |   2023 | DHGP       | WEC's Senor Rubinstein |               11 | Grand Prix     | Yes   |      1124842 |         38.75  |
+
+Three of the seven outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
+*Scatterplot and linear regression for the Developing Grand Prix Division Scores*
 
 ### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
@@ -226,17 +328,15 @@ The top producer of Grand Prix horses by percentage was Quaterback, who had 4 ou
 
 ![Percentage of Grand Prix Offspring by Sire](images/gp-sire-percentage.png)
 
-
 #### Top Ten Damsires of Grand Prix Horses by Offspring Count
 The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten were Rubinstein (6), Rotspon (6), Ferro (5), Weltmeyer (4), Rohdiamant (4), Jazz (4), Sandro Hit (3), Sir Donnerhall (1), and Krack C (1). 
 
 Once again, the prevalence of null values (just over 3.5%) in the damsire column affects the completeness of this data. 
 
-
 ![Top Ten Grand Prix Damsires](images/top-gp-damsires.png)
 
 #### Highest Percentage of Grand Prix Horses by Damsire
-There was a similar shakeup when I looked at the percentage of Grand Prix offspring by damsire. 
+There was a similar shakeup when I looked at the percentage of Grand Prix offspring by damsire. While Brentano II was ranked fourth by number of Grand Prix offspring by count, when we look at the percentage of Grand Prix offspring, he jumps to first, with 100% of offspring competing to Grand Prix.
 
 ![Percentage of Grand Prix Offspring by Damsire](images/gp-damsire-percentage.png)
 
