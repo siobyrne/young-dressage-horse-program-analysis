@@ -119,10 +119,12 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 Four of the six outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
+
 *Scatterplot and linear regression for the USEF 4 Year Old Division Scores*
 
 #### FEI 5 Year Old Scores Analysis
 ![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
+
 *Box and whisker plot for the FEI 5 Year Old Division Scores*
 
 From the box and whisker plot of all of the scores, I was able to identify the following outliers:
@@ -148,10 +150,12 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 7 of the 15 outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
+
 *Scatterplot and linear regression for the FEI 5 Year Old Division Scores*
 
 #### FEI 6 Year Old Scores Analysis
 ![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
+
 *Box and whisker plot for the FEI 6 Year Old Division Scores*
 
 From the box and whisker plot of all of the scores, I was able to identify the following outliers:
@@ -174,10 +178,12 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 10 of the 12 outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
+
 *Scatterplot and linear regression for the FEI 6 Year Old Division Scores*
 
 #### Developing Prix St. Georges Scores Analysis
 ![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
+
 *Box and whisker plot for the Developing Prix St. Georges Division Scores*
 
 From the box and whisker plot of all of the scores, I was able to identify the following outliers:
@@ -196,10 +202,12 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 Five of the eight outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
+
 *Scatterplot and linear regression for the Developing Prix St. Georges Division Scores*
 
 #### Developing Grand Prix Scores Analysis
 ![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
+
 *Box and whisker plot for the Developing Grand Prix Division Scores*
 
 From the box and whisker plot of all of the scores, I was able to identify the following outliers:
@@ -217,6 +225,7 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 Three of the seven outliers were due to the horse completing only one half of the competition, and were dropped. 
 
 ![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
+
 *Scatterplot and linear regression for the Developing Grand Prix Division Scores*
 
 ### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
