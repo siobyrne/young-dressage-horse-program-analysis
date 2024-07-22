@@ -5,16 +5,16 @@ The aim of this project is to analyze data from the USEF Young and Developing Ho
 
 My aim is to update this project at the end of each competition season. 
 
-Questions, comments, corrections, or suggestions for further areas of exploration are welcome—contact me by email at (young.dressage.horse.project@gmail.com).
+Questions, comments, corrections, or suggestions for further areas of exploration are welcome—[contact me by email](byrne.sio@gmail.com).
 
 ## Data Acquisition and Cleaning
 The current format of the competition for all divisions (4/5/6/7 Year Old, Developing Prix St. Georges, and Developing Grand Prix) involves two rounds, with round one counting for 40% of the overall score, and round two counting for 60% of the overall score. Overall scores determine the final placings. 
 
 To further complicate matters, early years of this program invited more horses to participate, and held both Final and Consolation Final rounds. To simplify this analysis, I did not include any Consolation Final results. 
 
-For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, please contact me at (young.dressage.horse.project@gmail.com) and I will make the correction.
+For more recent years of the competition (2021-2023), the competition software system Equestrian Hub (www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) website, but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, [please contact me](byrne.sio@gmail.com) and I will make the correction.
 
-Next, I looked up each horse in the United States Dressage Federation (USDF) database, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN FEI Young Horse tests. 
+Next, I looked up each horse in the United States Dressage Federation (USDF) database, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN the FEI Young Horse tests for 5, 6, and 7 Year Olds. 
 
 I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing Horse Telex (www.horsetelex.com), a pedigree database. I also utilized old Eurodressage (www.eurodressage.com) and DressageDaily (www.dressagedaily.com) articles about various years of the championships. 
 
@@ -27,43 +27,78 @@ The analysis of bloodlines and other breeding data will look at all years of the
 ### 2002 - 2019, 4/5/6 Year Old Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved
-The figure below shows the breakdown of the highest level achieved in competition by the 520 horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2019. 
+Figure 1 below shows the breakdown of the highest level achieved in competition by the 520 horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2019. 
 
 ![Highest Level Competed Breakdown](images/highest-level-breakdown.png)
+
+*Figure 1: Breakdown of the highest level of competition achieved*
 
 #### FEI Level Competitive Outcomes
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
 To answer this question, I looked at the  competitive record of each of the 520 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions. Those levels are comprised of Junior, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
 
-The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training-Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division. 
+The overwhelming majority, 363 horses, made it to FEI (69.81%). 112 horses (21.54%) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 45 horses (8.65%) never competed at any level other than a Young Horse division (Figure 2). 
 
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
+*Figure 2: FEI vs Non-FEI Horses*
 
-Of the horses that made it to FEI, 38.02% of them made it to Grand Prix. 50.7% of horses made it to either Grand Prix or the medium tour levels (I-A, I-B, I-2), and 48.76% competed at the small tour (Prix St. Georges, I-1) level. 
+
+Of the horses that made it to FEI, 38.02% of them made it to Grand Prix. 50.7% of horses made it to either Grand Prix or the medium tour levels (I-A, I-B, I-2), and 48.76% competed at the small tour (Prix St. Georges, I-1) level (Figure 3). 
 
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
+
+*Figure 3: Breakdown by level of horses that competed at FEI*
+
 
 
 #### CDI Level Competitive Outcomes
 Unsurprisingly, the vast majority of horses, 351 total (67.5%), never competed in a CDI (Concours de Dressage International). Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
 
-169 horses (32.5%) participated in at least one CDI at any level other than a Young Horse division.
+169 horses (32.5%) participated in at least one CDI at any level other than a Young Horse division (Figure 4).
 
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
-#### Top Ten vs Bottom Ten Placing Horses
-Are horses placing in the top ten versus the  bottom ten more likely to make it to FEI? According to this data, yes. 77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships. 
+*Figure 4: CDI vs Non-CDI Competitors*
 
-![FEI Levels by Placing](images/fei-by-placing.png)
+#### Top Ten vs Lower Placing Horses
+Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI? To answer this question, I looked at the overall placings and highest level competed. Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
+
+77.13% of horses that made it to the FEI levels placed in the top ten of their division at the championships (Figure 5).
+
+![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
+
+*Figure 5: Percentage of FEI Horses in Top Ten vs 11 and Under*
 
 
-When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive. 125 horses (90.58%) out of 138 that made it to Grand Prix placed in the top ten of their division. 
+![FEI Top Ten by Level](images/fei-top-ten-by-level.png)
+
+*Figure 6: Percentage of FEI Horses in Top Ten by Level*
+
+
+When we look at horses that competed to Grand Prix, the correlation between a top ten placing and level achievment is even more impressive: 124 horses (90.51%) out of 137 that made it to Grand Prix placed in the top ten of their division (Figure 7). 
 
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
+*Figure 7: Grand Prix horses by placing at Championships*
+
 This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. It is also possible that the quality of horse that places in the top ten is more likely to be ridden and trained by more experienced individuals, which may up their odds of making it to the higher levels. 
+
+#### Overall Score vs Competitive Achievement
+Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores me that criteria. 
+
+56.2% of horses (204) that made it to FEI achieved an overall score of 7.5 or above, compared to 43.8% (159) that scored below 7.5 (Figure 8). 
+
+![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
+
+*Figure 8: FEI Horses Scoring 7.5 or Above vs Below 7.5*
+
+When we look at this by level, interestingly, the numbers are quite similar until you get to Grand Prix, where 65.94% (91) horses that made it to Grand Prix had an overall score of 7.5 or above (Figure 9). 
+
+![FEI Achievement by Overall Score Level Breakdown](images/fei-by-overall-score-level-breakdown.png)
+
+*Figure 9: FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
 
 #### International Team Horses
 Four horses from this time period went on to make international teams (0.77%), which I defined as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
@@ -87,9 +122,9 @@ I wanted to look at overall scores over the years, to see if there was a relatio
 | FEI7       |                 28 |     70.6219  |        71.3295 |             8.93975  |  79.9191   |
 | USEF4      |                267 |      7.59232 |         7.62   |             0.801735 |   0.642779 |
 
-The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by one place. See the FEI 5 Year Old Final for an example (https://inside.fei.org/system/files/Young%20Horses%205%20YO%20Final%202022.pdf). For instance, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
+The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by one place. [See the FEI 5 Year Old Final for an example](https://inside.fei.org/system/files/Young%20Horses%205%20YO%20Final%202022.pdf). For instance, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
 
-In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%. See the USEF Developing Prix St. Georges test for an example (https://www.usdf.org/docs/showflash/web/tests/2023/2023%20Developing%20Horse%20Prix%20St%20George.pdf?t=7/8/2024%207:36:58%20PM).
+In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%. [See the USEF Developing Prix St. Georges test for an example](https://www.usdf.org/docs/showflash/web/tests/2023/2023%20Developing%20Horse%20Prix%20St%20George.pdf?t=7/8/2024%207:36:58%20PM).
 
 #### Methodology
 
