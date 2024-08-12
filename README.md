@@ -364,7 +364,7 @@ Far more horses participating in the championships are foreign-bred than bred in
 *Figure 24: Horses by Country Bred*
 
 #### Top Ten Sires Represented by Offspring Count
-Figure 25 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven horses in this category.
+Figure 25 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven sires represented in this chart.
 
 ![Top Ten Sires](images/top-10-sires.png)
 
@@ -419,11 +419,24 @@ There was a similar shakeup when I looked at the percentage of Grand Prix offspr
 #### Top Ten Most Prominent Breeders by Horse Count
 The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 16 horses. The rest of the top ten were Maryanna Haymon (USA, 12 horses), Nancy Holowesko (USA, 9 horses), Leatherdale Farms (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 5 horses), and Jackie Ahl-Eckhaus (USA, 5 horses). 
 
-This column had the most null values overall—47 missing values, which equates to 9% of the total. This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical, it would help American sporthorse breeding to make this data easily available. 
+This column had the most null values overall—47 missing values, which equates to 9% of the total. This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in the development of the modern sporthorse. 
 
 ![Most Prominent Breeders](images/top-10-breeders.png)
 
 *Figure 31: Top Ten Most Prominent Breeders by Number of Horses*
+
+#### Top Ten Studbooks by Horse Count
+In order to compete at these championships, all horses must be registered with a studbook recognized by the World Breeding Federation for Sport Horses (WBFSH), or a national breed registry such as Jockey Club (the national registry for Thoroughbreds). Warmbloods are not really a breed (the Trakhener being an exception), they are a type. While there is definitly a lot of crossover in bloodlines through all the warmblood studbooks, each has their own directives and requirements for approval of mares and stallions, and the registration of offspring. I was curious to see what the most represented studbooks were, so I calculated the number of horses attributed to each (Figure 32) from the database of championship competitors over all years of the program (*N*=841). The studbook with the most horses competing over all years was KWPN (Koninklijk Warmbloed Paardenstamboek Nederland, also known as Dutch Warmblood), with 29% (244/841). The Hanoverian studbook was a close second, with 28.7% (241/841). 
+
+Oldenburg was third, with 21.9% (184/841). There was sometimes considerable difficulty in differentiating horses that were truly in the official German Oldenburg studbook (Oldenburg Horse Breeders Society/GOV, which is also just referred to as Oldenburg by some), and horses registered with Oldenburg NA (an American studbook no longer affiliated with the German studbook but was at one point the official American branch, also often just referred to as Oldenburg). Because of this, all horses that were listed as bring registered Oldenburg are combined. 
+
+The rest of the top ten were Westfalen 5.7% (48/841), Danish Warmblood 4% (34/841) , Rhinelander 2.1% (18/841), American Warmblood 1.2% (10/841), Pura Raza Espanola (PRE) 0.8% (7/841), Holsteiner 0.8% (7/841), and Swedish Warmblood 0.7% (6/841). 
+
+It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, [states on their website](https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na/) they have registered an average of more than 550 foals a year over the last decade. 
+
+![Most Prominent Studbooks](images/top-10-studbooks.png)
+
+*Figure 32: Top Ten Most Prominent Studbooks by Number of Horses*
 
 #### Most Championship Appearances
 The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
@@ -432,7 +445,7 @@ He also competed two years in a row in both the Developing Prix St. Georges and 
 
 ![Most Appearances at Championships](images/most-appearances.png)
 
-*Figure 32: Horses with Most Appearances at Championships*
+*Figure 33: Horses with Most Appearances at Championships*
 
 ## Final Thoughts
 I am a dressage trainer and competitor myself, and an agnostic when it comes to the Young Horse program. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
