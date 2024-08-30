@@ -811,12 +811,12 @@ Bondi Blue,FEI 5 Year Old,No,1152260,Benicio,Rockwell,Germany,Ewald Descher,West
 New Adventure DG,Second Level,No,1152524,Don Schufro,Zack,USA,Oak Hill Ranch,KWPN,No,NULL
 Notilas MVS,Second Level,No,1153400,Totilas,Westpoint,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
 Zapatero,USEF 4 Year Old,No,1158280,Zoom,Floriscount,Germany,Stefan Schroeder,Hanoverian,No,NULL
-Deambulo PWD,USEF 4 Year Old,No,1158399,Don Martillo,Finest,Germany,NULL,Hanoverian,No,NULL
-MW One More Dream,USEF 4 Year Old,No,1159260,Sezuan,Romanov,Netherlands,L. de Heer,KWPN,No,NULL
-Serupgaards Cezanne,First Level,No,1157634,Toerveslettens Sylvester,Romanov,Denmark,Heidi Bickham,Danish Warmblood,No,NULL
-MW Mastermind,USEF 4 Year Old,No,1159259,Morricone,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
+Deambulo PWD,FEI 5 Year Old,No,1158399,Don Martillo,Finest,Germany,NULL,Hanoverian,No,NULL
+MW One More Dream,FEI 5 Year Old,No,1159260,Sezuan,Romanov,Netherlands,L. de Heer,KWPN,No,NULL
+Serupgaards Cezanne,Second Level,No,1157634,Toerveslettens Sylvester,Romanov,Denmark,Heidi Bickham,Danish Warmblood,No,NULL
+MW Mastermind,FEI 5 Year Old,No,1159259,Morricone,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
 Oxford B,USEF 4 Year Old,No,1155240,Romanov,Ferro,Netherlands,HHJM Rovers,KWPN,No,NULL
-Denmark HTF,USEF 4 Year Old,No,1154652,Desperado,Negro,USA,Hilltop Farm,Hanoverian,No,NULL
+Denmark HTF,FEI 5 Year Old,No,1154652,Desperado,Negro,USA,Hilltop Farm,Hanoverian,No,NULL
 Dromanov M.R.,USEF 4 Year Old,No,1158023,Don Romanov,Bonifatius,Germany,Osmers GBR,Hanoverian,No,NULL
 Francetto,USEF 4 Year Old,No,1159228,Franklin,Sezuan,Denmark,Henrik Hansen,Danish Warmblood,No,NULL
 Splendido,USEF 4 Year Old,No,1152094,Secret,For Romance,Germany,Christine Feichtinger,Hanoverian,No,NULL
@@ -824,7 +824,7 @@ Osiris,USEF 4 Year Old,No,1155974,Joop TC,Westenwind,Netherlands,J. Bos,KWPN,No,
 Executive Pumpking,First Level,No,1155930,Escolar,Belissimo M,Germany,NULL,Hanoverian,No,NULL
 Zooey,First Level,No,1158014,Zoom,Romanov,Germany,NULL,Westfalen,No,NULL
 Best Friend,USEF 4 Year Old,No,1159115,By Your Side,Finest,Germany,NULL,Hanoverian,No,NULL
-Oscar HF,First Level,No,1156646,Benicio,Krack C,USA,Hamar Farms,KWPN,No,NULL
+Oscar HF,Second Level,No,1156646,Benicio,Krack C,USA,Hamar Farms,KWPN,No,NULL
 Maisie CF,USEF 4 Year Old,No,1149166,Davos CF,Licotus,USA,Nancy Holowesko,Oldenburg,No,NULL
 Famebria DG,USEF 4 Year Old,No,1098604,Idocus,Krack C,USA,DG Bar Ranch,KWPN,No,NULL
 DG Feikje,USEF 4 Year Old,No,1107820,Contango,Flemmingh,USA,Klaas and Mares Vanderploeg,KWPN,No,NULL
@@ -854,3 +854,10 @@ Salinger H20,USEF 4 Year Old,No,1148742,Secret,Canto,USA,Kendra Hansis,Oldenburg
 MW Sacred,USEF 4 Year Old,No,1165516,Secret,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
 Presley,USEF 4 Year Old,No,1162869,Ibiza,Sir Sinclair,USA,Inspo,KWPN,No,NULL
 Fuerst Dream F.O.D.,First Level,No,1162040,Fuerst Bellagio FOD,Negro,USA,Hilltop Farm,Hanoverian,No,NULL
+Optima,FEI 5 Year Old,No,1155663,Furst Toto,Tango,Netherlands,Unknown,KWPN,No,NULL
+Twan Vita Nova,FEI 5 Year Old,No,1162692,Secret,Gribaldi,Belgium,Frans Dieter,Belgian Warmblood,No,NULL
+Hukam Singh,FEI 5 Year Olds,No,1164364,Vitalis,Sorento,Netherlands,Stal Ribbels,KWPN,No,NULL
+Ophelia BSH,FEI 5 Year Old,No,1160369,Uthopia,Sir Sinclair,USA,Jill Blasland,KWPN,No,NULL
+Matchmaker HSR,FEI 5 Year Old,No,1157198,Morricone,Royal Diamond,USA,Hidden Springs Ranch,Oldenburg,No,NULL
+JJ Fellini,FEI 5 Year Old,No,1163454,Franklin,Sandro Hit,Norway,JJ Horses,Danish Warmblood,No,NULL
+Furst Adventure,FEI 5 Year Old,No,1157718,Furstenball,Benetton Dream,USA,David Wightman,Hanoverian,No,NULL
