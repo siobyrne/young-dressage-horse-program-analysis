@@ -765,7 +765,7 @@ Ice Princess,FEI 5 Year Old,No,1149572,Ibiza,Don Schufro,Denmark,Nedergaard Dres
 For Edition,FEI 5 Year Old,No,1151702,For Gold,Furstenball,Germany,Thomas Friedhoff,Westfalen,No,NULL
 Nobility LH,First Level,No,1152018,Incognito,Rubiquil,Netherlands,J.W.E. Steevensz,KWPN,No,NULL
 Superior 9,FEI 5 Year Old,No,1152807,Sensation,Licosto,Germany,NULL,Rhinelander,No,NULL
-Vholt,FEI 5 Year Old,No,1151288,Vitalis,Romanov,USA,Maurine Swanson,Oldenburg,No,NULL
+Vholt,Third Level,No,1151288,Vitalis,Romanov,USA,Maurine Swanson,Oldenburg,No,NULL
 Baileys H,Second Level,No,1151914,Benicio,Dancier,Germany,ZG Harms,Hanoverian,No,NULL
 Candoit's Secret Weapon,FEI 5 Year Old,No,1149964,Secret,Ampere,Germany,Heinrich Ramsbrock,Hanoverian,No,NULL
 Donosti M.R.,First Level,No,11507,Diamond Hit,De Niro,Germany,Ewald Grotelueschen,Oldenburg,No,NULL
@@ -803,10 +803,10 @@ Dreamliner,Fourth Level,No,1141549,Revolution,De Niro,Norway,JJ Horses,Danish Wa
 Strike,FEI 6 Year Old,No,1158656,St. Schufro,Zack,Denmark,Marianne Vaever and Matthias Tourbier,Danish Warmblood,No,NULL
 Makanabria DG,Third Level,No,1145365,Rock Forever,Belissimo M,USA,DG Bar Ranch,Danish Warmblood,No,NULL
 Lindholm's Quick Step,FEI 5 Year Old,No,1157309,Quaterhit,Romanov,Denmark,Stald Lindholm,Danish Warmblood,No,NULL
-Nero,FEI 5 Year Old,No,1150691,Desperado,Negro,Netherlands,E. Lalkens,KWPN,No,NULL
-Saskatoon OMF,Second Level,No,1148307,San Amour,Don Frederico,Great Britain,Lindsey Roberts,Hanoverian,No,NULL
-Figardo,FEI 5 Year Old,No,1154513,Furst Wilhelm,Furst Piccolo,Germany,Lisa Kamphus,Westfalen,No,NULL
-Baileys on Ice,FEI 5 Year Old,No,1159749,Benicio,Florestan I,Germany,Zuchtof Hahler,Westfalen,No,NULL
+Nero,FEI 6 Year Old,No,1150691,Desperado,Negro,Netherlands,E. Lalkens,KWPN,No,NULL
+Saskatoon OMF,FEI 6 Year Old,No,1148307,San Amour,Don Frederico,Great Britain,Lindsey Roberts,Hanoverian,No,NULL
+Figardo,FEI 6 Year Old,No,1154513,Furst Wilhelm,Furst Piccolo,Germany,Lisa Kamphus,Westfalen,No,NULL
+Baileys on Ice,FEI 6 Year Old,No,1159749,Benicio,Florestan I,Germany,Zuchtof Hahler,Westfalen,No,NULL
 Bondi Blue,FEI 5 Year Old,No,1152260,Benicio,Rockwell,Germany,Ewald Descher,Westfalen,No,NULL
 New Adventure DG,Second Level,No,1152524,Don Schufro,Zack,USA,Oak Hill Ranch,KWPN,No,NULL
 Notilas MVS,Second Level,No,1153400,Totilas,Westpoint,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
@@ -861,3 +861,13 @@ Ophelia BSH,FEI 5 Year Old,No,1160369,Uthopia,Sir Sinclair,USA,Jill Blasland,KWP
 Matchmaker HSR,FEI 5 Year Old,No,1157198,Morricone,Royal Diamond,USA,Hidden Springs Ranch,Oldenburg,No,NULL
 JJ Fellini,FEI 5 Year Old,No,1163454,Franklin,Sandro Hit,Norway,JJ Horses,Danish Warmblood,No,NULL
 Furst Adventure,FEI 5 Year Old,No,1157718,Furstenball,Benetton Dream,USA,David Wightman,Hanoverian,No,NULL
+Zaunkonig,FEI 6 Year Old,No,1161250,Zack,De Niro,Germany,Klaus Grosse Lembeck,Westfalen,No,NULL
+MW Mercury,FEI 6 Year Old,No,1153298,Morricone,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
+Sybil Nobel,FEI 6 Year Old,No,1164102,Franklin,Don Schufro,Germany,Ulrich Stadelhofer,Danish Warmblood,No,NULL
+Famosa WF,Third Level,No,1157779,Fursten-Look,St. Moritz,Germany,Mirko Lade,Hanoverian,No,NULL
+Nation VDL,Third Level,No,1161771,Desperados,Zonik,Netherlands,VDL Stud,KWPN,No,NULL
+Nibulandra,Third Level,No,1157318,Intro K,Cover Story,Netherlands,H. Vleems,KWPN,No,NULL
+Geistfeuer,Third Level,No,1144328,Grand Galaxy Win,Florencio I,USA,Alice Tarjan,Oldenburg,No,NULL
+Secret Royal 3,Third Level,No,1164500,Secret,Rubin Royal,Germany,Friedrich Timmermann,Oldenburg,No,NULL
+Scotaloo,FEI 6 Year Old,No,1164712,Secret,Furst Nymphenburg,Denmark,Helgstrand Dressage,Hanoverian,No,NULL
+Neil,FEI 6 Year Old,No,1164624,Governor,Vivaldi,Netherlands,Ad Valk,KWPN,No,NULL
