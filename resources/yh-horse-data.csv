@@ -582,7 +582,7 @@ Jagger,I-2,No,1131458,Apache,Osmium,Netherlands,S. Van Zeeland,KWPN,No,NULL
 Jupiter,USEF 4 Year Old,No,1131021,Jazz,Freestyle,NULL,NULL,KWPN,No,NULL
 Daily Show,I-2,Yes,1129195,Danciano,Stockholm,Germany,Kurt Gravemeier,Hanoverian,No,NULL
 Jaliska,Fourth Level,No,1130479,All At Once,Kigali,Netherlands,NULL,KWPN,No,NULL
-Figaro,I-1,Yes,1128636,Furstenball,Show Star,Germany,Frank Schmitz,Westfalen,No,NULL
+Figaro,I-2,Yes,1128636,Furstenball,Show Star,Germany,Frank Schmitz,Westfalen,No,NULL
 Caelius,Third Level,No,1131500,Christ,Buddenbrock,Germany,Eitel Wehrs,Hanoverian,No,NULL
 MSJ Celebrity,Prix St. Georges,No,1130377,Cennin,Furstenball,Great Britain,Emma Blundell,Oldenburg,No,NULL
 Davos CF,FEI 5 Year Old,No,1110329,Dante Weltino,Rubinstein,USA,Nancy Holowesko,Oldenburg,No,NULL
@@ -618,7 +618,7 @@ Spirit of Joy,I-2,No,1135952,Sir Calypso,Sandro Bedo,Germany,Gertmann and Brigit
 Floris King,FEI 5 Year Old,No,1131719,Floriscount,Hochadel,Germany,NULL,Hanoverian,No,NULL
 Jagger DG,Prix St. Georges,Yes,1130221,Idocus,Flemmingh,USA,DG Bar Ranch,KWPN,No,NULL
 Heirendale SBF,Prix St. Georges,No,1136700,Hotline,Rabino,USA,Claudia Novick,Hanoverian,No,NULL
-Jjaguar B,I-1,No,1129403,Spielberg,Uphill,Netherlands,J. Jansen,KWPN,No,NULL
+Jjaguar B,I-2,No,1129403,Spielberg,Uphill,Netherlands,J. Jansen,KWPN,No,NULL
 Fabulous Lady,FEI 5 Year Old,No,1136425,Furstenball,Samarant,Germany,NULL,Hanoverian,No,NULL
 Jett MVS,I-2,Yes,1130539,Bretton Woods,Flemmingh,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
 Sonnenberg's Kain,Fourth Level,No,1136254,El Capone,Carlton Hill VDL,Netherlands,G. Talsma,KWPN,No,NULL
@@ -741,8 +741,8 @@ Zaphira,Prix St. Georges,No,1134154,Zack,Don Romantic,Denmark,Mathias Victor Kru
 King's Pleasure,I-1,Yes,1149631,Dark Pleasure,Johnson,Netherlands,W.L. PLaizier,KWPN,No,NULL
 Fade to Black,Prix St. Georges,No,1150968,Fantastic,St. Moritz,Germany,Dr. Christina Beuke,Hanoverian,No,NULL
 Olympic Star M.R.,Grand Prix,No,1144490,Don Olymbrio,Stedinger,Denmark,Louise Lundgaard Nissen,Danish Warmblood,No,NULL
-Nova,I-1,Yes,1152137,Grand Galaxy Win,Romanov,Denmark,Helgstrand Dressage,Oldenburg,No,NULL
-Vioretta,Prix St. Georges,No,1150417,Vivaldi,Don Schufro,Germany,Gestut Lewitz,Oldenburg,No,NULL
+Nova,Grand Prix,Yes,1152137,Grand Galaxy Win,Romanov,Denmark,Helgstrand Dressage,Oldenburg,No,NULL
+Vioretta,I-2,No,1150417,Vivaldi,Don Schufro,Germany,Gestut Lewitz,Oldenburg,No,NULL
 Kensington,Prix St. Georges,No,1142405,Galandro,Special D,Netherlands,J. Hamstra-Boksma,KWPN,No,NULL
 Gold Play,I-1,Yes,1141984,Grey Flanell,Sir Donnerhall II,Germany,Janne Schaefer,Oldenburg,No,NULL
 Karamba,Prix St. Georges,No,1144091,Apache,Florencio II,Netherlands,Patty Zwang,KWPN,No,NULL
@@ -779,11 +779,11 @@ Tripple X,I-2,No,1150140,Totilas,Sandro Hit,Germany,Dr. Jobst Hartmann,Oldenburg
 Sonnenberg's Jersey,I-1,No,1158661,Vivaldi,Ferro,Netherlands,M.A. Van De Goor,KWPN,No,NULL
 Gremlin 41,Prix St. Georges,No,1150546,Grey Flanell,Donnerschwee,Germany,Andrea Graefin von Merveldt,Oldenburg,No,NULL
 Runehojs Shiva,Prix St. Georges,No,1151430,Sir Donnerhall II,Induc,Denmark,Birgitte Thomas and Sten Andersen,Danish Warmblood,No,NULL
-Jim,Prix St. Georges,No,1129586,Ferdeaux,Spielberg,Netherlands,A.Soethout,KWPN,No,NULL
-Furst Romanov,I-1,Yes,1144894,First Choice,Romanov,Denmark,Inge Bastian,Oldenburg,No,NULL
+Jim,I-2,No,1129586,Ferdeaux,Spielberg,Netherlands,A.Soethout,KWPN,No,NULL
+Furst Romanov,I-2,Yes,1144894,First Choice,Romanov,Denmark,Inge Bastian,Oldenburg,No,NULL
 Giovanni-Bell,Prix St. Georges,No,1157255,Grand Galaxy Win,Maat I,Denmark,Tina Jepsen,Danish Warmblood,No,NULL
 S Express,Prix St. Georges,No,1158953,Sezuan,Sir Donnerhall I,Germany,Cathrin Schlemper,Westfalen,No,NULL
-Der Fiete,I-2,No,1140436,Dubarry,Werther,Germany,Dagmar Meyer,Hanoverian,No,NULL
+Der Fiete,Grand Prix,Yes,1140436,Dubarry,Werther,Germany,Dagmar Meyer,Hanoverian,No,NULL
 Gorgeous Latino,Prix St. Georges,No,1148155,Toto Jr,Rubiquil,Netherlands,Stal Hexagon,KWPN,No,NULL
 Lord Hennessy,Prix St. Georges,No,1142015,Hennessy,Santano,Netherlands,J.H. Kamperman,KWPN,No,NULL
 Lion King,FEI 7 Year Old,No,1156750,Grand Galaxy Win,Quaterback,Belgium,Stall Witte B.V,Belgian Warmblood,No,NULL
@@ -885,3 +885,6 @@ Kanjer,Prix St. Georges,No,1134416,Geniaal,Gouverneur,Netherlands,ZG T.J.M.Cooma
 Veneziano's Rhapsody,Prix St. Georges,No,1161429,Veneziano,DiMaggio,Germany,Christin Boekhoff,Hanoverian,No,NULL
 Belvedere NRW,Prix St. Georges,No,1152669,Belissimo M,Danone I,Germany,Jurgen de Baey,Westfalen,No,NULL
 Limited Edition,I-1,No,1121827,Dante Weltino,Contango,USA,Gwen Blake,KWPN,No,NULL
+Kingstown,I-2,Yes,1136591,El Capone,United,Netherlands,G.C. Van der Koppel,KWPN,No,NULL
+Topaz Diamant,Grand Prix,No,1162815,Sir Diamant,Kvarz,Ukraine,Unknown,Russian Warmblood,No,NULL
+
