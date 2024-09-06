@@ -318,7 +318,7 @@ Her Highness,Grand Prix,Yes,1022793,Hohenstein,Weltmeyer,Germany,Matthias Ohmen,
 Zania,Grand Prix,Yes,1070709,Sir Sinclair,Hierarch,Netherlands,B.J. Odink,KWPN,No,NULL
 Wies V/D Klumpert,Grand Prix,No,1082861,Future,Havidoff,Netherlands,J. Vloet,KWPN,No,NULL
 Wyatt Star,Grand Prix,Yes,1056374,Gribaldi,Krack C,Netherlands,E.C. Idsardi-Sinnige,KWPN,No,NULL
-Simply Nymphenburg,I-2,Yes,1095986,Sir Donnerhall I,Weltmeyer,Germany,Peter Enders,Hanoverian,No,NULL
+Simply Nymphenburg,Grand Prix,Yes,1095986,Sir Donnerhall I,Weltmeyer,Germany,Peter Enders,Hanoverian,No,NULL
 Kir Royal,Fourth Level,No,1095923,Koepenick,Rotspon,Germany,Norbert Humpf,Wurttemberg,No,NULL
 KGF Harmony,Fourth Level,No,1085484,Hohenstein,Warkant,Germany,Henning Schulze,Hanoverian,No,NULL
 Skywalker HW,Grand Prix,No,1091826,Sandro Hit,Hohenstein,USA,Irene Hoeflich-Wiederhold,Hanoverian,No,NULL
@@ -343,7 +343,7 @@ Whitny,Second Level,No,1094100,Widmark,Rotspon,USA,Jill M. Vonderhaar,Hanoverian
 Ballerina DMV,FEI 5 Year Old,No,1093540,Balletmeister,DiMaggio,USA,Dreamcatcher Meadows,Hanoverian,No,NULL
 Dalina DG,Grand Prix,Yes,1096125,Jazz,Contango,USA,DG Bar Ranch,KWPN,No,NULL
 Syncopation Rk,Prix St. Georges,No,1074108,Sinatra Song,Werbellin,USA,Emmett W. Turner,Hanoverian,No,NULL
-Winchester,I-1,No,1095377,World of Dreams,Furst Heinrich,Germany,Dieter Weichert,Hanoverian,No,NULL
+Winchester,I-2,No,1095377,World of Dreams,Furst Heinrich,Germany,Dieter Weichert,Hanoverian,No,NULL
 Veronica,Third Level,No,1075345,Vinca,Jazz,USA,Ashcombe Sporthorses,Oldenburg,No,NULL
 Sir Steinerman,Grand Prix,No,1096602,Stedinger,Don Primero,USA,Marlace Hughes,Hanoverian,No,NULL
 Fortissimo B,FEI 5 Year Old,No,1081998,Fabuleux,Rubinstein,USA,Barbara Schmidt and Frederick Abblett,Hanoverian,No,NULL
@@ -380,12 +380,12 @@ Rebellienne HVH,Prix St. Georges,No,1083018,Rotspon,Welser,USA,High Valley Hanov
 Encore,Grand Prix,Yes,1101447,Jazz,Sir Sinclair,USA,Lisa Dickman,KWPN,No,NULL
 Elian,Grand Prix,Yes,1100945,Sir Oldenburg,Santano,Netherlands,J.H. Dekker,KWPN,No,NULL
 DG Edorijke,I-1,No,1102150,Spielberg,Jazz,Netherlands,PWTJ Pansier,KWPN,No,NULL
-Fairy Tale LH,I-2,No,1101672,Furst Romancier,Cavan,France,Jean Claude Ferrand,Hanoverian,No,NULL
+Fairy Tale LH,Grand Prix,No,1101672,Furst Romancier,Cavan,France,Jean Claude Ferrand,Hanoverian,No,NULL
 Quantum Jazz,Grand Prix,Yes,1101462,Quaterback,Jazz,USA,Judy Yancey,Oldenburg,No,NULL
 Fabrege MF,USEF 4 Year Old,No,1081718,Fidertanz,De Niro,USA,Maryanna Haymon,Hanoverian,No,NULL
 Dow Jones 1,Grand Prix,No,1100825,Desperados,Ehrenworth,Germany,Wilfred Otten,Hanoverian,No,NULL
 Sadira TWF,I-1,No,1080696,Starlight,Routinier,USA,Laureen Megan,Oldenburg,No,NULL
-Endeavor,I-A,No,1100784,Armani,Gribaldi,Netherlands,C.F. Van Mook,KWPN,No,NULL
+Endeavor,I-2,No,1100784,Armani,Gribaldi,Netherlands,C.F. Van Mook,KWPN,No,NULL
 Emile,Third Level,No,1083317,Rousseau,Ijsselmeer,USA,Susan Howard,KWPN,No,NULL
 Ferrari,Grand Prix,No,1101412,Florestan I,Domburg,USA,James Heath,Westfalen,No,NULL
 Lord's Prophet Elijah,First Level,No,1100954,Mondmiresche,NULL,USA,Brycie Wynne,Trakehner,No,NULL
@@ -449,10 +449,10 @@ Sidonna MVS,I-1,No,1093090,Sir Donnerhall I,Flemmingh,USA,Jackie Ahl-Eckhaus,Han
 Boston Strong,I-1,Yes,1109918,Bordeaux,Sandro Hit,Germany,Heinz Luers,Oldenburg,No,NULL
 Falesto D,FEI 5 Year Old,No,1105367,Rubiquil,Hemmingway,Netherlands,NULL,KWPN,No,NULL
 Guateque IV,Grand Prix,Yes,1104730,Layco,Salinero XIII,USA,Coves Darden Farm,PRE,No,NULL
-Flavius MF,I-2,Yes,1088715,Fidertanz,De Niro,USA,Maryanna Haymon,Hanoverian,No,NULL
+Flavius MF,Grand Prix,Yes,1088715,Fidertanz,De Niro,USA,Maryanna Haymon,Hanoverian,No,NULL
 De Blasio,Prix St. Georges,Yes,1107907,De Niro,Royal Dance,Germany,J. Lanwerhr,Oldenburg,No,NULL
 Tiko,I-2,Yes,1113252,Tailormade Temptation,Akinos,Denmark,Gitte Sogaard and Poul Hove,Danish Warmblood,No,NULL
-Generosa S,Prix St. Georges,No,1103272,Uphill,Farrington,USA,Sonnenberg Farm,KWPN,No,NULL
+Generosa S,I-1,Yes,1103272,Uphill,Farrington,USA,Sonnenberg Farm,KWPN,No,NULL
 Donatella M,Grand Prix,Yes,1104727,Furstenball,Jazz Time,USA,Marne Martin-Tucker,Oldenburg,No,NULL
 Gladstone,Third Level,No,1112114,Uphill,Londonderry,Netherlands,De Dalhoeve,KWPN,No,NULL
 Angela's Angel,Second Level,No,1112374,Rosenthal,Archipel,USA,Theresa Schnell,Oldenburg,No,NULL
@@ -475,7 +475,7 @@ Leviana,Grand Prix,No,1107738,Londontime,Rubinstein,Germany,Jorg Clasen,Hanoveri
 Willow,I-2,No,1094006,WakeUp,Macht,USA,Jana Wagner,American Warmblood,No,NULL
 Fidens,Grand Prix,Yes,1116122,Tango,United,Netherlands,T.A. Van Dijk,KWPN,No,NULL
 Siri,Grand Prix,Yes,1117554,San Amour,Rubin Royal,Germany,Heinrich Lahmeyer,Hanoverian,No,NULL
-Wind Phaerie HU,Prix St. Georges,No,1089781,Wild Dance,Pik L,USA,Horses Unlimited,Hanoverian,No,NULL
+Wind Phaerie HU,I-1,No,1089781,Wild Dance,Pik L,USA,Horses Unlimited,Hanoverian,No,NULL
 Fling,Fourth Level,No,1117170,Sir Donnerhall I,Florencio I,USA,Terri Wood,KWPN,No,NULL
 Desario,Grand Prix,Yes,1114503,De Champ,Rosario,Germany,Gestut Lewitz,Oldenburg,No,NULL
 Giuliano B,Prix St. Georges,No,1117396,Bon Bravour,Elcaro,Netherlands,V.J.M. Van Beek,KWPN,No,NULL
@@ -488,11 +488,11 @@ Gaspard de la Nuit,Prix St. Georges,No,1098605,Ravel,Sir Donnerhall I,USA,DG Bar
 Furstin Delia,Grand Prix,No,1113791,Furstenball,Don Schufro,Germany,Gestut Lewitz,Oldenburg,No,NULL
 Delta L,Third Level,No,1113399,Damsey,Weltbekannt,USA,Leatherdale Farms,Hanoverian,No,NULL
 Gerona,Third Level,No,1119709,Tango,Junior STV,Netherlands,Van Geffen,KWPN,No,NULL
-Rebecca RSL,Fourth Level,No,1114206,Rousseau,Royal Diamond,USA,Robbie Rice,Hanoverian,No,NULL
-Habanero CWS,I-1,No,1115739,Idocus,OO Seven,USA,Brenda Linman and Craig Stanley,KWPN,No,NULL
+Rebecca RSL,Prix St. Georges,No,1114206,Rousseau,Royal Diamond,USA,Robbie Rice,Hanoverian,No,NULL
+Habanero CWS,I-2,No,1115739,Idocus,OO Seven,USA,Brenda Linman and Craig Stanley,KWPN,No,NULL
 Hero BHS,I-2,No,1119209,Cover Story,Prestige VDL,Netherlands,P.J. Van Beek,KWPN,No,NULL
 Won Million,First Level,No,1110136,Widmark,Fidertanz,USA,Meg Williams,Hanoverian,No,NULL
-Hotshot,I-2,Yes,1117466,Hotline,Spielberg,USA,David Wightman,Oldenburg,No,NULL
+Hotshot,Grand Prix,Yes,1117466,Hotline,Spielberg,USA,David Wightman,Oldenburg,No,NULL
 Harvard R,I-1,Yes,1117279,Sir Donnerhall I,Farrington,USA,Michele Seaver,KWPN,No,NULL
 Hartog,I-1,Yes,1118603,Apache,Scandic,Netherlands,J.W.P. Thijssen,KWPN,No,NULL
 Fine Art,I-1,No,1118906,Feedback,De Niro,Germany,Edeltraud Haehn,Rhinelander,No,NULL
@@ -521,14 +521,14 @@ Flyby FLF,I-1,Yes,1118229,Falsterbo,Wonderland,USA,Garner Creek Farm,Hanoverian,
 Finery,Prix St. Georges,No,1121907,Furstenball,Diamond Hit,Germany,Otto Langemeyer,Oldenburg,No,NULL
 Gaston TF,I-1,Yes,1118565,Uphill,Sandro Hit,USA,Kerrin Dunn,KWPN,No,NULL
 Fauna,I-2,Yes,1117540,Freestyle,Gouverneur,USA,Bridget Hay,Oldenburg,No,NULL
-Deimos 4,Prix St. Georges,No,1123314,Demirel,Lemon Park,Netherlands,Lotte Lysemose Knudsen,Hanoverian,No,NULL
-G Force W,I-2,No,123276,Bojengel,Dayano,Netherlands,H. Wobbes,KWPN,No,NULL
+Deimos 4,I-2,No,1123314,Demirel,Lemon Park,Netherlands,Lotte Lysemose Knudsen,Hanoverian,No,NULL
+G Force W,Grand Prix,No,123276,Bojengel,Dayano,Netherlands,H. Wobbes,KWPN,No,NULL
 Furstentanz,Grand Prix,Yes,1112079,Furstenball,Wolkentanz I,Germany,Johannes Westendarp,Hanoverian,No,NULL
 Les Paul,Fourth Level,No,1112468,Lord Loxley,His Highness,Germany,ZG Sahlmann and Schmitz,Hanoverian,No,NULL
 Grapjas,Prix St. Georges,No,1124971,Zizi Top,Kennedy,Netherlands,T.J.M. Coomans,KWPN,No,NULL
 Camomila MCD,Prix St. Georges,No,1102818,Hielo MOR,Zodiaco II,USA,McDowell Equestrian,PRE,No,NULL
 Darius 555,I-1,Yes,1122542,Don Darius,Boss,Germany,Dirk Ettwig,Hanoverian,No,NULL
-Quintess,Prix St. Georges,No,1121638,Quaterhall,Wolkenstein II,Germany,Werner Wesch,Hanoverian,No,NULL
+Quintess,I-2,No,1121638,Quaterhall,Wolkenstein II,Germany,Werner Wesch,Hanoverian,No,NULL
 Furstentusch N,Third Level,No,1123209,Furstenball,Ehrentusch,Germany,NULL,Rhinelander,No,NULL
 Bellisambrosso RTH,Prix St. Georges,No,1108592,Belissimo M,Sir Donnerhall I,USA,Alanna Sellers,Westfalen,No,NULL
 High Five,Grand Prix,No,1124138,Apache,Welt Hit II,Netherlands,P. Rulkens,KWPN,No,NULL
@@ -537,7 +537,7 @@ Rossi,Grand Prix,Yes,1118112,Romanov,Vivaldi 753,USA,Carol Reed,Swedish Warmbloo
 Rosette B,I-1,Yes,1117432,Romanov,De Niro,Germany,Elisabeth Kirschner,Oldenburg,No,NULL
 Elfenspiel,Third Level,No,1121076,Bordeaux,Rohdiamant,Germany,Jurgen Middlebeck,Oldenburg,No,NULL
 Serenade MF,Grand Prix,Yes,1103046,Sir Donnerhall I,Don Principe,USA,Maryanna Haymon,Hanoverian,No,NULL
-Fairouz,Fourth Level,No,1126073,Franziskus,Don Frederico,Germany,Leonie Bramall and Volker Dusche,Oldenburg,No,NULL
+Fairouz,Prix St. Georges,No,1126073,Franziskus,Don Frederico,Germany,Leonie Bramall and Volker Dusche,Oldenburg,No,NULL
 Celebration,USEF 4 Year Old,No,1110260,Coeur d'Amour,Rosenthal,USA,High Point Hanoverian,Oldenburg,No,NULL
 Inferno M,Prix St. Georges,No,1125223,Davino,Jazz,Netherlands,C.F. Van Mook,KWPN,No,NULL
 Debonair MF,Fourth Level,No,1103018,Doctor Wendell MF,Rotspon,USA,Maryanna Haymon,Hanoverian,No,NULL
@@ -553,38 +553,38 @@ NT Phantom Valor,I-1,No,1105583,Parcival,Wesler,USA,Nicole Trapp,Oldenburg,No,NU
 Bailarino,Grand Prix,Yes,1111543,Breitling W,De Niro,Germany,Antonius Bockmann,Oldenburg,No,NULL
 Wynston,Grand Prix,Yes,1099517,Wynton,Don Kennedy,USA,Tricia Veley,Oldenburg,No,NULL
 Shaken Not Stirred,I-2,No,1107386,Schumacher,Bormio,Germany,Karl-August Chulte-Varendorff,Westfalen,No,NULL
-Fivestar,I-2,Yes,1096938,Fidertanz,Rouletto,USA,Beate Repenning,Rhinelander,No,NULL
+Fivestar,Grand Prix,Yes,1096938,Fidertanz,Rouletto,USA,Beate Repenning,Rhinelander,No,NULL
 Elijas Trubador MGF,Grand Prix,No,1093748,Trubadorsmadrigal,Sizzlin Scotch,USA,Laura Venne,Half Arabian,No,NULL
 Straight Horse Zackonik,Grand Prix,Yes,1116749,Zack,Romanov,Denmark,Straight Horse,Danish Warmblood,No,NULL
 Domani,Grand Prix,Yes,1114819,DiMaggio,Feiner Graf,Germany,Hermann Holscher,Hanoverian,No,NULL
 Pik L's Donabella,I-2,No,1099805,Pik L,Don Primero,USA,Horses Unlimited,Hanoverian,No,NULL
-Fein Tanzer,I-2,No,1119317,UB 40,Fidermark,USA,Jill Hardt and Lisa Fein,KWPN,No,NULL
+Fein Tanzer,Grand Prix,No,1119317,UB 40,Fidermark,USA,Jill Hardt and Lisa Fein,KWPN,No,NULL
 Rapson,I-2,No,1090131,Rapture R,Warkanson,USA,St. Louis Equestrian Center,Hanoverian,No,NULL
 Sir Beckmann,Prix St. Georges,No,1121871,Sir Donnerhall I,Wolkenstein II,Germany,Norbert and Petra Fokenberg,Hanoverian,No,NULL
 Harvest,Grand Prix,No,1120136,Connaisseur,Ulft,Netherlands,A. Elema,KWPN,No,NULL
 Balia,Grand Prix,Yes,1131004,Belissimo M,Florestan I,Germany,Hermann Roloff,Hanoverian,No,NULL
 Francis HW,Grand Prix,No,1120680,Furst Nymphenburg,Rotspon,Germany,Margret Rosemann,Hanoverian,No,NULL
 Helle Belle Norene,Third Level,No,1128957,Charmeur,Krack C,Netherlands,Stal Selten,KWPN,No,NULL
-Hannah Anda S,I-1,No,1118994,UB 40,Houston,USA,Sonnenberg Farm,KWPN,No,NULL
-Iquem,I-2,Yes,1123765,Charmeur,Moreno,Germany,A. De Baere,KWPN,No,NULL
+Hannah Anda S,I-2,No,1118994,UB 40,Houston,USA,Sonnenberg Farm,KWPN,No,NULL
+Iquem,Grand Prix,Yes,1123765,Charmeur,Moreno,Germany,A. De Baere,KWPN,No,NULL
 Furstin P,FEI 5 Year Old,No,1127334,Furst Piccolo,Diamantio,Germany,Gabriele Wierling,Westfalen,No,NULL
 Flash Dance,FEI 6 Year Old,No,1129216,Furstenball,Sir Donnerhall I,Germany,Nancy Holowesko,Oldenburg,No,NULL
 I'm All In,FEI 7 Year Old,No,1129521,Jazz,Ferro,Netherlands,G. Aalberts,KWPN,No,NULL
 Irintha,I-2,Yes,1131348,Everdale,Tenerife VDL,Netherlands,R. Van Erp,KWPN,No,NULL
 Romulus,Prix St. Georges,Yes,1123514,Romanov,Depardieu,USA,Anna Wood,Oldenburg,No,NULL
 Supremont,I-1,Yes,1126105,San Amour,Carry Gold,Germany,Stall Troff,Oldenburg,No,NULL
-Don Noblesse,Fourth Level,No,1132606,Destano,NULL,Germany,NULL,Oldenburg,No,NULL
-Infinity,I-2,Yes,1129840,Dreamboy,Freestyle,Belgium,Dirk Fiechter,KWPN,No,NULL
+Don Noblesse,I-1,No,1132606,Destano,NULL,Germany,NULL,Oldenburg,No,NULL
+Infinity,Grand Prix,Yes,1129840,Dreamboy,Freestyle,Belgium,Dirk Fiechter,KWPN,No,NULL
 Ilario,I-1,No,1123858,Davino,Ferro,Netherlands,J.J. Snip,KWPN,No,NULL
 MW I'm the Lady Texel,Prix St. Georges,No,1104181,Charmeur,Krack C,Great Britain,MFS Stud,KWPN,No,NULL
 Sole Mio,Grand Prix,Yes,1129247,Stanford,Donnerschwee,Germany,ZG Wencek,Hanoverian,No,NULL
 Jagger,I-2,No,1131458,Apache,Osmium,Netherlands,S. Van Zeeland,KWPN,No,NULL
 Jupiter,USEF 4 Year Old,No,1131021,Jazz,Freestyle,NULL,NULL,KWPN,No,NULL
 Daily Show,I-2,Yes,1129195,Danciano,Stockholm,Germany,Kurt Gravemeier,Hanoverian,No,NULL
-Jaliska,Fourth Level,No,1130479,All At Once,Kigali,Netherlands,NULL,KWPN,No,NULL
+Jaliska,I-1,Yes,1130479,All At Once,Kigali,Netherlands,NULL,KWPN,No,NULL
 Figaro,I-2,Yes,1128636,Furstenball,Show Star,Germany,Frank Schmitz,Westfalen,No,NULL
 Caelius,Third Level,No,1131500,Christ,Buddenbrock,Germany,Eitel Wehrs,Hanoverian,No,NULL
-MSJ Celebrity,Prix St. Georges,No,1130377,Cennin,Furstenball,Great Britain,Emma Blundell,Oldenburg,No,NULL
+MSJ Celebrity,I-1,No,1130377,Cennin,Furstenball,Great Britain,Emma Blundell,Oldenburg,No,NULL
 Davos CF,FEI 5 Year Old,No,1110329,Dante Weltino,Rubinstein,USA,Nancy Holowesko,Oldenburg,No,NULL
 Oliana FFF,Third Level,No,1129931,Furstenball,Don Kennedy,USA,Tricia Veley,Oldenburg,No,NULL
 Doblesse,Second Level,No,1131543,Don Noblesse,Elkintot,Germany,NULL,Oldenburg,No,NULL
@@ -608,16 +608,16 @@ Servus Ymas,Grand Prix,Yes,1134446,San Amour,Depardieu,Germany,Herr Barth,Hanove
 Ion SWF,Prix St. Georges,No,1104889,Lingh,De Kooning,USA,Southernwood Farm,KWPN,No,NULL
 WEC's Senor Rubinstein,Grand Prix,Yes,1124842,Sir Donnerhall II,Rubinstein,Germany,Franz-Josef Wieghaus-Vorwerk,Oldenburg,No,NULL
 MW Ave Maria,I-2,No,1104760,Voice,Fidertanz,USA,Nancy Holowesko,Oldenburg,No,NULL
-Reine Noire GWF,I-1,Yes,1130492,Rotspon,Cor Noir,USA,Gateway Farm,Oldenburg,No,NULL
+Reine Noire GWF,I-2,Yes,1130492,Rotspon,Cor Noir,USA,Gateway Farm,Oldenburg,No,NULL
 Idano,Third Level,No,1135422,Bretton Woods,Sandro Hit,Germany,NULL,Oldenburg,No,NULL
 Santa Barbara DASH,I-2,Yes,1126753,San City,Baroncelli,USA,Katie Bryant,Oldenburg,No,NULL
 Fontaine MF,Prix St. Georges,No,1103175,Fidertanz,De Niro,USA,Maryanna Haymon,Hanoverian,No,NULL
 MW Cilla Amour,Prix St. Georges,No,1104928,San Amour,De Niro,Germany,Margaret Strohm,Oldenburg,No,NULL
-Jida Selly A,I-2,No,1136218,Zardando,Wynton,Netherlands,A. Adriaansen,KWPN,No,NULL
+Jida Selly A,I-2,Yes,1136218,Zardando,Wynton,Netherlands,A. Adriaansen,KWPN,No,NULL
 Spirit of Joy,I-2,No,1135952,Sir Calypso,Sandro Bedo,Germany,Gertmann and Brigitte Sude,Westfalen,No,NULL
 Floris King,FEI 5 Year Old,No,1131719,Floriscount,Hochadel,Germany,NULL,Hanoverian,No,NULL
 Jagger DG,Prix St. Georges,Yes,1130221,Idocus,Flemmingh,USA,DG Bar Ranch,KWPN,No,NULL
-Heirendale SBF,Prix St. Georges,No,1136700,Hotline,Rabino,USA,Claudia Novick,Hanoverian,No,NULL
+Heirendale SBF,I-2,No,1136700,Hotline,Rabino,USA,Claudia Novick,Hanoverian,No,NULL
 Jjaguar B,I-2,No,1129403,Spielberg,Uphill,Netherlands,J. Jansen,KWPN,No,NULL
 Fabulous Lady,FEI 5 Year Old,No,1136425,Furstenball,Samarant,Germany,NULL,Hanoverian,No,NULL
 Jett MVS,I-2,Yes,1130539,Bretton Woods,Flemmingh,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
@@ -626,17 +626,17 @@ Summersby II,I-2,No,1133414,Sezuan,Sandro Hit,Germany,Nicole Wanning,Oldenburg,N
 Kitalis MVS,First Level,No,1137003,Vitalis,Westpoint,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
 Leon De Matecana,Prix St. Georges,Yes,1134600,Dragon Comando,Solar dos Pinhais,Colombia,Samuel Cabrera,PSL,No,NULL
 Kasanova DG,Fourth Level,No,1137214,Negro,Belissimo M,USA,DG Bar Ranch,KWPN,No,NULL
-Kayenne CWS,Fourth Level,No,1134245,Negro,OO Seven,USA,Craig Stanley,KWPN,No,NULL
+Kayenne CWS,Prix St. Georges,No,1134245,Negro,OO Seven,USA,Craig Stanley,KWPN,No,NULL
 Fellini CF,FEI 7 Year Old,No,1136134,Finest,Rubinstein,USA,Nancy Holowesko,Oldenburg,No,NULL
-Karmelo R,Fourth Level,No,1131185,Sir Donnerhall I,Don Romantic,USA,Michele Seaver,KWPN,No,NULL
+Karmelo R,Prix St. Georges,No,1131185,Sir Donnerhall I,Don Romantic,USA,Michele Seaver,KWPN,No,NULL
 Royal Heiress,Second Level,No,1130730,Rock Solid,Hofrat,USA,Robert Jackson,Oldenburg,No,NULL
-Koning DG,Fourth Level,No,1135949,Bordeaux,Jazz,USA,DG Bar Ranch,KWPN,No,NULL
+Koning DG,Prix St. Georges,No,1135949,Bordeaux,Jazz,USA,DG Bar Ranch,KWPN,No,NULL
 Francisco,Prix St. Georges,No,1132814,Furstenball,Royal Prince,USA,Holly Reimers,Oldenburg,No,NULL
 Killian TF,Fourth Level,No,1124195,Uno Don Diego,Westpoint,USA,Timbach Farm,KWPN,No,NULL
 Finch Hatton EDI,Prix St. Georges,No,1134827,For Romance,Latimer,Germany,Dr. Alexandra Woerner,Oldenburg,No,NULL
 Knockout SSF,First Level,No,1129356,Eye Catcher,Bon Bravour,USA,Carroll and Scot Tolman,KWPN,No,NULL
 Gronskovlunds Romeeo,I-2,No,1131590,Skovens Rafael,Rotspon,Denmark,Kim Viberg Jensen,Danish Warmblood,No,NULL
-Friend,I-A,Yes,1120308,Rousseau,Tango,Netherlands,E.T. Ten Bosch,KWPN,No,NULL
+Friend,Grand Prix,Yes,1120308,Rousseau,Tango,Netherlands,E.T. Ten Bosch,KWPN,No,NULL
 Sundance,Grand Prix,No,1104788,San Bernadino,Brentano II,Germany,Hermann Stroot,Hanoverian,No,NULL
 Fire Fly,Grand Prix,Yes,1132642,Briar Junior,OO Seven,Netherlands,Anton Geessink,KWPN,No,NULL
 Bardolino,Grand Prix,Yes,1134488,Bordeaux,Donnerhall,Germany,Clemens Merveldt,Oldenburg,No,NULL
@@ -648,11 +648,11 @@ Dehavilland,Prix St. Georges,No,1112032,Diamond Hit,Hohenstein,USA,Red Hawk Ranc
 Venivici,I-2,Yes,1113029,Vitalis,Sherlock Holmes,Germany,Karl-Heinz Bruck,Westfalen,No,NULL
 Flash Gordon HF,I-1,No,1118740,Falsterbo,Baroncelli,USA,Lisa Thompson Smith,Hanoverian,No,NULL
 Joppe K,Grand Prix,Yes,1140163,Rousseau,Santano,Netherlands,J.H. Kamperman,KWPN,No,NULL
-Baltasar De Ymas,I-1,Yes,1140298,Vitalis,Superior II,Spain,Yeguada de Ymas,Caballo de Deporte Espanol,No,NULL
+Baltasar De Ymas,Grand Prix,Yes,1140298,Vitalis,Superior II,Spain,Yeguada de Ymas,Caballo de Deporte Espanol,No,NULL
 Fortunata,Prix St. Georges,No,1142211,Franziskus,Sandro Hit,Germany,NULL,Oldenburg,No,NULL
 Justice OF,FEI 6 Year Old,No,1130400,UB 40,Sir Sinclair,USA,Terry Long,KWPN,No,NULL
-Hermes BRH,Prix St. Georges,No,1140899,Trajano IV,Martelillo IV,Spain,Yeguada Benito Rodriguez E Hijos,PRE,No,NULL
-Absolute Dream,I-2,No,1131055,All At Once,Furst Piccolo,Germany,Josef Pruesener,Westfalen,No,NULL
+Hermes BRH,I-2,No,1140899,Trajano IV,Martelillo IV,Spain,Yeguada Benito Rodriguez E Hijos,PRE,No,NULL
+Absolute Dream,Grand Prix,No,1131055,All At Once,Furst Piccolo,Germany,Josef Pruesener,Westfalen,No,NULL
 Julinda M,Prix St. Georges,No,1130201,Dundee M,Gribaldi,Netherlands,C.F. Van Mook,KWPN,No,NULL
 Dark Knight,I-1,Yes,1141559,Danciano,Sandro Hit,Germany,Eggerk Groenwold,Hanoverian,No,NULL
 Sijam,Prix St. Georges,No,1137199,San Amour,Welt Hit II,Germany,Heinz Lampe,Oldenburg,No,NULL
@@ -662,8 +662,8 @@ Lovely Leni,Third Level,No,1141080,Livaldon,Floriscount,Germany,Dieter Kreyhagen
 Dionysus MF,Third Level,No,1114505,Doctor Wendell MF,Rotspon,USA,Maryanna Haymon,Hanoverian,No,NULL
 Kiriska,FEI 5 Year Old,No,1132866,Jazz,Rhodium,USA,Gail Atkins,KWPN,No,NULL
 Furstenbelle,Third Level,No,1131180,Furstenball,Michellino,USA,Lauren Efford,Danish Warmblood,No,NULL
-Kyro,I-1,No,1133080,Glamourdale,Jazz,Netherlands,J. Hermanussen,KWPN,No,NULL
-Kayla,Third Level,No,1140885,Ferdeaux,Metall,Netherlands,NULL,KWPN,No,NULL
+Kyro,I-2,No,1133080,Glamourdale,Jazz,Netherlands,J. Hermanussen,KWPN,No,NULL
+Kayla,Prix St. Georges,No,1140885,Ferdeaux,Metall,Netherlands,NULL,KWPN,No,NULL
 Shanahan,I-1,Yes,1141367,Sir Gregory,Weltbekannt,USA,Bridget Hay,Oldenburg,No,NULL
 Kayman,I-1,No,1135697,Damon Hill,Amati,Germany,Karl Heinz Knoop,KWPN,No,NULL
 Ynze fan Vels,Prix St. Georges,No,1138055,Hessel 480,Wicher 334,Netherlands,H J Vels Lankderdijk,Friesian,No,NULL
@@ -674,10 +674,10 @@ MW Bodacious,FEI 5 Year Old,No,1121957,Borsalino,Rohdiamant,USA,Christine Miller
 Lalique,USEF 4 Year Old,No,1141989,Eye Catcher,Moreno,Netherlands,A. De Baere,KWPN,No,NULL
 Saladine STC,I-1,No,1141692,Sir Gregory,Royal Prince,USA,Laura Lee Beetle,Hanoverian,No,NULL
 Lyamora,USEF 4 Year Old,No,1141174,Ferguson,Contango,Netherlands,K. Anthonie,KWPN,No,NULL
-San Sebastian,First Level,No,1140396,Sandbrink,San Amour,Germany,Stall Sathalla AB,Oldenburg,No,NULL
+San Sebastian,Prix St. Georges,No,1140396,Sandbrink,San Amour,Germany,Stall Sathalla AB,Oldenburg,No,NULL
 Floyd EDI,Third Level,No,1141520,Floriscount,Furst Heinrich,Germany,Wiebke Tobaben,Hanoverian,No,NULL
 Lucian BHS,First Level,No,1141781,Special D,Carlton Hill VDL,USA,Justine Wilson and Michael Rub,KWPN,No,NULL
-Rowena SW,Second Level,No,1141884,Skovens Rafael,Opus,USA,Kate Fleming-Kuhn,Swedish Warmblood,No,NULL
+Rowena SW,Third Level,No,1141884,Skovens Rafael,Opus,USA,Kate Fleming-Kuhn,Swedish Warmblood,No,NULL
 MW Weissgold,Prix St. Georges,No,1141945,Grey Flanell,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
 Liang,Prix St. Georges,No,1141874,Guardian S,Florencio I,Netherlands,M.L.F.A. Van Gaal,KWPN,No,NULL
 Bedelia,Fourth Level,No,1142095,Bon Coeur,Weltbekannt,USA,Bridget Hay,Oldenburg,No,NULL
@@ -685,53 +685,53 @@ Leanora AOF,USEF 4 Year Old,No,1141823,Landkoenig,Apiro,USA,Daphne Stapleton,Wes
 Paxton,Grand Prix,Yes,1134356,Dante Weltino,Don Marco,Germany,Herbert de Baey,Westfalen,No,NULL
 Guernsey Elvis,Grand Prix,Yes,1134641,Querly Elvis,Zadok,Netherlands,A.J. Bosman,KWPN,No,NULL
 Tokayer,Grand Prix,Yes,1116784,Tokio,Sir Donnerhall I,Germany,Ulf Toenjes,Oldenburg,No,NULL
-RS Damon,I-2,No,1137137,Birkhof's Don Diamond,Metteur,Germany,Elke Salden,Wurttemberg,No,NULL
+RS Damon,Grand Prix,Yes,1137137,Birkhof's Don Diamond,Metteur,Germany,Elke Salden,Wurttemberg,No,NULL
 Fortissimo SQF,Grand Prix,No,1116892,For Compliment,Rotspon,USA,Star Quarry Farm,Hanoverian,No,NULL
 Ramora CF,Grand Prix,No,1099508,Royal Prince,Davignon I,USA,Kimberly Kobryn-Callaway,Hanoverian,No,NULL
 Nikolas,Grand Prix,Yes,1106138,Novalis T,Merkeur,Germany,Ingrid Schmidt,German Riding Pony,No,NULL
-I Felix,I-1,Yes,1126961,Fidertanz,UB 40,USA,Natalie Hinnemann,KWPN,No,NULL
-Florisson,I-1,No,1123137,Floriscount,Johnson,Germany,Nicole Wanning,Oldenburg,No,NULL
+I Felix,I-2,Yes,1126961,Fidertanz,UB 40,USA,Natalie Hinnemann,KWPN,No,NULL
+Florisson,Grand Prix,No,1123137,Floriscount,Johnson,Germany,Nicole Wanning,Oldenburg,No,NULL
 Ballando,Grand Prix,No,1144296,Benicio,Le Primeur,Germany,Hermann-Juergen Rump,Hanoverian,No,NULL
-Belloona,I-1,Yes,1129997,Belissimo M,Wolkenstein II,Germany,Dr. Roland Wuenschel,Oldenburg,No,NULL
-Ichiban,I-1,Yes,1128125,Apache,Scandic,Netherlands,J.W.P. Thijssen,KWPN,No,NULL
+Belloona,Grand Prix,Yes,1129997,Belissimo M,Wolkenstein II,Germany,Dr. Roland Wuenschel,Oldenburg,No,NULL
+Ichiban,Grand Prix,Yes,1128125,Apache,Scandic,Netherlands,J.W.P. Thijssen,KWPN,No,NULL
 Atterupgaards Belafonte,I-1,Yes,1145410,Belissimo M,Donnerhall,Denmark,Atterupgaard,Danish Warmblood,No,NULL
-Sonata MF,I-1,Yes,1114533,Sir Donnerhall I,Don Principe,USA,Maryanna Haymon,Hanoverian,No,NULL
-Delilah,Prix St. Georges,No,1135525,Dr. Watson,Wolkenstein,Germany,Hans-Heinrich Plate,Hanoverian,No,NULL
+Sonata MF,Grand Prix,Yes,1114533,Sir Donnerhall I,Don Principe,USA,Maryanna Haymon,Hanoverian,No,NULL
+Delilah,I-1,Yes,1135525,Dr. Watson,Wolkenstein,Germany,Hans-Heinrich Plate,Hanoverian,No,NULL
 San Raphaella LS,FEI 6 Year Old,No,1137953,Skovens Rafael,Sandro Hit,Canada,Christine Williams,Oldenburg,No,NULL
-Fanta 4,Prix St. Georges,No,1142361,Finest,Florencio II,Germany,Zuchthof Duevel,Hanoverian,No,NULL
+Fanta 4,I-1,No,1142361,Finest,Florencio II,Germany,Zuchthof Duevel,Hanoverian,No,NULL
 Fellowship CCW,I-1,No,1137582,Follow Me,Sir Donnerhall I,USA,Amy Swerdlin,Oldenburg,No,NULL
 Birdie 10,I-1,Yes,1145967,Birkhof's Zalando,Ron William,Germany,ZG Fendel,Deutches Sportpferd,No,NULL
 Debonaire,I-1,No,1142355,Danciano,Contucci,USA,Teresa Tovrea,Oldenburg,No,NULL
-Kolbaba,Fourth Level,No,1137344,Ferguson,Sandreo,Netherlands,JG Keijnemans-Bos,KWPN,No,NULL
+Kolbaba,Prix St. Georges,No,1137344,Ferguson,Sandreo,Netherlands,JG Keijnemans-Bos,KWPN,No,NULL
 Ayo Windberg,Third Level,No,1143213,Apache,Florencio I,Belgium,NULL,Oldenburg,No,NULL
 Fuerte Ventura IR,I-1,No,1146964,Furstenball,Camus,Belgium,Keith Lobros,American Warmblood,No,NULL
 Fairmont,Fourth Level,No,1142105,Floriscount,De Niro,Germany,NULL,Hanoverian,No,NULL
-Vianne,Fourth Level,No,1140513,Vitalis,Ramiro's Bube,USA,Catherine Haddad Staller,Hanoverian,No,NULL
+Vianne,Fourth Level,Yes,1140513,Vitalis,Ramiro's Bube,USA,Catherine Haddad Staller,Hanoverian,Yes,Paralympics
 Mollegardens Fashion,FEI 7 Year Old,No,1144566,Florenz,L'Espoir,Denmark,Lone Christiansen,Danish Warmblood,No,NULL
-Mani's Endeavor,Prix St. Georges,No,1136141,Morricone,Foundation,Germany,Elizabeth Kapp,Hanoverian,No,NULL
+Mani's Endeavor,I-1,Yes,1136141,Morricone,Foundation,Germany,Elizabeth Kapp,Hanoverian,No,NULL
 Black Velvet,FEI 5 Year Old,No,1142069,Bon Coeur,Samarant,Germany,Willem Klausing,Hanoverian,No,NULL
-La Formidable B,Third Level,No,1145812,Hitmaker,Treasure Z,Netherlands,Boeve Paardenhouderd,KWPN,No,NULL
+La Formidable B,Fourth Level,No,1145812,Hitmaker,Treasure Z,Netherlands,Boeve Paardenhouderd,KWPN,No,NULL
 Looney Tunes,Second Level,No,1144914,Governor,Sir Sinclair,Netherlands,M. Andeweg,KWPN,No,NULL
-Talladega B,Fourth Level,No,1139633,Talisman,Furst Nymphenburg,Germany,Tina Engelhardt,Hanoverian,No,NULL
+Talladega B,Prix St. Georges,No,1139633,Talisman,Furst Nymphenburg,Germany,Tina Engelhardt,Hanoverian,No,NULL
 Qunique N,Fourth Level,No,1140925,Quaterback,Walldorf,USA,Christine Noelting,Hanoverian,No,NULL
 Fontenay,FEI 6 Year Old,No,1147538,Furst Jazz,Don Frederico,Germany,Marion Meyer-Rosenmeier,Hanoverian,No,NULL
 Ierland's Eden,FEI 5 Year Old,No,1144998,Ierland,Krack C,Denmark,Nedergaard Dressage,Oldenburg,No,NULL
-MW Furstencharmant,FEI 6 Year Old,No,1133722,Furstenball,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
-It's Showtime,Third Level,No,1146272,It's A Pleasure,Uphill,Netherlands,R. van Wolfswinkel,KWPN,No,NULL
-Dante Rubin M.R.,Fourth Level,No,1146715,Dante Weltino,Rubin Cortes,Germany,NULL,Oldenburg,No,NULL
+MW Furstencharmant,FEI 7 Year Old,No,1133722,Furstenball,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
+It's Showtime,Fourth Level,No,1146272,It's A Pleasure,Uphill,Netherlands,R. van Wolfswinkel,KWPN,No,NULL
+Dante Rubin M.R.,Prix St. Georges,No,1146715,Dante Weltino,Rubin Cortes,Germany,NULL,Oldenburg,No,NULL
 Maximus,FEI 5 Year Old,No,1147948,Ibiza,Apache,Netherlands,Ad Valk Dressage Horses,KWPN,No,NULL
 Manhattan,Third Level,No,1145798,Governor,United,NULL,NULL,KWPN,No,NULL
-MW Marcario,USEF 4 Year Old,No,1142119,Morricone,San Amour,USA,Jennifer Vanover,Oldenburg,No,NULL
+MW Marcario,Fourth Level,No,1142119,Morricone,San Amour,USA,Jennifer Vanover,Oldenburg,No,NULL
 Materos JV,USEF 4 Year Old,No,1143851,High Five U.S.,Krack C,Netherlands,NULL,KWPN,No,NULL
 Saint de Luce,FEI 5 Year Old,No,1144881,St. Schufro,Franziskus,USA,Carol Reid,Swedish Warmblood,No,NULL
 Mojito,Fourth Level,No,1145237,Grand Galaxy Win,Rohdiamant,Belgium,A. De Baere,KWPN,No,NULL
-Fiorenza,Third Level,No,1146265,Furstenball,Diomedes,Germany,Margaret Mueller,Oldenburg,No,NULL
+Fiorenza,Prix St. Georges,No,1146265,Furstenball,Diomedes,Germany,Margaret Mueller,Oldenburg,No,NULL
 Revanali YF,First Level,No,1145338,Revolution,Furst Heinrich,USA,Judy Yancey,Oldenburg,No,NULL
 Duke of Tryon,Third Level,No,1131151,De Niro,Furstenball,USA,Oak Hill Ranch,Oldenburg,No,NULL
 Don Hannes,Prix St. Georges,No,1146255,Don Romanov,Wanderbursch,Germany,Oliver Wauro,Hanoverian,No,NULL
 Harrold S,Grand Prix,Yes,1125222,Vivaldi,Fidermark,Netherlands,Stoeterij Sollenburg,KWPN,No,NULL
-Jane,I-2,Yes,1130478,Desperado,Metall,Netherlands,H.J. Van Oort,KWPN,No,NULL
-Vamos,Grand Prix,No,1135488,Vivaldi,Insterburg TSF,Germany,Norbert Borgmann,Westfalen,No,NULL
+Jane,Grand Prix,Yes,1130478,Desperado,Metall,Netherlands,H.J. Van Oort,KWPN,Yes,Olympic Games
+Vamos,Grand Prix,Yes,1135488,Vivaldi,Insterburg TSF,Germany,Norbert Borgmann,Westfalen,No,NULL
 Amillion FS,I-2,No,1149691,Ampere,Warsteiner,Sweden,Frykens Sporthastar HB,Swedish Warmblood,No,NULL
 Johnny Be Goode,I-1,No,1142011,Dream Boy,Tietse 428,Netherlands,Trea Mulder-Dolsma,KWPN,No,NULL
 Iron Lady,I-1,No,1141001,Dream Boy,Jazz,Netherlands,W. Den Besten,KWPN,No,NULL
@@ -739,7 +739,7 @@ Inigo Montoya,I-1,No,1124615,UB 40,Martini,USA,Megan Fischer-Graham,KWPN,No,NULL
 Incredible Jacky,I-2,No,1136100,Jack Sparrow,Lord Sinclair I,Netherlands,President Investments,KWPN,No,NULL
 Zaphira,Prix St. Georges,No,1134154,Zack,Don Romantic,Denmark,Mathias Victor Kruse,Danish Warmblood,No,NULL
 King's Pleasure,I-1,Yes,1149631,Dark Pleasure,Johnson,Netherlands,W.L. PLaizier,KWPN,No,NULL
-Fade to Black,Prix St. Georges,No,1150968,Fantastic,St. Moritz,Germany,Dr. Christina Beuke,Hanoverian,No,NULL
+Fade to Black,I-1,Yes,1150968,Fantastic,St. Moritz,Germany,Dr. Christina Beuke,Hanoverian,No,NULL
 Olympic Star M.R.,Grand Prix,No,1144490,Don Olymbrio,Stedinger,Denmark,Louise Lundgaard Nissen,Danish Warmblood,No,NULL
 Nova,Grand Prix,Yes,1152137,Grand Galaxy Win,Romanov,Denmark,Helgstrand Dressage,Oldenburg,No,NULL
 Vioretta,I-2,No,1150417,Vivaldi,Don Schufro,Germany,Gestut Lewitz,Oldenburg,No,NULL
@@ -747,88 +747,88 @@ Kensington,Prix St. Georges,No,1142405,Galandro,Special D,Netherlands,J. Hamstra
 Gold Play,I-1,Yes,1141984,Grey Flanell,Sir Donnerhall II,Germany,Janne Schaefer,Oldenburg,No,NULL
 Karamba,Prix St. Georges,No,1144091,Apache,Florencio II,Netherlands,Patty Zwang,KWPN,No,NULL
 Lionell VE,FEI 7 Year Old,No,1149470,Negro,Tenerife VDL,Netherlands,Van Erp Sporthorses,KWPN,No,NULL
-Lion Heart,FEI 7 Year Old,No,1148679,Grand Galaxy Win,Special D,Netherlands,H.P. Cazemier,KWPN,No,NULL
+Lion Heart,Prix St. Georges,No,1148679,Grand Galaxy Win,Special D,Netherlands,H.P. Cazemier,KWPN,No,NULL
 Altitude's Sonegro PS,Prix St. Georges,No,1142746,Soiree d'Amour,Negro,Germany,Gestut Lewitz,Hanoverian,No,NULL
-Leviathan,Fourth Level,No,1140184,Desperado,Apache,Netherlands,M.Tijssen,KWPN,No,NULL
+Leviathan,I-2,No,1140184,Desperado,Apache,Netherlands,M.Tijssen,KWPN,No,NULL
 R U 4 Me,I-1,Yes,1132508,Rosenthal,Uphill,USA,Hannah Heritage,Oldenburg,No,NULL
 Franzsis HSR,I-1,No,1141869,Franziskus,Sandro Hit,USA,Anita Nardine,Oldenburg,No,NULL
 Bruce Springsteen MF,Prix St. Georges,No,1127216,Belantis,Don Principe,USA,Maryanna Haymon,Hanoverian,No,NULL
-Leeloo Dallas,Prix St. Georges,No,1137768,Gaspard De La Nuit,Negro,USA,Racheal McKinney,KWPN,No,NULL
-Valor,Third Level,No,1150257,Vitalis,Furstenball,Germany,Faltman-Austerschulte,Westfalen,No,NULL
-MSJ For VIPs,FEI 6 Year Old,No,1151447,Foundation,Vivaldi,Great Britain,Emma Blundell,Oldenburg,No,NULL
+Leeloo Dallas,I-1,Yes,1137768,Gaspard De La Nuit,Negro,USA,Racheal McKinney,KWPN,No,NULL
+Valor,Fourth Level,No,1150257,Vitalis,Furstenball,Germany,Faltman-Austerschulte,Westfalen,No,NULL
+MSJ For VIPs,Fourth Level,No,1151447,Foundation,Vivaldi,Great Britain,Emma Blundell,Oldenburg,No,NULL
 Mondriaan Lynn,Third Level,No,1145535,Eye Catcher,Wynton,Netherlands,NULL,KWPN,No,NULL
-Fernando,Second Level,No,1153073,For Romance,De Kooning,Germany,Hedda Ottman-Droege,Westfalen,No,NULL
+Fernando,Third Level,No,1153073,For Romance,De Kooning,Germany,Hedda Ottman-Droege,Westfalen,No,NULL
 Masterful Dream,Prix St. Georges,No,1144580,Everdale,Jazz,Canada,Marie-Josee Proulx,KWPN,No,NULL
-Mulana,Third Level,No,1150315,Imagine,Ampere,Netherlands,C. Twint,KWPN,No,NULL
-Furst Dream,FEI 5 Year Old,No,1150621,Furstenball,Benetton Dream,Germany,Ralf-Peter Lehmann,Hanoverian,No,NULL
+Mulana,Prix St. Georges,No,1150315,Imagine,Ampere,Netherlands,C. Twint,KWPN,No,NULL
+Furst Dream,FEI 6 Year Old,No,1150621,Furstenball,Benetton Dream,Germany,Ralf-Peter Lehmann,Hanoverian,No,NULL
 Ice Princess,FEI 5 Year Old,No,1149572,Ibiza,Don Schufro,Denmark,Nedergaard Dressage,Oldenburg,No,NULL
-For Edition,FEI 5 Year Old,No,1151702,For Gold,Furstenball,Germany,Thomas Friedhoff,Westfalen,No,NULL
-Nobility LH,First Level,No,1152018,Incognito,Rubiquil,Netherlands,J.W.E. Steevensz,KWPN,No,NULL
+For Edition,FEI 6 Year Old,No,1151702,For Gold,Furstenball,Germany,Thomas Friedhoff,Westfalen,No,NULL
+Nobility LH,Third Level,No,1152018,Incognito,Rubiquil,Netherlands,J.W.E. Steevensz,KWPN,No,NULL
 Superior 9,FEI 5 Year Old,No,1152807,Sensation,Licosto,Germany,NULL,Rhinelander,No,NULL
 Vholt,Third Level,No,1151288,Vitalis,Romanov,USA,Maurine Swanson,Oldenburg,No,NULL
 Baileys H,Second Level,No,1151914,Benicio,Dancier,Germany,ZG Harms,Hanoverian,No,NULL
-Candoit's Secret Weapon,FEI 5 Year Old,No,1149964,Secret,Ampere,Germany,Heinrich Ramsbrock,Hanoverian,No,NULL
-Donosti M.R.,First Level,No,11507,Diamond Hit,De Niro,Germany,Ewald Grotelueschen,Oldenburg,No,NULL
+Candoit's Secret Weapon,Second Level,No,1149964,Secret,Ampere,Germany,Heinrich Ramsbrock,Hanoverian,No,NULL
+Donosti M.R.,Third Level,No,11507,Diamond Hit,De Niro,Germany,Ewald Grotelueschen,Oldenburg,No,NULL
 Niro M,Second Level,No,1152017,Painted Black,Ed King Hill,Netherlands,G.J. Meyer,KWPN,No,NULL
-Sir Real,FEI 5 Year Old,No,1152610,Sir Donnerhall I,Furst Heinrich,Germany,Cathrin Schlemper,Oldenburg,No,NULL
-MSJ Simon Sez,FEI 5 Year Old,No,1146580,Sezuan,Sandro Hit,Great Britain,Emma Blundell,Oldenburg,No,NULL
-Fantastic M.R.,First Level,No,1150825,Furstenball,Sandro Hit,Germany,Emese Vagi,Oldenburg,No,NULL
-Inxs,I-2,Yes,1123886,Everdale,Rousseau,Netherlands,J.A.M. Der Horst-Meeus,KWPN,No,NULL
+Sir Real,Third Level,No,1152610,Sir Donnerhall I,Furst Heinrich,Germany,Cathrin Schlemper,Oldenburg,No,NULL
+MSJ Simon Sez,Second Level,No,1146580,Sezuan,Sandro Hit,Great Britain,Emma Blundell,Oldenburg,No,NULL
+Fantastic M.R.,Third Level,No,1150825,Furstenball,Sandro Hit,Germany,Emese Vagi,Oldenburg,No,NULL
+Inxs,Grand Prix,Yes,1123886,Everdale,Rousseau,Netherlands,J.A.M. Der Horst-Meeus,KWPN,No,NULL
 Destar,I-2,Yes,1150126,Descolari,Quaterback,Germany,Jessica Guehne,Deutches Sportpferd,No,NULL
-Tripple X,I-2,No,1150140,Totilas,Sandro Hit,Germany,Dr. Jobst Hartmann,Oldenburg,No,NULL
-Sonnenberg's Jersey,I-1,No,1158661,Vivaldi,Ferro,Netherlands,M.A. Van De Goor,KWPN,No,NULL
-Gremlin 41,Prix St. Georges,No,1150546,Grey Flanell,Donnerschwee,Germany,Andrea Graefin von Merveldt,Oldenburg,No,NULL
-Runehojs Shiva,Prix St. Georges,No,1151430,Sir Donnerhall II,Induc,Denmark,Birgitte Thomas and Sten Andersen,Danish Warmblood,No,NULL
+Tripple X,Grand Prix,Yes,1150140,Totilas,Sandro Hit,Germany,Dr. Jobst Hartmann,Oldenburg,No,NULL
+Sonnenberg's Jersey,I-1,Yes,1158661,Vivaldi,Ferro,Netherlands,M.A. Van De Goor,KWPN,No,NULL
+Gremlin 41,I-1,Yes,1150546,Grey Flanell,Donnerschwee,Germany,Andrea Graefin von Merveldt,Oldenburg,No,NULL
+Runehojs Shiva,I-1,No,1151430,Sir Donnerhall II,Induc,Denmark,Birgitte Thomas and Sten Andersen,Danish Warmblood,No,NULL
 Jim,I-2,No,1129586,Ferdeaux,Spielberg,Netherlands,A.Soethout,KWPN,No,NULL
 Furst Romanov,I-2,Yes,1144894,First Choice,Romanov,Denmark,Inge Bastian,Oldenburg,No,NULL
 Giovanni-Bell,Prix St. Georges,No,1157255,Grand Galaxy Win,Maat I,Denmark,Tina Jepsen,Danish Warmblood,No,NULL
-S Express,Prix St. Georges,No,1158953,Sezuan,Sir Donnerhall I,Germany,Cathrin Schlemper,Westfalen,No,NULL
+S Express,I-1,Yes,1158953,Sezuan,Sir Donnerhall I,Germany,Cathrin Schlemper,Westfalen,No,NULL
 Der Fiete,Grand Prix,Yes,1140436,Dubarry,Werther,Germany,Dagmar Meyer,Hanoverian,No,NULL
 Gorgeous Latino,Prix St. Georges,No,1148155,Toto Jr,Rubiquil,Netherlands,Stal Hexagon,KWPN,No,NULL
 Lord Hennessy,Prix St. Georges,No,1142015,Hennessy,Santano,Netherlands,J.H. Kamperman,KWPN,No,NULL
 Lion King,FEI 7 Year Old,No,1156750,Grand Galaxy Win,Quaterback,Belgium,Stall Witte B.V,Belgian Warmblood,No,NULL
 L Primo DG,Fourth Level,No,1144607,Bordeaux,Contango,USA,DG Bar Ranch,KWPN,No,NULL
-Luck Pleasure D,Fourth Level,No,1155972,Dark Pleasure,Contango,Netherlands,J. Dielissen and H. Dielissen-vd Berg,KWPN,No,NULL
-Winterfel,Fourth Level,No,1146047,WakeUp,Contango,USA,Jana Wagner,American Warmblood,No,NULL
+Luck Pleasure D,Prix St. Georges,No,1155972,Dark Pleasure,Contango,Netherlands,J. Dielissen and H. Dielissen-vd Berg,KWPN,No,NULL
+Winterfel,Prix St. Georges,No,1146047,WakeUp,Contango,USA,Jana Wagner,American Warmblood,No,NULL
 Legatus SDM,Prix St. Georges,No,1150451,Chagall,Redford,Netherlands,Stoeterij De Middenweg,KWPN,No,NULL
-Lets Dance,Fourth Level,No,1149963,Guardian S,Tuschinski,Netherlands,J. Gloudemans,KWPN,No,NULL
-Quilana CF,Prix St. Georges,No,1149108,Qredit Hilltop,Royal Prince,USA,Kimberly Kobryn-Callaway,Hanoverian,No,NULL
-G.Q.,FEI 6 Year Old,No,1156045,Grand Galaxy Win,Florencio I,Denmark,Lone Sorensen,Danish Warmblood,No,NULL
+Lets Dance,Prix St. Georges,No,1149963,Guardian S,Tuschinski,Netherlands,J. Gloudemans,KWPN,No,NULL
+Quilana CF,I-1,No,1149108,Qredit Hilltop,Royal Prince,USA,Kimberly Kobryn-Callaway,Hanoverian,No,NULL
+G.Q.,FEI 7 Year Old,No,1156045,Grand Galaxy Win,Florencio I,Denmark,Lone Sorensen,Danish Warmblood,No,NULL
 Maebria DG,Fourth Level,No,1145363,Totilas,Idocus,USA,Natalie Bryant and DG Bar Ranch,KWPN,No,NULL
 Franeur,FEI 6 Year Old,No,1157781,Furstenball,Quadroneur,Germany,A. Wieghaus-Vorwerk,Oldenburg,No,NULL
-Magnifico,FEI 6 Year Old,No,1151133,Trafalgar,Houston,Netherlands,NULL,KWPN,No,NULL
-Scintillating RH,Third Level,No,1150156,Sezuan,Florencio I,USA,Nora Batchelder,Hanoverian,No,NULL
-Hosanna,Third Level,No,1146135,Hotline,Sandro Hit,USA,Maurine Swanson,Oldenburg,No,NULL
+Magnifico,Fourth Level,No,1151133,Trafalgar,Houston,Netherlands,NULL,KWPN,No,NULL
+Scintillating RH,Fourth Level,No,1150156,Sezuan,Florencio I,USA,Nora Batchelder,Hanoverian,No,NULL
+Hosanna,Fourth Level,No,1146135,Hotline,Sandro Hit,USA,Maurine Swanson,Oldenburg,No,NULL
 Dreamliner,Fourth Level,No,1141549,Revolution,De Niro,Norway,JJ Horses,Danish Warmblood,No,NULL
-Strike,FEI 6 Year Old,No,1158656,St. Schufro,Zack,Denmark,Marianne Vaever and Matthias Tourbier,Danish Warmblood,No,NULL
+Strike,Third Level,No,1158656,St. Schufro,Zack,Denmark,Marianne Vaever and Matthias Tourbier,Danish Warmblood,No,NULL
 Makanabria DG,Fourth Level,No,1145365,Rock Forever,Belissimo M,USA,DG Bar Ranch,Danish Warmblood,No,NULL
-Lindholm's Quick Step,FEI 5 Year Old,No,1157309,Quaterhit,Romanov,Denmark,Stald Lindholm,Danish Warmblood,No,NULL
+Lindholm's Quick Step,Second Level,No,1157309,Quaterhit,Romanov,Denmark,Stald Lindholm,Danish Warmblood,No,NULL
 Nero,FEI 6 Year Old,No,1150691,Desperado,Negro,Netherlands,E. Lalkens,KWPN,No,NULL
 Saskatoon OMF,FEI 6 Year Old,No,1148307,San Amour,Don Frederico,Great Britain,Lindsey Roberts,Hanoverian,No,NULL
 Figardo,FEI 6 Year Old,No,1154513,Furst Wilhelm,Furst Piccolo,Germany,Lisa Kamphus,Westfalen,No,NULL
 Baileys on Ice,FEI 6 Year Old,No,1159749,Benicio,Florestan I,Germany,Zuchtof Hahler,Westfalen,No,NULL
-Bondi Blue,FEI 5 Year Old,No,1152260,Benicio,Rockwell,Germany,Ewald Descher,Westfalen,No,NULL
-New Adventure DG,Second Level,No,1152524,Don Schufro,Zack,USA,Oak Hill Ranch,KWPN,No,NULL
-Notilas MVS,Second Level,No,1153400,Totilas,Westpoint,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
-Zapatero,USEF 4 Year Old,No,1158280,Zoom,Floriscount,Germany,Stefan Schroeder,Hanoverian,No,NULL
+Bondi Blue,Third Level,No,1152260,Benicio,Rockwell,Germany,Ewald Descher,Westfalen,No,NULL
+New Adventure DG,Third Level,No,1152524,Don Schufro,Zack,USA,Oak Hill Ranch,KWPN,No,NULL
+Notilas MVS,Third Level,No,1153400,Totilas,Westpoint,USA,Jackie Ahl-Eckhaus,KWPN,No,NULL
+Zapatero,FEI 5 Year Old,No,1158280,Zoom,Floriscount,Germany,Stefan Schroeder,Hanoverian,No,NULL
 Deambulo PWD,FEI 5 Year Old,No,1158399,Don Martillo,Finest,Germany,NULL,Hanoverian,No,NULL
 MW One More Dream,FEI 5 Year Old,No,1159260,Sezuan,Romanov,Netherlands,L. de Heer,KWPN,No,NULL
 Serupgaards Cezanne,Second Level,No,1157634,Toerveslettens Sylvester,Romanov,Denmark,Heidi Bickham,Danish Warmblood,No,NULL
 MW Mastermind,FEI 5 Year Old,No,1159259,Morricone,Sir Donnerhall I,USA,Jennifer Vanover,Oldenburg,No,NULL
-Oxford B,USEF 4 Year Old,No,1155240,Romanov,Ferro,Netherlands,HHJM Rovers,KWPN,No,NULL
+Oxford B,FEI 5 Year Old,No,1155240,Romanov,Ferro,Netherlands,HHJM Rovers,KWPN,No,NULL
 Denmark HTF,FEI 5 Year Old,No,1154652,Desperado,Negro,USA,Hilltop Farm,Hanoverian,No,NULL
-Dromanov M.R.,USEF 4 Year Old,No,1158023,Don Romanov,Bonifatius,Germany,Osmers GBR,Hanoverian,No,NULL
+Dromanov M.R.,FEI 5 Year Old,No,1158023,Don Romanov,Bonifatius,Germany,Osmers GBR,Hanoverian,No,NULL
 Francetto,USEF 4 Year Old,No,1159228,Franklin,Sezuan,Denmark,Henrik Hansen,Danish Warmblood,No,NULL
-Splendido,USEF 4 Year Old,No,1152094,Secret,For Romance,Germany,Christine Feichtinger,Hanoverian,No,NULL
-Osiris,USEF 4 Year Old,No,1155974,Joop TC,Westenwind,Netherlands,J. Bos,KWPN,No,NULL
-Executive Pumpking,First Level,No,1155930,Escolar,Belissimo M,Germany,NULL,Hanoverian,No,NULL
-Zooey,First Level,No,1158014,Zoom,Romanov,Germany,NULL,Westfalen,No,NULL
+Splendido,Second Level,No,1152094,Secret,For Romance,Germany,Christine Feichtinger,Hanoverian,No,NULL
+Osiris,FEI 5 Year Old,No,1155974,Joop TC,Westenwind,Netherlands,J. Bos,KWPN,No,NULL
+Executive Pumpking,Second Level,No,1155930,Escolar,Belissimo M,Germany,NULL,Hanoverian,No,NULL
+Zooey,Second Level,No,1158014,Zoom,Romanov,Germany,NULL,Westfalen,No,NULL
 Best Friend,USEF 4 Year Old,No,1159115,By Your Side,Finest,Germany,NULL,Hanoverian,No,NULL
 Oscar HF,Second Level,No,1156646,Benicio,Krack C,USA,Hamar Farms,KWPN,No,NULL
 Maisie CF,USEF 4 Year Old,No,1149166,Davos CF,Licotus,USA,Nancy Holowesko,Oldenburg,No,NULL
 Famebria DG,USEF 4 Year Old,No,1098604,Idocus,Krack C,USA,DG Bar Ranch,KWPN,No,NULL
 DG Feikje,USEF 4 Year Old,No,1107820,Contango,Flemmingh,USA,Klaas and Mares Vanderploeg,KWPN,No,NULL
-Florante YF,Prix St. Georges,No,1093052,Florestan I,Jazz,USA,Judy Yancey,Oldenburg,No,NULL
+Florante YF,I-1,No,1093052,Florestan I,Jazz,USA,Judy Yancey,Oldenburg,No,NULL
 Dresscode,Third Level,No,1108011,Danone I,Ex Libris,Germany,NULL,Oldenburg,No,NULL
 Won Ruby,Third Level,No,1107067,Widmark,Don Frederico,USA,Meg Williams,Hanoverian,No,NULL
 Focus DG,USEF 4 Year Old,No,1108015,Idocus,Remador II,USA,DG Bar Ranch,KWPN,No,NULL
