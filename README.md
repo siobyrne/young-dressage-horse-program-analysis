@@ -12,23 +12,23 @@ The current format of the competition for all divisions (4/5/6/7 Year Old, Devel
 
 To complicate matters, early years of this program invited more horses to participate, and held both Final and Consolation Final rounds. To simplify this analysis, I did not include any Consolation Final results. 
 
-For more recent years of the competition (2021-2023), the competition software system [Equestrian Hub](www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) [website](www.usef.org/), but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, [please contact me](byrne.sio@gmail.com) and I will make the correction.
+For more recent years of the competition (2021-2024), the competition software system [Equestrian Hub](www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) [website](www.usef.org/), but not all were available. For the years that had only the scores from each class available, I wrote a small program in Python to take each individual round of scores, and calculate the overall score using the 40/60 formula (available in the 'resources' folder for this project). While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, [please contact me](byrne.sio@gmail.com) and I will make the correction.
 
-Next, I looked up each horse in the United States Dressage Federation (USDF) [database](www.usdf.org/usdfscores), to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN the FEI Young Horse tests for 5, 6, and 7 Year Olds. 
+Next, I looked up each horse in the United States Dressage Federation (USDF) [database](www.usdf.org/usdfscores), to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level OTHER THAN the FEI Young Horse tests for 5, 6, and 7 Year Olds, or the FEI divisions that are limited to youth competitors (Pony/Children/Junior/Young Rider/U-25). 
 
 I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing [Horse Telex](www.horsetelex.com), a pedigree database. I also utilized old [Eurodressage](www.eurodressage.com) and [DressageDaily](www.dressagedaily.com) articles about various years of the championships. 
 
 ## Analysis Overview
-I collected data on competitors from all years the championships have been held, 2002-2023, and all divisions (*N*=841). 
+I collected data on competitors from all years the championships have been held, 2002-2024, and all divisions (*N*=888). 
 
-For the analysis of competitve careers of participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2019 (*n*=520). Horses that competed in the USEF 4 Year Old division in 2019 would be 8 in 2023, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
+For the analysis of competitve careers of participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2019 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
 
-The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2023, and all Young and Developing Horse divisons (*N*=841). 
+The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2024, and all Young and Developing Horse divisons (*N*=888). 
 
-### 2002 - 2019, 4/5/6 Year Old Division Competitive Outcomes
+### 2002 - 2020, 4/5/6 Year Old Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved
-Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2019 (*n*=520). 26.4% (137/520) competed to Grand Prix, 17.9% (93/520) Prix St. Georges, 16.2% (84/520) Intermediate-1, 8.5% (44/520) Intermediate-2, 8.3% (43/520) Fourth Level, 7.5% (39/520) Third Level, 4% (21/520) FEI 5 Year Old, 3.7% (19/520) Second Level, 3.1% (16/520) USEF 4 Year Old, 2.1% (11/520) First Level, 1.2% (6/520) FEI 6 Year Old, 0.4% (2/520) FEI Junior, 0.4% (2/520) Intermediate-A, 0.4% (2/520) FEI 7 Year Old, 0.2% (1/520) Intermediate-B.  
+Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 24.9% (138/555) competed to Grand Prix, 17.8% (99/555) Prix St. Georges, 16.4% (91/555) Intermediate-1, 8.3% (46/555) Fourth Level, 8.1% (45/555) Intermediate-2, 7.9% (44/555) Third Level, 4.5% (25/555) FEI 5 Year Old, 3.6% (20/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.3% (13/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/520) FEI Junior, 0.4% (2/555) Intermediate-A, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) Intermediate-B.  
 
 ![Highest Level Competed Breakdown](images/highest-level-breakdown.png)
 
@@ -37,38 +37,36 @@ Figure 1 below shows the breakdown of the highest level achieved in competition 
 #### FEI Level Competitive Outcomes
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
-To answer this question, I looked at the  competitive record of each of the 520 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse divisions, at either a national show or a CDI (international competition). Those levels are comprised of Junior, Young Rider, Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
+To answer this question, I looked at the  competitive record of each of the 555 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse or the Pony/Children/Junior/Young Rider (eligibility limited by rider's age) divisions, at either a national show or a CDI (international competition). Those levels are comprised of Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
 
-The overwhelming majority, 69.8% (363/520), made it to FEI. 21.5% (112/520) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 8.7% (45/520) never competed at any level other than a Young Horse division (Figure 2). 
+The overwhelming majority, 67.7% (376/555), made it to FEI. 22.5% (125/555) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 9.7% (54/555) never competed at any level other than a Young Horse division (Figure 2). 
 
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
 *Figure 2: FEI vs Non-FEI Horses*
 
-
-Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=363). 37.7% (137/363) of them competed to Grand Prix. 25.6% (93/363) competed to Prix St. Georges, 23.1% (84/363) I-1, 12.1% (44/363) I-2, 0.6% (2/363) FEI Junior, 0.6% (2/363) I-A, 0.3% (1/363) I-B. 
+Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=376). 36.7% (138/376) of them competed to Grand Prix. 26.3% (99/376) competed to Prix St. Georges, 24.2% (91/376) I-1, 12% (45/376) I-2, 0.5% (2/376) I-A, 0.3% (1/376) I-B. 
 
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
 
 *Figure 3: Breakdown by level of horses that competed at FEI*
 
 
-
 #### CDI Level Competitive Outcomes
-Of the horses that made it to FEI (*n*=363), how many competed at the CDI (Concours de Dressage International) level? A CDI is an international competition sanctioned by the governing body for equestrian sports, the FEI (Fédération Equestre Internationale).  
+Of the horses that made it to FEI (*n*=376), how many competed at the CDI (Concours de Dressage International)? A CDI is an international competition sanctioned by the governing body for equestrian sports, the FEI (Fédération Equestre Internationale). I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
 
-The majority of horses, 53.4% (194/363), never competed in a CDI. Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
+The majority of horses, 53.7% (202/376), never competed in a CDI. Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
 
-46.6% (169/363) participated in at least one CDI at any level other than a Young Horse division (Figure 4).
+46.3% (174/367) participated in at least one CDI at any senior level other than a Young Horse division (Figure 4).
 
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
 *Figure 4: CDI vs Non-CDI Competitors*
 
 #### Top Ten vs Lower Placing Horses
-Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI? To answer this question, I looked at the overall placings and highest level competed of the horses that made it to the FEI levels (*n*=363). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
+Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI? To answer this question, I looked at the overall placings and highest level competed of the horses that made it to the FEI levels (*n*=376). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
 
-The data shows a strong correlation between placing and FEI achievement: 77.1% (280/383) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 22.9% (83/363) in the 11 and under placing group (Figure 5).
+The data shows a strong correlation between placing and FEI achievement: 76.9% (289/376) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.1% (87/376) in the 11 and under placing group (Figure 5).
 
 ![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
 
@@ -80,7 +78,7 @@ The data shows a strong correlation between placing and FEI achievement: 77.1% (
 *Figure 6: Percentage of FEI Horses in Top Ten by Level*
 
 
-When we look at horses that competed to Grand Prix (*n*=137), the correlation between a top ten placing and level achievment is even more impressive: 90.5% (124/137) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (13/137) in the 11 and under placing group (Figure 7). 
+When we look at horses that competed to Grand Prix (*n*=138), the correlation between a top ten placing and level achievment is even more impressive: 90.6% (125/138) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.4% (13/138) in the 11 and under placing group (Figure 7). 
 
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
@@ -88,10 +86,13 @@ When we look at horses that competed to Grand Prix (*n*=137), the correlation be
 
 This finding may be influenced by the years this project is analyzing. In the early years of this program, there were frequently 10 or fewer horses in some divisions. It is also possible that the quality of horse that places in the top ten is more likely to be ridden and trained by more experienced individuals, which may up their odds of making it to the higher levels. It will be interesting to see how/if this number changes, as more years of data are added to this analysis.
 
-#### Overall Score and FEI Achievement
-Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses (*n*=363) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
+#### Top Three Placing Competitive Outcomes
+Do horses that place in the top three go on to competitive success? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 32.8% (42/128) made it to Grand Prix, 18% (23/128) Prix St. Georges, 14.8% (19/128) I-2, 14.8% (19/128) I-1, 5.5% (7/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 81.2% (104/128) of top three competitors making it to the FEI levels. 
 
-The data did show a correlation between overall score and a horse making it to the FEI levels. 56.2% of horses (204/363) that made it to FEI achieved an overall score of 7.5 or above, compared to 43.8% (159/363) that scored below 7.5 (Figure 8). 
+#### Overall Score and FEI Achievement
+Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses (*n*=376) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
+
+The data did show a correlation between overall score and a horse making it to the FEI levels. 55.3% of horses (208/376) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.7% (168/376) that scored below 7.5 (Figure 8). 
 
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
@@ -104,7 +105,7 @@ When we look at this by level, interestingly, the numbers are fairly close for m
 *Figure 9: FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
 
 #### International Team Horses
-As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*N*=520)went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
+As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*N*=555)went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
 Four horses from this time period, 0.8% (4/520) of the sample, went on to make international teams. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
 
@@ -117,17 +118,17 @@ While this is clearly a very small number, I would argue that it is still impres
 | Sanceo       | San Remo    | Ramiro's Son II | Germany        | Gerhard Dustmann          | Hanoverian | Olympic Games and Pan American Games |
 | Lucky Strike | Lord Laurie | His Highness    | Germany        | Monika Hartwitch          | Hanoverian | Pan American Games                   |
 
-### 2002 - 2023, Overall Scores Analysis
+### 2002 - 2024, Overall Scores Analysis
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below.
 
 | Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| DHGP       |                121 |     64.1928  |        64.888  |             6.62417  |  43.8796   |
-| DHPSG      |                241 |     66.4908  |        67.339  |             5.70654  |  32.5646   |
-| FEI5       |                291 |      7.53029 |         7.584  |             0.8725   |   0.761256 |
-| FEI6       |                276 |      7.37784 |         7.504  |             1.012    |   1.02415  |
-| FEI7       |                 28 |     70.6219  |        71.3295 |             8.93975  |  79.9191   |
-| USEF4      |                267 |      7.59232 |         7.62   |             0.801735 |   0.642779 |
+| DHGP       |                131 |     64.2769  |        65      |             6.42082  |  41.2269   |
+| DHPSG      |                255 |     66.5084  |        67.306  |             5.56945  |  31.0188   |
+| FEI5       |                305 |      7.53145 |         7.58   |             0.855057 |   0.731123 |
+| FEI6       |                291 |      7.39842 |         7.516  |             0.992308 |   0.984675 |
+| FEI7       |                 40 |     70.175   |        70.7785 |             7.70386  |  59.3495   |
+| USEF4      |                281 |      7.60641 |         7.62   |             0.791772 |   0.626902 |
 
 The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by one place. [See the FEI 5 Year Old Final test for an example](https://inside.fei.org/system/files/Young%20Horses%205%20YO%20Final%202022.pdf). For instance, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
 
@@ -272,13 +273,13 @@ Three of the seven outliers (all scores below 54%) were due to the horse complet
 
 *Figure 19: Scatterplot and linear regression for the Developing Grand Prix Division Scores*
 
-### 2002 - 2023, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
+### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
 ### Analysis of Scores by Sire 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size (although clearly, the sample sizes are not that large regardless). 
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size.
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
-The sire with the highest median score in the Young Horse divisions is Belissimo M (8.208). Close behind is Grand Galaxy Win, with a median score of 8.154. 
+The sire with the highest median score in the Young Horse divisions is Belissimo (8.208). Close behind is Grand Galaxy Win (8.119). In third place is Vitalis (7.992).
 
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -288,29 +289,32 @@ The sire with the highest median score in the Young Horse divisions is Belissimo
 | Contucci         |                 10 |      7.628   |          7.452 |             0.81952  |   0.671612 |
 | Florencio I      |                  8 |      7.50625 |          7.536 |             0.609313 |   0.371262 |
 | Florestan I      |                 11 |      7.369   |          7.4   |             0.385015 |   0.148237 |
-| Furstenball      |                 21 |      7.8301  |          7.72  |             0.56074  |   0.31443  |
-| Grand Galaxy Win |                 11 |      8.27773 |          8.154 |             0.569092 |   0.323866 |
+| Furstenball      |                 22 |      7.79964 |          7.67  |             0.565568 |   0.319867 |
+| Grand Galaxy Win |                 12 |      8.21858 |          8.119 |             0.579999 |   0.336399 |
 | Hotline          |                 13 |      7.62323 |          7.58  |             0.502625 |   0.252632 |
 | Idocus           |                  8 |      7.702   |          7.56  |             0.831318 |   0.69109  |
 | Jazz             |                 14 |      7.764   |          7.758 |             0.722566 |   0.522102 |
 | Quaterback       |                  8 |      7.6075  |          7.616 |             0.631752 |   0.399111 |
 | Rotspon          |                 10 |      7.5211  |          7.486 |             0.708312 |   0.501706 |
-| San Amour        |                  9 |      7.63511 |          7.552 |             0.48282  |   0.233115 |
+| San Amour        |                 10 |      7.7072  |          7.61  |             0.509099 |   0.259182 |
 | Sandro Hit       |                 31 |      7.68797 |          7.636 |             0.525052 |   0.27568  |
+| Secret           |                 10 |      7.758   |          7.608 |             0.319512 |   0.102088 |
 | Sir Donnerhall I |                 24 |      7.80379 |          7.718 |             0.382872 |   0.146591 |
 | Sir Sinclair     |                  9 |      7.66511 |          7.68  |             0.423529 |   0.179377 |
+| Vitalis          |                  9 |      8.13333 |          7.992 |             0.603659 |   0.364404 |
 
 ![Young Horse Scores by Sire Boxplot](images/yh-score-by-sire-boxplot.png)
 *Figure 20: Boxplot of Young Horse Divisions Scores by Sire*
 
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
-The sire with the highest median score in the Developing Horse divisions is Wagnis (69.919%). Runner up is Charmeur (69.152%). 
+The sire with the highest median score in the Developing Horse divisions is Wagnis (69.919%). Runner up is Charmeur (69.152%). In third place is Sir Donnerhall I (68.73%). 
 
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
 | Ampere           |                  4 |      68.3042 |        68.3415 |              2.25245 |    5.07352 |
-| Belissimo M      |                  4 |      65.0897 |        65.386  |              4.22503 |   17.8509  |
+| Belissimo M      |                  5 |      65.4404 |        66.843  |              3.74205 |   14.003   |
+| Bretton Woods    |                  4 |      67.414  |        67.3065 |              1.06965 |    1.14414 |
 | Charmeur         |                  5 |      68.5348 |        69.152  |              2.66971 |    7.12733 |
 | Contucci         |                  4 |      64.845  |        63.0985 |              6.00224 |   36.0269  |
 | Diamond Hit      |                  7 |      67.4623 |        67.774  |              1.72814 |    2.98647 |
@@ -328,8 +332,9 @@ The sire with the highest median score in the Developing Horse divisions is Wagn
 | Sandro Hit       |                  9 |      64.6292 |        64.273  |              2.26267 |    5.11968 |
 | Sir Donnerhall I |                 10 |      67.8955 |        68.7305 |              3.90009 |   15.2107  |
 | UB 40            |                  4 |      66.8538 |        66.955  |              1.20529 |    1.45272 |
-| Vivaldi          |                  4 |      69.191  |        68.997  |              2.28054 |    5.20086 |
+| Vivaldi          |                  5 |      68.7544 |        68.052  |              2.20312 |    4.85374 |
 | Wagnis           |                  4 |      71.1148 |        69.919  |              2.80298 |    7.85668 |
+
 
 ![Developing Horse Scores by Sire Boxplot](images/dh-score-by-sire-boxplot.png)
 *Figure 21: Boxplot of Developing Horse Divisions Scores by Sire*
@@ -371,7 +376,7 @@ Figure 25 below shows the top ten sires of championship competitors by number of
 *Figure 25: Top Ten Sires by Number of Offspring*
 
 #### Top Ten Damsires Represented by Offspring Count
-Figure 26 below shows the top ten damsires of championship competitors by number of offspring. The damsire with the most offspring competing was Rubinstein (25). The rest of the top ten were De Niro (18), Sandro Hit (17), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (13), Krack C (11), Sir Donnerhall I (11), and Rohdiamant (11). 
+Figure 26 below shows the top ten damsires of championship competitors by number of offspring. The damsire with the most offspring competing was Rubinstein (25). The rest of the top ten were De Niro (20), Sandro Hit (20), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (14), Sir Donnerhall I (13), Krack C (11), and Rohdiamant (11). 
 
 This column had the second most null values of all the columns (18 missing values / 3.5% of the total)—I hope to resolve this in future iterations of this project.
 
@@ -381,7 +386,7 @@ This column had the second most null values of all the columns (18 missing value
 *Figure 26: Top Ten Damsires by Number of Offspring*
 
 #### Top Ten Sires of Grand Prix Horses by Offspring Count
-The top sire of Grand Prix horses was also Sandro Hit (12). The rest of the top ten were Jazz (8), Sir Donnerhall I (7), Florestan I (5), Florencio I (5), Rotspon (4), Fidertanz (4), and 3 each for Furstenball, Sir Sinclair, San Amour, Hotline, Gribaldi, and Contango. 
+The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
 
 
 ![Top Ten Grand Prix Sires](images/top-gp-sires.png)
@@ -417,7 +422,7 @@ There was a similar shakeup when I looked at the percentage of Grand Prix offspr
 *Figure 30: Percentage of Grand Prix Offspring by Damsire*
 
 #### Top Ten Most Prominent Breeders by Horse Count
-The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 16 horses. The rest of the top ten were Maryanna Haymon (USA, 12 horses), Nancy Holowesko (USA, 9 horses), Leatherdale Farms (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 5 horses), and Jackie Ahl-Eckhaus (USA, 5 horses). 
+The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
 
 This column had the most null values overall—47 missing values, which equates to 9% of the total. This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in the development of the modern sporthorse. 
 
@@ -426,11 +431,11 @@ This column had the most null values overall—47 missing values, which equates 
 *Figure 31: Top Ten Most Prominent Breeders by Number of Horses*
 
 #### Top Ten Studbooks by Horse Count
-In order to compete at these championships, all horses must be registered with a studbook recognized by the World Breeding Federation for Sport Horses (WBFSH), or a national breed registry such as Jockey Club (the national registry for Thoroughbreds). Warmbloods are not really a breed (the Trakhener being an exception), they are a type. While there is definitly a lot of crossover in bloodlines through all the warmblood studbooks, each has their own directives and requirements for approval of mares and stallions, and the registration of offspring. I was curious to see what the most represented studbooks were, so I calculated the number of horses attributed to each (Figure 32) from the database of championship competitors over all years of the program (*N*=841). The studbook with the most horses competing over all years was KWPN (Koninklijk Warmbloed Paardenstamboek Nederland, also known as Dutch Warmblood), with 29% (244/841). The Hanoverian studbook was a close second, with 28.7% (241/841). 
+In order to compete at these championships, all horses must be registered with a studbook recognized by the World Breeding Federation for Sport Horses (WBFSH), or a national breed registry such as Jockey Club (the national registry for Thoroughbreds). Warmbloods are not really a breed (the Trakhener being an exception), they are a type. While there is definitly a lot of crossover in bloodlines through all the warmblood studbooks, each has their own directives and requirements for approval of mares and stallions, and the registration of offspring. I was curious to see what the most represented studbooks were, so I calculated the number of horses attributed to each (Figure 32) from the database of championship competitors over all years of the program (*N*=888). The studbook with the most horses competing over all years was KWPN (Koninklijk Warmbloed Paardenstamboek Nederland, also known as Dutch Warmblood), with 29.1% (258/888). The Hanoverian studbook was a close second, with 28.2% (250/888). 
 
-Oldenburg was third, with 21.9% (184/841). There was sometimes considerable difficulty in differentiating horses that were truly in the official German Oldenburg studbook (Oldenburg Horse Breeders Society/GOV, which is also just referred to as Oldenburg by some), and horses registered with Oldenburg NA (an American studbook no longer affiliated with the German studbook but was at one point the official American branch, also often just referred to as Oldenburg). Because of this, all horses that were listed as bring registered Oldenburg are combined. 
+Oldenburg was third, with 22.4% (199/888). There was sometimes considerable difficulty in differentiating horses that were truly in the official German Oldenburg studbook (Oldenburg Horse Breeders Society/GOV, which is also just referred to as Oldenburg by some), and horses registered with Oldenburg NA (an American studbook no longer affiliated with the German studbook but was at one point the official American branch, also often just referred to as Oldenburg). Because of this, all horses that were listed as bring registered Oldenburg are combined. 
 
-The rest of the top ten were Westfalen 5.7% (48/841), Danish Warmblood 4% (34/841) , Rhinelander 2.1% (18/841), American Warmblood 1.2% (10/841), Pura Raza Espanola (PRE) 0.8% (7/841), Holsteiner 0.8% (7/841), and Swedish Warmblood 0.7% (6/841). 
+The rest of the top ten were Westfalen 5.6% (50/888), Danish Warmblood 4.3% (38/888) , Rhinelander 2% (18/888), American Warmblood 1.1% (10/888), Pura Raza Espanola (PRE) 0.9% (8/888), Holsteiner 0.8% (7/888), and Swedish Warmblood 0.7% (6/888). 
 
 It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, [states on their website](https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na/) they have registered an average of more than 550 foals a year over the last decade. 
 
