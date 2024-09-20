@@ -105,9 +105,9 @@ When we look at this by level, interestingly, the numbers are fairly close for m
 *Figure 9: FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
 
 #### International Team Horses
-As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*N*=555)went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
+As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*N*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
-Four horses from this time period, 0.8% (4/520) of the sample, went on to make international teams. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
+Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
 
 While this is clearly a very small number, I would argue that it is still impressive. 
 
