@@ -89,6 +89,10 @@ This finding may be influenced by the years this project is analyzing. In the ea
 #### Top Three Placing Competitive Outcomes
 Do horses that place in the top three go on to competitive success? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 32.8% (42/128) made it to Grand Prix, 18% (23/128) Prix St. Georges, 14.8% (19/128) I-2, 14.8% (19/128) I-1, 5.5% (7/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 81.2% (104/128) of top three competitors making it to the FEI levels. 
 
+![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
+
+*Figure 8: Horses Placing in the Top Three by Highest Level Competed*
+
 #### Overall Score and FEI Achievement
 Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses (*n*=376) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
 
