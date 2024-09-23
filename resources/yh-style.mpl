@@ -24,6 +24,7 @@ ytick.direction: out
 ytick.fontsize: 8
 
 ### AXES
+axes.prop_cycle: cycler('color', ['ba324f', 'e75a7c', 'ffb3c8', 'f3722c', 'f8961e', 'f9c74f', 'f0ffb3', '90be6d', '25a18b', '0d6a87', '83D7FC', 'aaa1c8', '6b3c80', '00ffee', '6d8886'])
 axes.facecolor: "#E5E4E2"
 axes.linewidth: 0.5
 axes.titlesize: 12
