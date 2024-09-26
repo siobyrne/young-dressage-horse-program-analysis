@@ -108,7 +108,7 @@ When we look at this by level, interestingly, the numbers are fairly close for m
 *Figure 10: FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
 
 #### International Team Horses
-As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*N*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
+As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
 Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams. These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
 
@@ -283,7 +283,7 @@ Three of the seven outliers (all scores below 54%) were due to the horse complet
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
 ### Analysis of Scores by Sire 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. I included only stallions with 8 or more offspring, in order to have a better sample size.
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. I included only stallions with 8 or more scores, in order to have a better sample size.
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
 The sire with the highest median score in the Young Horse divisions is Belissimo (8.208). Close behind is Grand Galaxy Win (8.119). In third place is Vitalis (7.992).
@@ -360,14 +360,20 @@ The sire with the highest median score in the Developing Horse divisions is Wagn
 
 
 #### US-Bred vs All Other Countries
-Far more horses participating in the championships are foreign-bred than bred in the USA (Figure 24). 307 horses were bred in the USA (36.5%), with 526 (63.15%) bred in all other countries. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
+Far more horses participating in the championships are foreign-bred than bred in the USA (Figure 25). Of all horses competing at championships from 2002-2024 (*N*=888), 36.9%  of horses were bred in the USA (328/888). 35% (311/888) were bred in Germany, 19.5% (173/888) were bred in the Netherlands, 3.3% (29/888) were bred in Denmark, 0.9% (8/888) were bred in Belgium, 0.8% (7/888) were bred in Canada, 0.6% (5/888) were bred in Norway, 0.6% (5/888) were bred in Spain, 0.6% (5/888) were bred in Great Britain, and .02% (2/888) were bred in Sweden.Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
 
 * Many people shop for horses in Europe because it is easier to see many horses in one location versus the USA, where one can spend a lot of money traveling across the country to look at only one or two horses
+
 * Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
+
 * European countries produce far more warmblood foals than the USA
+
 * Bias against American breeders—some may think American-bred foals aren't as good as those produced in Europe
+
 * Hard to get top American-bred foals into the hands of riders that can develop them to Grand Prix
+
 * USA lacks a well-developed pipeline from foal to young horse to FEI
+
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
 
@@ -376,16 +382,16 @@ Far more horses participating in the championships are foreign-bred than bred in
 *Figure 25: Horses by Country Bred*
 
 #### Top Ten Sires Represented by Offspring Count
-Figure 25 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven sires represented in this chart.
+Figure 26 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven sires represented in this chart.
 
 ![Top Ten Sires](images/top-10-sires.png)
 
 *Figure 26: Top Ten Sires by Number of Offspring*
 
 #### Top Ten Damsires Represented by Offspring Count
-Figure 26 below shows the top ten damsires of championship competitors by number of offspring. The damsire with the most offspring competing was Rubinstein (25). The rest of the top ten were De Niro (20), Sandro Hit (20), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (14), Sir Donnerhall I (13), Krack C (11), and Rohdiamant (11). 
+Figure 27 below shows the top ten damsires of championship competitors by number of offspring. The damsire with the most offspring competing was Rubinstein (25). The rest of the top ten were De Niro (20), Sandro Hit (20), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (14), Sir Donnerhall I (13), Krack C (11), and Rohdiamant (11). 
 
-This column had the second most null values of all the columns (18 missing values / 3.5% of the total)—I hope to resolve this in future iterations of this project.
+This column had the second most null values of all the columns (18/888 missing values, 2% of the total).
 
 
 ![Top Ten Damsires](images/top-10-damsires.png)
@@ -420,7 +426,7 @@ Once again, the prevalence of null values (just over 3.5%) in the damsire column
 *Figure 30: Top Ten Grand Prix Damsires by Number of Offspring*
 
 #### Highest Percentage of Grand Prix Horses by Damsire
-There was a similar shakeup when I looked at the percentage of Grand Prix offspring by damsire (Figure 30). While Brentano II was ranked fourth by number of Grand Prix offspring by count, when we look at the percentage of Grand Prix offspring, he jumps to first, with 100% of offspring (5/5) competing to Grand Prix. Davignon I and Don Schufro shared the second place spot with 50% (3/6 for both). While Sandro Hit was in the top three in terms of number of offspring of which he was the damsire, only 17.7% (3/17) of those were Grand Prix horses.
+There was a similar shakeup when I looked at the percentage of Grand Prix offspring by damsire (Figure 31). While Brentano II was ranked fourth by number of Grand Prix offspring by count, when we look at the percentage of Grand Prix offspring, he jumps to first, with 100% of offspring (5/5) competing to Grand Prix. Davignon I and Don Schufro shared the second place spot with 50% (3/6 for both). While Sandro Hit was in the top three in terms of number of offspring of which he was the damsire, only 17.7% (3/17) of those were Grand Prix horses.
 
 
 
@@ -429,9 +435,9 @@ There was a similar shakeup when I looked at the percentage of Grand Prix offspr
 *Figure 31: Percentage of Grand Prix Offspring by Damsire*
 
 #### Top Ten Most Prominent Breeders by Horse Count
-The most prominent breeder over all years and divions is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
+The most prominent breeder over all years and divions (Figure 32) is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
 
-This column had the most null values overall—47 missing values, which equates to 9% of the total. This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in the development of the modern sporthorse. 
+This column had the most null values overall—47 missing values, which equates to 5.3% of the total (*N*=888). This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in the development of the modern sporthorse. 
 
 ![Most Prominent Breeders](images/top-10-breeders.png)
 
