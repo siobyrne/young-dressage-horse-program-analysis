@@ -399,7 +399,7 @@ This column had the second most null values of all the columns (18/888 missing v
 *Figure 27: Top Ten Damsires by Number of Offspring*
 
 #### Top Ten Sires of Grand Prix Horses by Offspring Count
-The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
+Figure 28 below shows the top ten sires of Grand Prix horses by number of offspring. The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
 
 
 ![Top Ten Grand Prix Sires](images/top-gp-sires.png)
@@ -407,9 +407,9 @@ The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top 
 *Figure 28: Top Ten Grand Prix Sires by Number of Offspring*
 
 #### Highest Percentage of Grand Prix Horses by Sire
-When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 5 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix offspring by the highest percentage versus solely looking at the count, it shakes things up a bit.
+When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 9 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix offspring by the highest percentage versus solely looking at the count, it shakes things up a bit (Figure 29).
 
-The top producer of Grand Prix horses by percentage was Quaterback, who had 4 out of 6 offspring at Grand Prix (66.67%). Jazz maintained his second place spot, with 8 out of 13 offspring at Grand Prix (61.54%). While Sandro Hit had the highest number of Grand Prix offspring at 12, this was only 50% of the total number of offspring. 
+The top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13 offspring). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18 offspring) Fidertanz (6/12 offspring) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12 offspring), Hotline at 40% (4/10 offspring), Rotspon at 33.3% (4/12 offspring), Sir Sinclair at 33.3% (3/9 offspring), and Furstenball at 15.8% (3/19 offspring). 
 
 
 ![Percentage of Grand Prix Offspring by Sire](images/gp-sire-percentage.png)
@@ -417,17 +417,18 @@ The top producer of Grand Prix horses by percentage was Quaterback, who had 4 ou
 *Figure 29: Percentage of Grand Prix Offspring by Sire*
 
 #### Top Ten Damsires of Grand Prix Horses by Offspring Count
-The top damsire of Grand Prix horses was De Niro (7). The rest of the top ten were Rubinstein (6), Rotspon (6), Ferro (5), Weltmeyer (4), Rohdiamant (4), Jazz (4), Sandro Hit (3), Sir Donnerhall (1), and Krack C (1). 
+The top damsire of Grand Prix horses by number of offspring (Figure 30) was De Niro (8). The rest of the top ten were Rubinstein (6), Rotspon (5), Ferro (5), Weltmeyer (5), Brentano II (5), Jazz (4), Rohdiamant (4), Wolkenstein II (4), and Sandro Hit (4). 
 
-Once again, the prevalence of null values (just over 3.5%) in the damsire column affects the completeness of this data. 
+Once again, the prevalence of null values (2%) in the damsire column affects the completeness of this data. 
 
 ![Top Ten Grand Prix Damsires](images/top-gp-damsires.png)
 
 *Figure 30: Top Ten Grand Prix Damsires by Number of Offspring*
 
 #### Highest Percentage of Grand Prix Horses by Damsire
-There was a similar shakeup when I looked at the percentage of Grand Prix offspring by damsire (Figure 31). While Brentano II was ranked fourth by number of Grand Prix offspring by count, when we look at the percentage of Grand Prix offspring, he jumps to first, with 100% of offspring (5/5) competing to Grand Prix. Davignon I and Don Schufro shared the second place spot with 50% (3/6 for both). While Sandro Hit was in the top three in terms of number of offspring of which he was the damsire, only 17.7% (3/17) of those were Grand Prix horses.
+When looking at the highest percentage of Grand Prix offspring (Figure 31), I only looked at damsires with 10 or more offspring total, in order to have a better sample size. Just as with the percentage of Grand Prix offspring by sire, there is a shakeup in the rankings.
 
+De Niro had both the highest count of Grand Prix offspring and the highest percentage at 40% (8/20). While ranked 8th in terms of number of Grand Prix offspring,Rohdiamant came in second in percentage with 36.4% (4/11). Weltmeyer and Ferro both came in at 35.7% (5/14), then Rotspon with 31.2% (5/16). Romanov and Donnerhall were both at 30% (3/10), and Jazz at 25% (4/16). Interestingly, while Rubinstein was the second highest in terms of number of Grand Prix offspring, he was second to last in terms of percentage at 24% (6/25). Sandro Hit was last in terms of number of Grand Prix offspring and percentage, with 20% (4/20). 
 
 
 ![Percentage of Grand Prix Offspring by Damsire](images/gp-damsire-percentage.png)
