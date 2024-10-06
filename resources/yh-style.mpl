@@ -29,6 +29,7 @@ axes.facecolor: "#E5E4E2"
 axes.linewidth: 0.5
 axes.titlesize: 12
 axes.titleweight: bold
+axes.titlepad: 15
 axes.labelsize: 10
 axes.grid: true
 axes.grid.which: x

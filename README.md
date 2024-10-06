@@ -28,7 +28,7 @@ The analysis of bloodlines and other breeding data will look at all years of the
 ### 2002 - 2020, 4/5/6 Year Old Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved
-Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF Four Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 24.9% (138/555) competed to Grand Prix, 17.8% (99/555) Prix St. Georges, 16.4% (91/555) Intermediate-1, 8.3% (46/555) Fourth Level, 8.1% (45/555) Intermediate-2, 7.9% (44/555) Third Level, 4.5% (25/555) FEI 5 Year Old, 3.6% (20/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.3% (13/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/520) FEI Junior, 0.4% (2/555) Intermediate-A, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) Intermediate-B.  
+Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 26.5% (147/555) competed to Grand Prix, 17.8% (99/555) Prix St. Georges, 16% (89/555) I-1, 8.8% (49/555) I-2, 7.9% (44/555) Third Level, 6.8% (38/555) Fourth Level, 4.5% (25/555) FEI 5 Year Old, 3.4% (19/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.2% (12/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/555) FEI Junior, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) I-A, 0.2% (1/555) I-B.  
 
 ![Highest Level Competed Breakdown](images/highest-level-breakdown.png)
 
@@ -39,13 +39,13 @@ Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI 
 
 To answer this question, I looked at the  competitive record of each of the 555 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse or the Pony/Children/Junior/Young Rider (eligibility limited by rider's age) divisions, at either a national show or a CDI (international competition). Those levels are comprised of Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
 
-The overwhelming majority, 67.7% (376/555), made it to FEI. 22.5% (125/555) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 9.7% (54/555) never competed at any level other than a Young Horse division (Figure 2). 
+The overwhelming majority, 69.5% (386/555), made it to FEI. 20.7% (115/555) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 9.7% (54/555) never competed at any level other than a Young Horse division (Figure 2). 
 
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
 *Figure 2: FEI vs Non-FEI Horses*
 
-Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=376). 36.7% (138/376) of them competed to Grand Prix. 26.3% (99/376) competed to Prix St. Georges, 24.2% (91/376) I-1, 12% (45/376) I-2, 0.5% (2/376) I-A, 0.3% (1/376) I-B. 
+Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386). 38.1% (147/386) of them competed to Grand Prix. 25.6% (99/386) competed to Prix St. Georges, 24.2% (91/386) I-1, 12% (45/386) I-2, 0.3% (1/386) I-A, 0.3% (1/386) I-B. 
 
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
 
@@ -53,20 +53,20 @@ Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=376)
 
 
 #### CDI Level Competitive Outcomes
-Of the horses that made it to FEI (*n*=376), how many competed at the CDI (Concours de Dressage International)? A CDI is an international competition sanctioned by the governing body for equestrian sports, the FEI (Fédération Equestre Internationale). I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
+Of the horses that made it to FEI (*n*=386), how many competed at the CDI level ((Figure 4)? A CDI (Concours de Dressage International) is an international competition sanctioned by the governing body for equestrian sports, the FEI (Fédération Equestre Internationale). I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
 
-The majority of horses, 53.7% (202/376), never competed in a CDI. Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
+The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
 
-46.3% (174/367) participated in at least one CDI at any senior level other than a Young Horse division (Figure 4).
+45.9% (177/386) participated in at least one CDI at any senior level other than a Young Horse division.
 
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
 *Figure 4: CDI vs Non-CDI Competitors*
 
 #### Top Ten vs Lower Placing Horses
-Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI? To answer this question, I looked at the overall placings and highest level competed of the horses that made it to the FEI levels (*n*=376). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
+Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI (Figure 5)? To answer this question, I looked at the overall placings of the horses that made it to the FEI levels (*n*=386). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
 
-The data shows a strong correlation between placing and FEI achievement: 76.9% (289/376) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.1% (87/376) in the 11 and under placing group (Figure 5).
+The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. There could be several explanations for this. For one, horses placing in the top ten could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
 ![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
 
@@ -78,7 +78,7 @@ The data shows a strong correlation between placing and FEI achievement: 76.9% (
 *Figure 6: Percentage of FEI Horses in Top Ten by Level*
 
 
-When we look at horses that competed to Grand Prix (*n*=138), the correlation between a top ten placing and level achievment is even more impressive: 90.6% (125/138) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.4% (13/138) in the 11 and under placing group (Figure 7). 
+When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 7). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. 
 
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
@@ -86,16 +86,16 @@ When we look at horses that competed to Grand Prix (*n*=138), the correlation be
 
 
 #### Top Three Placing Competitive Outcomes
-Do horses that place in the top three go on to competitive success? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 32.8% (42/128) made it to Grand Prix, 18% (23/128) Prix St. Georges, 14.8% (19/128) I-2, 14.8% (19/128) I-1, 5.5% (7/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 81.2% (104/128) of top three competitors making it to the FEI levels. 
+Do horses that place in the top three go on to competitive success? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
 ![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
 
 *Figure 8: Horses Placing in the Top Three by Highest Level Competed*
 
 #### Overall Score and FEI Achievement
-Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses (*n*=376) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
+Does a higher overall score make it more likely that a horse makes it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
 
-The data did show a correlation between overall score and a horse making it to the FEI levels. 55.3% of horses (208/376) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.7% (168/376) that scored below 7.5 (Figure 9). 
+The data did show a correlation between overall score and a horse making it to the FEI levels. 55.4% of horses (214/386) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.6% (172/386) that scored below 7.5 (Figure 9). 
 
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
@@ -409,7 +409,7 @@ Figure 28 below shows the top ten sires of Grand Prix horses by number of offspr
 #### Highest Percentage of Grand Prix Horses by Sire
 When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 9 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix offspring by the highest percentage versus solely looking at the count, it shakes things up a bit (Figure 29).
 
-The top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13 offspring). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18 offspring) Fidertanz (6/12 offspring) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12 offspring), Hotline at 40% (4/10 offspring), Rotspon at 33.3% (4/12 offspring), Sir Sinclair at 33.3% (3/9 offspring), and Furstenball at 15.8% (3/19 offspring). 
+While ranked third in terms of number of Grand Prix offspring, the top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18) Fidertanz (6/12) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12), Hotline at 40% (4/10), Rotspon at 33.3% (4/12), Sir Sinclair at 33.3% (3/9), and Furstenball at 15.8% (3/19). 
 
 
 ![Percentage of Grand Prix Offspring by Sire](images/gp-sire-percentage.png)
@@ -438,7 +438,7 @@ De Niro had both the highest count of Grand Prix offspring and the highest perce
 #### Top Ten Most Prominent Breeders by Horse Count
 The most prominent breeder over all years and divions (Figure 32) is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
 
-This column had the most null values overall—47 missing values, which equates to 5.3% of the total (*N*=888). This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in the development of the modern sporthorse. 
+This column had the most null values overall—47 missing values, which equates to 5.3% of the total (*N*=888). This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in our sport. 
 
 ![Most Prominent Breeders](images/top-10-breeders.png)
 
