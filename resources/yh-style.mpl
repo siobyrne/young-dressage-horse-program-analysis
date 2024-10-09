@@ -18,10 +18,10 @@ font.size: 10
 ### TICKS
 xtick.bottom: true
 xtick.direction: out
-xtick.fontsize: 8
+xtick.labelsize: 8
 xtick.major.pad: 5.0
 ytick.direction: out
-ytick.fontsize: 8
+ytick.labelsize: 8
 
 ### AXES
 axes.prop_cycle: cycler('color', ['ba324f', 'e75a7c', 'ffb3c8', 'f3722c', 'f8961e', 'f9c74f', 'f0ffb3', '90be6d', '25a18b', '0d6a87', '83D7FC', 'aaa1c8', '6b3c80', '00ffee', '6d8886'])
@@ -32,7 +32,7 @@ axes.titleweight: bold
 axes.titlepad: 15
 axes.labelsize: 10
 axes.grid: true
-axes.grid.which: x
+axes.grid.which: major
 axes.spines.left: true
 axes.spines.bottom: true
 axes.spines.top: false
