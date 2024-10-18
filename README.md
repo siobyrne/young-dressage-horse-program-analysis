@@ -283,25 +283,21 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
 ### Analysis of Scores by Sire 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. I included only stallions with 8 or more scores, in order to have a better sample size.
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. In order to have a better sample sizes, I included only stallions with 9 or more scores for the Young Horse divisions, and 5 or more for the Developing Horse divisions.
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
-The sire with the highest median score in the Young Horse divisions is Belissimo (8.208). Close behind is Grand Galaxy Win (8.119). In third place is Vitalis (7.992).
+The sire with the highest mean score in the Young Horse divisions is Grand Galaxy Win (8.218), with Vitalis a close second (8.133). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Sir Sinclair (7.665), Apache (7.655), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
 
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
 | Apache           |                  9 |      7.65533 |          7.708 |             0.528117 |   0.278908 |
-| Belissimo M      |                  8 |      8.062   |          8.208 |             0.594854 |   0.353851 |
 | Contucci         |                 10 |      7.628   |          7.452 |             0.81952  |   0.671612 |
-| Florencio I      |                  8 |      7.50625 |          7.536 |             0.609313 |   0.371262 |
 | Florestan I      |                 11 |      7.369   |          7.4   |             0.385015 |   0.148237 |
 | Furstenball      |                 22 |      7.79964 |          7.67  |             0.565568 |   0.319867 |
 | Grand Galaxy Win |                 12 |      8.21858 |          8.119 |             0.579999 |   0.336399 |
 | Hotline          |                 13 |      7.62323 |          7.58  |             0.502625 |   0.252632 |
-| Idocus           |                  8 |      7.702   |          7.56  |             0.831318 |   0.69109  |
 | Jazz             |                 14 |      7.764   |          7.758 |             0.722566 |   0.522102 |
-| Quaterback       |                  8 |      7.6075  |          7.616 |             0.631752 |   0.399111 |
 | Rotspon          |                 10 |      7.5211  |          7.486 |             0.708312 |   0.501706 |
 | San Amour        |                 10 |      7.7072  |          7.61  |             0.509099 |   0.259182 |
 | Sandro Hit       |                 31 |      7.68797 |          7.636 |             0.525052 |   0.27568  |
@@ -314,33 +310,24 @@ The sire with the highest median score in the Young Horse divisions is Belissimo
 *Figure 21: Boxplot of Young Horse Divisions Scores by Sire*
 
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
-The sire with the highest median score in the Developing Horse divisions is Wagnis (69.919%). Runner up is Charmeur (69.152%). In third place is Sir Donnerhall I (68.73%). 
+The sire with the highest mean score in the Developing Horse divisions is Vivaldi (68.754%), with Charmeur (68.534%) and Jazz (68.452%) a very close second and third, respectively. The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Rousseau (65.809%), Quaterback (65.764%), Belissimo M (65.44%), Sandro Hit (64.629%), and Hochadel (64.068%). 
 
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| Ampere           |                  4 |      68.3042 |        68.3415 |              2.25245 |    5.07352 |
 | Belissimo M      |                  5 |      65.4404 |        66.843  |              3.74205 |   14.003   |
-| Bretton Woods    |                  4 |      67.414  |        67.3065 |              1.06965 |    1.14414 |
 | Charmeur         |                  5 |      68.5348 |        69.152  |              2.66971 |    7.12733 |
-| Contucci         |                  4 |      64.845  |        63.0985 |              6.00224 |   36.0269  |
 | Diamond Hit      |                  7 |      67.4623 |        67.774  |              1.72814 |    2.98647 |
-| Don Schufro      |                  4 |      65.5627 |        65.278  |              1.60009 |    2.56028 |
 | Fidertanz        |                 13 |      67.2732 |        67.807  |              3.24802 |   10.5496  |
 | Florencio I      |                  7 |      67.5287 |        67.306  |              1.43564 |    2.06105 |
 | Florestan I      |                  6 |      67.1293 |        66.8035 |              1.75294 |    3.07282 |
 | Hochadel         |                  5 |      64.0688 |        63.885  |              3.61994 |   13.104   |
 | Jazz             |                  7 |      68.4527 |        68.705  |              2.76839 |    7.66396 |
-| Johnson          |                  4 |      64.595  |        64.8145 |              1.76534 |    3.11644 |
 | Quaterback       |                  6 |      65.7647 |        65.201  |              2.79883 |    7.83345 |
-| Romanov          |                  4 |      66.7168 |        66.3945 |              3.42845 |   11.7542  |
-| Rotspon          |                  4 |      67.33   |        66.197  |              2.99827 |    8.98964 |
 | Rousseau         |                  5 |      65.8092 |        65.67   |              2.13535 |    4.55973 |
 | Sandro Hit       |                  9 |      64.6292 |        64.273  |              2.26267 |    5.11968 |
 | Sir Donnerhall I |                 10 |      67.8955 |        68.7305 |              3.90009 |   15.2107  |
-| UB 40            |                  4 |      66.8538 |        66.955  |              1.20529 |    1.45272 |
 | Vivaldi          |                  5 |      68.7544 |        68.052  |              2.20312 |    4.85374 |
-| Wagnis           |                  4 |      71.1148 |        69.919  |              2.80298 |    7.85668 |
 
 
 ![Developing Horse Scores by Sire Boxplot](images/dh-score-by-sire-boxplot.png)
@@ -366,7 +353,9 @@ Far more horses participating in the championships are foreign-bred than bred in
 
 * Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
 
-* European countries produce far more warmblood foals than the USA
+* The cost to raise a young horse to riding age is cheaper in Europe, so buying a foal overseas and leaving it there to grow up could also be adventageous to a buyer 
+
+* European countries produce far more warmblood foals than the USA, so more to choose from, as well as bloodlines that might not be as available in the USA
 
 * Bias against American breeders—some may think American-bred foals aren't as good as those produced in Europe
 
@@ -409,7 +398,7 @@ Figure 28 below shows the top ten sires of Grand Prix horses by number of offspr
 #### Highest Percentage of Grand Prix Horses by Sire
 When looking at the highest percentage of Grand Prix offspring, I only looked at sires with 9 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix offspring by the highest percentage versus solely looking at the count, it shakes things up a bit (Figure 29).
 
-While ranked third in terms of number of Grand Prix offspring, the top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18) Fidertanz (6/12) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12), Hotline at 40% (4/10), Rotspon at 33.3% (4/12), Sir Sinclair at 33.3% (3/9), and Furstenball at 15.8% (3/19). 
+While ranked third in terms of number of Grand Prix offspring, the top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18) Fidertanz (6/12) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12), Hotline at 40% (4/10), Rotspon at 33.3% (4/12), Sir Sinclair at 33.3% (3/9), and Furstenball at 15.8% (3/19). This seems indicitive that 
 
 
 ![Percentage of Grand Prix Offspring by Sire](images/gp-sire-percentage.png)
@@ -469,7 +458,7 @@ There were several horses that have five appearances at championships. Pikko del
 *Figure 34: Horses with Most Appearances at Championships*
 
 ## Final Thoughts
-The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (67.7%), and of those that made it to FEI, a fair number made it to Grand Prix (36.7%). Four horses went on to make international teams. 
+The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). Four horses went on to make international teams. A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions. 
 
 I am a dressage trainer and competitor myself, and an agnostic when it comes to the Young Horse program. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
