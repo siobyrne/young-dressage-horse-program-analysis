@@ -8,7 +8,9 @@ figure.dpi: 360
 lines.linewidth: 0.5
 
 ### LEGEND
-legend.facecolor: ghostwhite
+legend.facecolor: white
+legend.edgecolor: black
+legend.fontsize: 9
 
 ### FONTS
 font.family: sans-serif
