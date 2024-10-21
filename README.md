@@ -42,14 +42,14 @@ To answer this question, I looked at the  competitive record of each of the 555 
 
 The overwhelming majority, 69.5% (386/555), made it to FEI. 20.7% (115/555) competed at the USEF levels (Training, First, Second, Third, Fourth). Only 9.7% (54/555) never competed at any level other than a Young Horse division (Figure 2). 
 
-Figure 2
+***Figure 2***  
 *FEI vs Non-FEI Horses*
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
 
 Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386). 38.1% (147/386) of them competed to Grand Prix. 25.6% (99/386) competed to Prix St. Georges, 24.2% (91/386) I-1, 12% (45/386) I-2, 0.3% (1/386) I-A, 0.3% (1/386) I-B. 
 
-Figure 3
+***Figure 3***  
 *Breakdown by Level of Horses That Competed at FEI*
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
 
@@ -60,7 +60,7 @@ The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, e
 
 45.9% (177/386) participated in at least one CDI at any senior level other than a Young Horse division.
 
-Figure 4
+***Figure 4***  
 *CDI vs Non-CDI Competitors*
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
@@ -69,13 +69,13 @@ Are horses placing in the top ten versus lower placing horses (11 and under) mor
 
 The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. There could be several explanations for this. For one, horses placing in the top ten could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
-Figure 5
+***Figure 5***  
 *Percentage of FEI Horses in Top Ten vs 11 and Under*
 ![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
 
 When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 6). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. 
 
-Figure 6
+***Figure 6***  
 *Grand Prix Horses by Placing at Championships*
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
@@ -83,7 +83,7 @@ Figure 6
 #### Top Three Placing Competitive Outcomes
 Do horses that place in the top three go on to competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
-Figure 7
+***Figure 7***  
 *Horses Placing in the Top Three by Highest Level Competed*
 ![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
 
@@ -92,13 +92,13 @@ Does a higher overall score make it more likely that a horse makes it to FEI? To
 
 The data did show a correlation between overall score and a horse making it to the FEI levels. 55.4% of horses (214/386) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.6% (172/386) that scored below 7.5 (Figure 8). 
 
-Figure 8
+***Figure 8***  
 *FEI Horses Scoring 7.5 or Above vs Below 7.5*
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
 When we look at this by level, interestingly, the numbers are fairly close for most levels.The equal to or over/under split is 43.2% (45/93) and 53.8% (54/93) for Prix St. Georges, 47.6% (40/84) and 52.4% (44/84) for I-1. FEI Junior/I-A/I-B have too few data points for useful analysis (2 or fewer horses at each level). However, at I-2 and Grand Prix a clear majority of horses, 63.6% (28/44) that made it to I-2 and 66.9% (91/137) that made it to Grand Prix had an overall score of 7.5 or above (Figure 9). 
 
-Figure 9
+***Figure 9***  
 *FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
 ![FEI Achievement by Overall Score Level Breakdown](images/fei-by-overall-score-level-breakdown.png)
 
@@ -109,7 +109,7 @@ Four horses from this time period, 0.7% (4/555) of the sample, went on to make i
 
 While this is clearly a very small number, I would argue that it is still impressive. The number of horses that make a team will be small no matter what—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. While a horse needs to be of a certain quality to be a contender, there is also an element of luck—a poorly timed injury to horse or rider, or other extenuating circumstances, can knock a great horse out of contention. 
 
-Table 1
+***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
 
 | Horse        | Sire        | Damsire         | Country Bred   | Breeder                   | Studbook   | Team Made                            |
@@ -123,7 +123,7 @@ Table 1
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 2).
 
 
-Table 2
+***Table 2***  
 *Summary Statistics for Overall Scores in Championship Divisions* 
 
 | Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -151,7 +151,7 @@ I then created a scatterplot from the remaining scores, performed a linear regre
 #### USEF 4 Year Old Scores Analysis
 From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 3, Figure 10):
 
-Table 3
+***Table 3***  
 *Outliers for USEF 4 Year Old Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -163,21 +163,21 @@ Table 3
 |   2022 | USEF4      |          2.976 |
 |   2023 | USEF4      |          2.904 |
 
-Figure 10
+***Figure 10***  
 *Box and Whisker Plot for USEF 4 Year Old Division Scores*
 ![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
 
 
 4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. Linear regression (Figure 11) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(275)=.34, *p*<.001). 
 
-Figure 11
+***Figure 11***  
 *Scatterplot and Linear Regression for USEF 4 Year Old Division Scores*
 ![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
 
 #### FEI 5 Year Old Scores Analysis
 From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 4, Figure 12):
 
-Table 4
+***Table 4***  
 *Outliers for FEI 5 Year Old Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -198,20 +198,20 @@ Table 4
 |   2023 | FEI5       |          3.432 |
 |   2023 | FEI5       |          3.144 |
 
-Figure 12
+***Figure 12***  
 *Box and Whisker Plot for FEI 5 Year Old Division Scores*
 ![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
 
 7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 13) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(294)=.23, *p*<.001). 
 
-Figure 13
+***Figure 13***  
 *Scatterplot and Linear Regression for FEI 5 Year Old Division Scores*
 ![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
 
 #### FEI 6 Year Old Scores Analysis
 From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 5, Figure 14):
 
-Table 5
+***Table 5***  
 *Outliers for FEI 6 Year Old Division Scores*
 
 |    Year| Division   |   OverallScore |
@@ -230,13 +230,13 @@ Table 5
 |   2023 | FEI6       |          2.912 |
 
 
-Figure 14
+***Figure 14***  
 *Box and Whisker Plot for FEI 6 Year Old Division Scores*
 ![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
 
 10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. Linear regression (Figure 15) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(279)=.29, *p*<.001). 
 
-Figure 15
+***Figure 15***  
 *Scatterplot and Linear Regression for FEI 6 Year Old Division Scores*
 ![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
 
@@ -248,7 +248,7 @@ While the correlation coefficients are weak across the board, I would argue that
 #### Developing Prix St. Georges Scores Analysis
 From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 6, Figure 16):
 
-Table 6
+***Table 6***  
 *Outliers for Developing Prix St. Georges Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -262,20 +262,20 @@ Table 6
 |   2023 | DHPSG      |         39.778 |
 |   2023 | DHPSG      |         38.361 |
 
-Figure 16
+***Figure 16***  
 *Box and Whisker Plot for Developing Prix St. Georges Division Scores*
 ![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
 
 5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (r(248)=.45, *p*<.001).
 
-Figure 17
+***Figure 17***  
 *Scatterplot and Linear Regression for Developing Prix St. Georges Division Scores*
 ![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
 
 #### Developing Grand Prix Scores Analysis
 From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 7, Figure 18):
 
-Table 7
+***Table 7***  
 *Outliers for Developing Grand Prix Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -288,13 +288,13 @@ Table 7
 |   2023 | DHGP       |         56.128 |
 |   2023 | DHGP       |         38.75  |
 
-Figure 18
+***Figure 18***  
 *Box and Whisker Plot for Developing Grand Prix Division Scores*
 ![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
 
 3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(126)=.24, *p*=.005).
 
-Figure 19
+***Figure 19***  
 *Scatterplot and Linear Regression for Developing Grand Prix Division Scores*
 ![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
 
@@ -307,7 +307,7 @@ Because the scoring format for the 4/5/6 Year Old divisions is different than th
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
 The sire with the highest mean score in the Young Horse divisions is Grand Galaxy Win (8.218), with Vitalis a close second (8.133). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Sir Sinclair (7.665), Apache (7.655), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
 
-Table 8
+***Table 8***  
 *Summary Table of Young Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -331,7 +331,7 @@ Table 8
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
 The sire with the highest mean score in the Developing Horse divisions is Vivaldi (68.754%), with Charmeur (68.534%) and Jazz (68.452%) a very close second and third, respectively. The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Rousseau (65.809%), Quaterback (65.764%), Belissimo M (65.44%), Sandro Hit (64.629%), and Hochadel (64.068%). 
 
-Table 9
+***Table 9***  
 *Summary Table of Developing Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -353,14 +353,14 @@ Table 9
 
 #### Distribution of Scores by Sire, Young Horse Division
 
-Figure 20
+***Figure 20***  
 *Histogram of Young Horse Divisions Scores by Sire*
 ![Young Horse Scores by Sire Histogram](images/yh-score-by-sire.png)
 
 
 #### Distribution of Scores by Sire, Developing Horse Division
 
-Figure 21
+***Figure 21***  
 *Histogram of Developing Horse Divisions Scores by Sire*
 ![Developing Horse Scores by Sire Histogram](images/dh-score-by-sire.png)
 
@@ -384,7 +384,7 @@ Far more horses participating in the championships are foreign-bred than bred in
 
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
-Figure 22
+***Figure 22***  
 *Championship Competitors by Country Bred*
 ![Horses by Country Bred](images/horses-by-country.png)
 
@@ -392,7 +392,7 @@ Figure 22
 #### Top Ten Sires Represented by Offspring Count
 Figure 23 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Sir Donnerhall I (18), Furstenball (17), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (11), Hotline (10), Grand Galaxy Win (9), Florencio I (9), and Sir Sinclair (9). The three-way tie for ninth place in the top ten means there are actually eleven sires represented in this chart.
 
-Figure 23
+***Figure 23***  
 *Top Ten Sires by Number of Offspring*
 ![Top Ten Sires](images/top-10-sires.png)
 
@@ -402,7 +402,7 @@ Figure 24 below shows the top ten damsires of championship competitors by number
 
 This column had the second most null values of all the columns (18/888 missing values, 2% of the total).
 
-Figure 24
+***Figure 24***  
 *Top Ten Damsires by Number of Offspring*
 ![Top Ten Damsires](images/top-10-damsires.png)
 
@@ -410,7 +410,7 @@ Figure 24
 #### Top Ten Sires of Grand Prix Horses by Offspring Count
 Figure 25 below shows the top ten sires of Grand Prix horses by number of offspring. The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
 
-Figure 25
+***Figure 25***  
 *Top Ten Grand Prix Sires by Number of Offspring*
 ![Top Ten Grand Prix Sires](images/top-gp-sires.png)
 
@@ -419,7 +419,7 @@ When looking at the highest percentage of Grand Prix offspring, I only looked at
 
 While ranked third in terms of number of Grand Prix offspring, the top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18) Fidertanz (6/12) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12), Hotline at 40% (4/10), Rotspon at 33.3% (4/12), Sir Sinclair at 33.3% (3/9), and Furstenball at 15.8% (3/19). 
 
-Figure 26
+***Figure 26***  
 *Percentage of Grand Prix Offspring by Sire*
 ![Percentage of Grand Prix Offspring by Sire](images/gp-sire-percentage.png)
 
@@ -429,7 +429,7 @@ The top damsire of Grand Prix horses by number of offspring (Figure 27) was De N
 
 Once again, the prevalence of null values (2%) in the damsire column affects the completeness of this data. 
 
-Figure 27
+***Figure 27***  
 *Top Ten Grand Prix Damsires by Number of Offspring*
 ![Top Ten Grand Prix Damsires](images/top-gp-damsires.png)
 
@@ -438,7 +438,7 @@ When looking at the highest percentage of Grand Prix offspring (Figure 28), I on
 
 De Niro had both the highest count of Grand Prix offspring and the highest percentage at 40% (8/20). While ranked 8th in terms of number of Grand Prix offspring,Rohdiamant came in second in percentage with 36.4% (4/11). Weltmeyer and Ferro both came in at 35.7% (5/14), then Rotspon with 31.2% (5/16). Romanov and Donnerhall were both at 30% (3/10), and Jazz at 25% (4/16). Interestingly, while Rubinstein was the second highest in terms of number of Grand Prix offspring, he was second to last in terms of percentage at 24% (6/25). Sandro Hit was last in terms of number of Grand Prix offspring and percentage, with 20% (4/20). 
 
-Figure 28
+***Figure 28***  
 *Percentage of Grand Prix Offspring by Damsire*
 ![Percentage of Grand Prix Offspring by Damsire](images/gp-damsire-percentage.png)
 
@@ -447,7 +447,7 @@ The most prominent breeder over all years and divions (Figure 29) is DG Bar Ranc
 
 This column had the most null values overall—47 missing values, which equates to 5.3% of the total (*N*=888). This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in our sport. 
 
-Figure 29
+***Figure 29***  
 *Top Ten Most Prominent Breeders by Number of Horses*
 ![Most Prominent Breeders](images/top-10-breeders.png)
 
@@ -461,7 +461,7 @@ The rest of the top ten were Westfalen 5.6% (50/888), Danish Warmblood 4.3% (38/
 
 It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, [states on their website](https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na/) they have registered an average of more than 550 foals a year over the last decade. 
 
-Figure 30
+***Figure 30***  
 *Top Ten Most Prominent Studbooks by Number of Horses*
 ![Most Prominent Studbooks](images/top-10-studbooks.png)
 
@@ -472,7 +472,7 @@ He also competed two years in a row in both the Developing Prix St. Georges and 
 
 There were several horses that have five appearances at championships. Pikko del Cerro HU was the only one who competed in every division (USEF 4 Year Old, FEI 5 Year Old, FEI 6 Year Old, Developing Prix St. Georges, Developing Grand Prix). The rest consisted of Fashion Designer OLD (FEI 5 Year Old, FEI Six Year Old, two years in Developing Prix St. Georges, Developing Grand Prix), Quantum Jazz (USEF 4 Year Old, FEI 6 Year  Old, three years Developing Grand Prix), Floretienne (USEF 4 Year Old, FEI 6 Year Old, Developing Prix St. Georges, two years Developing Grand Prix), Sternlicht Hilltop (USEF 4 Year Old, FEI 6 Year Old, three years Developing Prix St. Georges), Don Cesar (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Flavius MF (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Au Revoir (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Ronin (USEF 4 Year Old, FEI 5 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Sole Mio (USEF 4 Year Old, FEI 5 Year Old, Developing Prix St. Georges, two years Developing Grand Prix), and Spirit of Joy (FEI 5 Year Old, FEI 6 Year Old, Developing Prix St. Georges, two years Developing Grand Prix). 
 
-Figure 31
+***Figure 31***  
 *Horses with Most Appearances at Championships*
 ![Most Appearances at Championships](images/most-appearances.png)
 
