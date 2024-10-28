@@ -141,7 +141,7 @@ In contrast, the Developing Horse tests are scored by movement, and each test ha
 
 #### Methodology
 
-For each division, my first step was to use Pandas to find the upper and lower quantiles, and calculate the IQR. I used a box and whisker plot to visualize the data and outliers. 
+For each division, my first step was to use a box and whisker plot to visualize the data. I then used Pandas to find the upper and lower quantiles, calculate the IQR, and identify the outliers by finding the upper and lower outlier thresholds. 
 
 After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an artificially low overall score. All other scores were retained. 
 
@@ -149,7 +149,13 @@ I then created a scatterplot from the remaining scores, performed a linear regre
  
 
 #### USEF 4 Year Old Scores Analysis
-From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 3, Figure 10):
+Figure 10 below shows the inital visualization of all data. 
+
+***Figure 10***  
+*Box and Whisker Plot for USEF 4 Year Old Division Scores*
+![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
+
+From the calculated IQR (6.17-9.12), the outliers were identified (Table 3). 4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained.  Linear regression (Figure 11) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(275)=.34, *p*<.001). 
 
 ***Table 3***  
 *Outliers for USEF 4 Year Old Division Scores*
@@ -163,19 +169,19 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 |   2022 | USEF4      |          2.976 |
 |   2023 | USEF4      |          2.904 |
 
-***Figure 10***  
-*Box and Whisker Plot for USEF 4 Year Old Division Scores*
-![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
-
-
-4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. Linear regression (Figure 11) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(275)=.34, *p*<.001). 
 
 ***Figure 11***  
 *Scatterplot and Linear Regression for USEF 4 Year Old Division Scores*
 ![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
 
 #### FEI 5 Year Old Scores Analysis
-From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 4, Figure 12):
+Figure 12 below shows the inital visualization of all data.
+
+***Figure 12***  
+*Box and Whisker Plot for FEI 5 Year Old Division Scores*
+![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
+
+From the calculated IQR (6.23-8.92), the outliers were identified (Table 4). 7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 13) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(294)=.23, *p*<.001). 
 
 ***Table 4***  
 *Outliers for FEI 5 Year Old Division Scores*
@@ -198,18 +204,20 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 |   2023 | FEI5       |          3.432 |
 |   2023 | FEI5       |          3.144 |
 
-***Figure 12***  
-*Box and Whisker Plot for FEI 5 Year Old Division Scores*
-![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
-
-7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 13) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(294)=.23, *p*<.001). 
 
 ***Figure 13***  
 *Scatterplot and Linear Regression for FEI 5 Year Old Division Scores*
 ![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
 
 #### FEI 6 Year Old Scores Analysis
-From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 5, Figure 14):
+Figure 14 below shows the inital visualization of all data.
+
+***Figure 14***  
+*Box and Whisker Plot for FEI 6 Year Old Division Scores*
+![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
+
+From the calculated IQR (6.03-9), the outliers were identified (Table 5). 10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 15) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(279)=.29, *p*<.001). 
+
 
 ***Table 5***  
 *Outliers for FEI 6 Year Old Division Scores*
@@ -230,12 +238,6 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 |   2023 | FEI6       |          2.912 |
 
 
-***Figure 14***  
-*Box and Whisker Plot for FEI 6 Year Old Division Scores*
-![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
-
-10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. Linear regression (Figure 15) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(279)=.29, *p*<.001). 
-
 ***Figure 15***  
 *Scatterplot and Linear Regression for FEI 6 Year Old Division Scores*
 ![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
@@ -246,7 +248,13 @@ All three Young Horse divisions (USEF 4 Year Old, FEI 5 and 6 Year Old) showed a
 While the correlation coefficients are weak across the board, I would argue that this does not mean that the relationship between year and score is insignificant. The scoring system for these tests results in scores that are very tightly clustered--overall scores below 7.0 and above 7.9 are uncommon. There is clearly a positive correlation between year and overall score, which is for sure multifactorial. Breeders are breeding horses of higher quality, riding and training has improved, and judges have more experience and education in judging these tests. All of these things likely play a role in the positive relationship between year and overall score. 
 
 #### Developing Prix St. Georges Scores Analysis
-From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 6, Figure 16):
+Figure 16 below shows the inital visualization of all data.
+
+***Figure 16***  
+*Box and Whisker Plot for Developing Prix St. Georges Division Scores*
+![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
+
+From the calculated IQR (58.69-75.62), the outliers were identified (Table 6). 5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (*r*(248)=.45, *p*<.001).
 
 ***Table 6***  
 *Outliers for Developing Prix St. Georges Division Scores*
@@ -262,18 +270,18 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 |   2023 | DHPSG      |         39.778 |
 |   2023 | DHPSG      |         38.361 |
 
-***Figure 16***  
-*Box and Whisker Plot for Developing Prix St. Georges Division Scores*
-![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
-
-5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (r(248)=.45, *p*<.001).
-
 ***Figure 17***  
 *Scatterplot and Linear Regression for Developing Prix St. Georges Division Scores*
 ![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
 
 #### Developing Grand Prix Scores Analysis
-From the box and whisker plot of all of the scores, I was able to identify the following outliers (Table 7, Figure 18):
+Figure 18 below shows the inital visualization of all data.
+
+***Figure 18***  
+*Box and Whisker Plot for Developing Grand Prix Division Scores*
+![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
+
+From the calculated IQR (56.44-73.23), the outliers were identified (Table 7). 3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (*r*(126)=.24, *p*=.005).
 
 ***Table 7***  
 *Outliers for Developing Grand Prix Division Scores*
@@ -288,15 +296,11 @@ From the box and whisker plot of all of the scores, I was able to identify the f
 |   2023 | DHGP       |         56.128 |
 |   2023 | DHGP       |         38.75  |
 
-***Figure 18***  
-*Box and Whisker Plot for Developing Grand Prix Division Scores*
-![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
-
-3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (r(126)=.24, *p*=.005).
-
 ***Figure 19***  
 *Scatterplot and Linear Regression for Developing Grand Prix Division Scores*
 ![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
+
+#### Developing Horse Division Scores - Analysis Findings
 
 
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
