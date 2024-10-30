@@ -2,9 +2,10 @@
 # received in the first class, and 60% of the overall score to the score received in the second
 # class. 
 
-# Put the scores from each day into lists
+# Put the scores from each day into lists, we're using the scores in the lists below as dummy data
 class1 = [7.280]
 class2 = [7.020]
+
 for score1, score2 in zip(class1, class2):
     # First score is worth 40%
     day1 = (score1 * .4)
@@ -14,5 +15,7 @@ for score1, score2 in zip(class1, class2):
     overall = (day1 + day2) 
     # Print scores to terminal
     print(overall)
+
+    
 
         

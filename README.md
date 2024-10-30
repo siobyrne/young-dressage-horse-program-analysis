@@ -83,7 +83,7 @@ When we look at horses that competed to Grand Prix (*n*=147), the correlation be
 
 
 #### Top Three Placing Competitive Outcomes
-Do horses that place in the top three go on to competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
+Does a top three placing correlate with competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
 ***Figure 7***  
 *Horses Placing in the Top Three by Highest Level Competed*
@@ -120,6 +120,13 @@ While this is clearly a very small number, I would argue that it is still impres
 | Selten HW    | Sandro Hit  | Hohenstein      | USA            | Irene Hoeflich-Wiederhold | Hanoverian | Olympic Games                        |
 | Sanceo       | San Remo    | Ramiro's Son II | Germany        | Gerhard Dustmann          | Hanoverian | Olympic Games and Pan American Games |
 | Lucky Strike | Lord Laurie | His Highness    | Germany        | Monika Hartwitch          | Hanoverian | Pan American Games                   |
+
+|Year | Division| Horse        | Placing| Sire       | Damsire         | Country Bred  |Breeder                   |Studbook    |Team Made                       |
+|:----|:--------|:-------------|:-------|:-----------|:----------------|:--------------|:-------------------------|:-----------|:-------------------------------|
+|2007 | FEI6    | Grandioso    |1       | Grosso Z   | Palisandergrund | Germany       | Willi Hillebrecht        | Westfalen  | Pan American Games             |
+|2008 | USEF4   | Selten HW    |1       |Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold| Hanoverian | Olympic Games                  |
+|2011 | FEI5    | Sanceo       |4       |San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann         | Hanoverian | Olympic and Pan American Games |
+|2014 | USEF4   | Lucky Strike |4       |Lord Laurie | His Highness    | Germany       | Monika Hartwitch         | Hanoverian | Pan American Games             |
 
 ### 2002 - 2024, Overall Scores Analysis
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 2).
@@ -491,7 +498,7 @@ Of course, it won't be the case that every horse that participates goes far in t
 While certainly not the only path to success, the Young Horse program is one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
 ## Acknowledgements
-The following sites were utilized to research this project and gather this data:
+The following sites were utilized to research this project and gather data:
 
 * [United States Dressage Federation (USDF)](www.usdf.org)
 * [United States Equestrian Federation (USEF)](www.usef.org)
