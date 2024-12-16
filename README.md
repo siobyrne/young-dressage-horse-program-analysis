@@ -69,7 +69,7 @@ The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, e
 #### Top Ten vs Lower Placing Horses
 Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI (Figure 5)? To answer this question, I looked at the overall placings of the horses that made it to the FEI levels (*n*=386). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
 
-The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the FEI levels (X2 (1, *N* = 555) = 12.6, *p* < .001).
+The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the FEI levels (X2 (1, *n* = 555) = 12.6, *p* < .001).
 
 There could be several explanations for this. For one, horses placing in the top ten could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
@@ -77,7 +77,7 @@ There could be several explanations for this. For one, horses placing in the top
 *Percentage of FEI Horses in Top Ten vs 11 and Under*
 ![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
 
-When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 6). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the Grand Prix level (X2 (1, *N* = 555) = 32.4, *p* < .001).
+When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 6). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the Grand Prix level (X2 (1, *n* = 555) = 32.4, *p* < .001).
 
 ***Figure 6***  
 *Grand Prix Horses by Placing at Championships*
@@ -94,7 +94,7 @@ Does a top three placing correlate with competitive success (Figure 7)? A common
 #### Overall Score and FEI Achievement
 Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
 
-The data did show a correlation between overall score and a horse making it to the FEI levels. 55.4% of horses (214/386) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.6% (172/386) that scored below 7.5 (Figure 8). 
+55.4% of horses (214/386) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.6% (172/386) that scored below 7.5 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.5 and future FEI competition (X2 (1, *n* = 555) = 2.7, *p* = .09)
 
 ***Figure 8***  
 *FEI Horses Scoring 7.5 or Above vs Below 7.5*
@@ -116,12 +116,6 @@ While this is clearly a very small number, I would argue that it is still impres
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
 
-| Horse        | Sire        | Damsire         | Country Bred   | Breeder                   | Studbook   | Team Made                            |
-|:-------------|:------------|:----------------|:---------------|:--------------------------|:-----------|:-------------------------------------|
-| Grandioso    | Grosso Z    | Palisandergrund | Germany        | Willi Hillebrecht         | Westfalen  | Pan American Games                   |
-| Selten HW    | Sandro Hit  | Hohenstein      | USA            | Irene Hoeflich-Wiederhold | Hanoverian | Olympic Games                        |
-| Sanceo       | San Remo    | Ramiro's Son II | Germany        | Gerhard Dustmann          | Hanoverian | Olympic Games and Pan American Games |
-| Lucky Strike | Lord Laurie | His Highness    | Germany        | Monika Hartwitch          | Hanoverian | Pan American Games                   |
 
 |Year | Division| Horse        | Placing| Sire       | Damsire         | Country Bred  |Breeder                   |Studbook    |Team Made                       |
 |:----|:--------|:-------------|:-------|:-----------|:----------------|:--------------|:-------------------------|:-----------|:-------------------------------|
@@ -129,6 +123,7 @@ While this is clearly a very small number, I would argue that it is still impres
 |2008 | USEF4   | Selten HW    |1       |Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold| Hanoverian | Olympic Games                  |
 |2011 | FEI5    | Sanceo       |4       |San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann         | Hanoverian | Olympic and Pan American Games |
 |2014 | USEF4   | Lucky Strike |4       |Lord Laurie | His Highness    | Germany       | Monika Hartwitch         | Hanoverian | Pan American Games             |
+
 
 ### 2002 - 2024, Overall Scores Analysis
 I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 2).
