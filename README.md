@@ -92,26 +92,30 @@ Does a top three placing correlate with competitive success (Figure 7)? A common
 ![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
 
 #### Overall Score and FEI Achievement
-Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.5 or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.5 and above group as long as one of their scores met that criteria. 
+Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.45 (the mean score across the dataset) or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.45 and above group as long as one of their scores met that criteria. 
 
-55.4% of horses (214/386) that made it to FEI achieved an overall score of 7.5 or above, compared to 44.6% (172/386) that scored below 7.5 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.5 and future FEI competition (X2 (1, *n* = 555) = 2.7, *p* = .09)
+59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or above, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05).
 
 ***Figure 8***  
-*FEI Horses Scoring 7.5 or Above vs Below 7.5*
+*FEI Horses Scoring 7.45 or Above vs Below 7.45*
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
-When we look at this by level, interestingly, the numbers are fairly close for most levels.The equal to or over/under split is 43.2% (45/93) and 53.8% (54/93) for Prix St. Georges, 47.6% (40/84) and 52.4% (44/84) for I-1. FEI Junior/I-A/I-B have too few data points for useful analysis (2 or fewer horses at each level). However, at I-2 and Grand Prix a clear majority of horses, 63.6% (28/44) that made it to I-2 and 66.9% (91/137) that made it to Grand Prix had an overall score of 7.5 or above (Figure 9). 
+#### Overall Score and Grand Prix Achievement
+Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the same overall score threshold as I did when analyzing overall score and FEI achievement (7.45, the mean overall score across the dataset) and applied it to the group of horses that made it to Grand Prix (*n*=147).
 
-***Figure 9***  
-*FEI Horses Scoring 7.5 or Above vs Below 7.5 by Level*
-![FEI Achievement by Overall Score Level Breakdown](images/fei-by-overall-score-level-breakdown.png)
+67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or above, compared to 32.7% (48/147) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
+
+***Figure 8***  
+*Grand Prix Horses Scoring 7.45 or Above vs Below 7.45*
+![FEI Achievement by Overall Score](images/grand-prix-by-overall-score.png)
+
 
 #### International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
 Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
 
-While this is clearly a very small number, I would argue that it is still impressive. The number of horses that make a team will be small no matter what—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. While a horse needs to be of a certain quality to be a contender, there is also an element of luck—a poorly timed injury to horse or rider, or other extenuating circumstances, can knock a great horse out of contention. 
+This is clearly a very small number. The number of horses that make a team will be small no matter what—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. While a horse needs to be of a certain quality to be a contender, there is also an element of luck—a poorly timed injury to horse or rider, or other extenuating circumstances, can knock a great horse out of contention. That said, there 
 
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
@@ -146,7 +150,6 @@ The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is m
 In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%. [See the USEF Developing Prix St. Georges test for an example](https://www.usdf.org/docs/showflash/web/tests/2023/2023%20Developing%20Horse%20Prix%20St%20George.pdf?t=7/8/2024%207:36:58%20PM).
 
 #### Methodology
-
 For each division, my first step was to use a box and whisker plot to visualize the data. I then used Pandas to find the upper and lower quantiles, calculate the IQR, and identify the outliers by finding the upper and lower outlier thresholds. 
 
 After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an artificially low overall score. All other scores were retained. 
@@ -251,7 +254,7 @@ From the calculated IQR (6.03-9), the outliers were identified (Table 5). 10 of 
 #### Young Horse Division Scores - Analysis Findings
 All three Young Horse divisions (USEF 4 Year Old, FEI 5 and 6 Year Old) showed a weak correlation coefficient, and a very low *P* (*p*<.001 across all divisions). 
 
-While the correlation coefficients are weak across the board, I would argue that this does not mean that the relationship between year and score is insignificant. The scoring system for these tests results in scores that are very tightly clustered—overall scores below 7.0 and above 7.9 are uncommon. There is clearly a positive correlation between year and overall score, which is for sure multifactorial. Breeders are breeding horses of higher quality, riding and training has improved, and judges have more experience and education in judging these tests. All of these things likely play a role in the positive relationship between year and overall score. 
+While the correlation coefficients are weak across the board, I would argue that this does not mean that the relationship between year and score is insignificant. The scoring system for these tests results in scores that are very tightly clustered—overall scores below 7.0 and above 7.9 are uncommon. There is clearly a relationship between year and overall score, which is for sure multifactorial. Breeders are breeding horses of higher quality, riding and training has improved, and judges have more experience and education in judging these tests. All of these things likely play a role in the positive relationship between year and overall score. 
 
 #### Developing Prix St. Georges Scores Analysis
 Figure 16 below shows the inital visualization of all data.
@@ -488,7 +491,7 @@ There were several horses that have five appearances at championships. Pikko del
 
 
 ## Final Thoughts
-The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). Four horses went on to make international teams. A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions. 
+The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). Four horses went on to make international teams. A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions.
 
 Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end  up with less ambitious riders, some will die young, and for sure there will be some who end up pushed too hard too soon, and end up never achieving their full potential. 
 
