@@ -21,9 +21,9 @@ I had the most difficulty acquiring the data on bloodlines and breeders, ironica
 ## Analysis Overview
 I collected data on competitors from all years the championships have been held, 2002-2024, and all divisions (*N*=888). 
 
-For the analysis of competitve careers of participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Because one of my main areas of analysis was whether participants made it to FEI, I did not include the Developing Horse divisions, as they are already competing at those levels.
+For the analysis of competitve careers of Young Horse division participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
 
- Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
+For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2002-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix.
 
 The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2024, and all Young and Developing Horse divisons (*N*=888). 
 
@@ -94,7 +94,7 @@ Does a top three placing correlate with competitive success (Figure 7)? A common
 #### Overall Score and FEI Achievement
 Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.45 (the mean score across the dataset) or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.45 and above group as long as one of their scores met that criteria. 
 
-59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or above, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05).
+59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05).
 
 ***Figure 8***  
 *FEI Horses Scoring 7.45 or Above vs Below 7.45*
@@ -103,7 +103,7 @@ Does a higher overall score correlate with a horse making it to FEI? To answer t
 #### Overall Score and Grand Prix Achievement
 Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the same overall score threshold as I did when analyzing overall score and FEI achievement (7.45, the mean overall score across the dataset) and applied it to the group of horses that made it to Grand Prix (*n*=147).
 
-67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or above, compared to 32.7% (48/147) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
+67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or higher, compared to 32.7% (48/147) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
 
 ***Figure 8***  
 *Grand Prix Horses Scoring 7.45 or Above vs Below 7.45*
@@ -121,12 +121,19 @@ This is clearly a very small number. The number of horses that make a team will 
 *Former Young Horse Championship Competitors Selected For an International Team*
 
 
-|Year | Division| Horse        | Placing| Sire       | Damsire         | Country Bred  |Breeder                   |Studbook    |Team Made                       |
-|:----|:--------|:-------------|:-------|:-----------|:----------------|:--------------|:-------------------------|:-----------|:-------------------------------|
-|2007 | FEI6    | Grandioso    |1       | Grosso Z   | Palisandergrund | Germany       | Willi Hillebrecht        | Westfalen  | Pan American Games             |
-|2008 | USEF4   | Selten HW    |1       |Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold| Hanoverian | Olympic Games                  |
-|2011 | FEI5    | Sanceo       |4       |San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann         | Hanoverian | Olympic and Pan American Games |
-|2014 | USEF4   | Lucky Strike |4       |Lord Laurie | His Highness    | Germany       | Monika Hartwitch         | Hanoverian | Pan American Games             |
+| Horse        | Sire        | Damsire         | Country Bred  |  Breeder                   | Studbook   | Team Made                      |
+|:-------------|:------------|:----------------|:--------------|:---------------------------|:-----------|:-------------------------------|
+| Grandioso    | Grosso Z    | Palisandergrund | Germany       | Willi Hillebrecht          | Westfalen  | Pan American Games             |
+| Selten HW    | Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold  | Hanoverian | Olympic Games                  |
+| Sanceo       | San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann           | Hanoverian | Olympic and Pan American Games |
+| Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games             |
+
+### 2002 - 2023, Developing Horse Division Competitive Outcomes
+Figure 9 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65% (184/283) competed to Grand Prix, 16.3% (46/283) I-1, 14.8% (42/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
+
+***Figure 9***  
+*Highest Level of Competition Achieved by Developing Horse Program Participants*
+![Highest Level Competed Breakdown](images/dh-highest-level-breakdown.png)
 
 
 ### 2002 - 2024, Overall Scores Analysis
@@ -493,9 +500,11 @@ There were several horses that have five appearances at championships. Pikko del
 ## Final Thoughts
 The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). Four horses went on to make international teams. A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions.
 
-Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end  up with less ambitious riders, some will die young, and for sure there will be some who end up pushed too hard too soon, and end up never achieving their full potential. 
+Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end  up with less ambitious riders, some will die young, some will become career broodmares. Sadly, for sure there will be some who end up pushed too hard too soon, never end up achieving their full potential. 
 
 While certainly not the only path to success, the Young Horse program is one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
+
+I hope to expand this analysis in the future to look at career length, as well as differentiating high performing horses at the FEI levels in general and at Grand Prix. If there is an area of inquiry that you think I have overlooked, you can [contact me by email](byrne.sio@gmail.com).
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather data:
