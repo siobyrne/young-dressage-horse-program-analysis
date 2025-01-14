@@ -29,7 +29,7 @@ The analysis of bloodlines and other breeding data will look at all years of the
 
 ### 2002 - 2020, 4/5/6 Year Old Division Competitive Outcomes
 
-#### Highest Level of Competition Achieved
+#### Highest Level of Competition Achieved by 4/5/6 Year Old Division Competitors
 Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 26.5% (147/555) competed to Grand Prix, 17.8% (99/555) Prix St. Georges, 16% (89/555) I-1, 8.8% (49/555) I-2, 7.9% (44/555) Third Level, 6.8% (38/555) Fourth Level, 4.5% (25/555) FEI 5 Year Old, 3.4% (19/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.2% (12/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/555) FEI Junior, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) I-A, 0.2% (1/555) I-B.  
 
 ***Figure 1***  
@@ -37,7 +37,7 @@ Figure 1 below shows the breakdown of the highest level achieved in competition 
 ![Highest Level Competed Breakdown](images/highest-level-breakdown.png)
 
 
-#### FEI Level Competitive Outcomes
+#### FEI Level Competitive Outcomes for 4/5/6 Year Old Division Competitors
 Do horses that compete in the 4, 5, and 6 Year Old divisions make it to the FEI (Fédération Equestre Internationale) levels? 
 
 To answer this question, I looked at the  competitive record of each of the 555 horses and considered them to have competed at FEI if they competed at any FEI level other than the FEI Young Horse or the Pony/Children/Junior/Young Rider (eligibility limited by rider's age) divisions, at either a national show or a CDI (international competition). Those levels are comprised of Prix St. Georges, Intermediate-1 (I-1), Intermediate-A (I-A), Intermediate-B (I-B), Intermediate-2 (I-2), and Grand Prix. 
@@ -55,7 +55,7 @@ Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386)
 *Breakdown by Level of Horses That Competed at FEI*
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
 
-#### CDI Level Competitive Outcomes
+#### CDI Level Competitive Outcomes for 4/5/6 Year Old Division Competitors
 Of the horses that made it to FEI (*n*=386), how many competed at the CDI level (Figure 4)? A CDI (Concours de Dressage International) is an international competition sanctioned by the governing body for equestrian sports, the FEI (Fédération Equestre Internationale). I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
 
 The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, even if they make it to FEI, would not necessarily be competitive on the CDI level. CDI competitions are also much more expensive and complicated to enter and compete in (higher entry fees, horses must have an FEI passport). Finally, there are simply not that many CDI competitions in the USA, and the ones there are tend to be concentrated in certain areas, requiring long travel times for people in many parts of the country. 
@@ -66,7 +66,7 @@ The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, e
 *CDI vs Non-CDI Competitors*
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
-#### Top Ten vs Lower Placing Horses
+#### Top Ten vs Lower Placing 4/5/6 Year Old Division Competitors
 Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI (Figure 5)? To answer this question, I looked at the overall placings of the horses that made it to the FEI levels (*n*=386). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
 
 The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the FEI levels (X2 (1, *n* = 555) = 12.6, *p* < .001).
@@ -84,14 +84,14 @@ When we look at horses that competed to Grand Prix (*n*=147), the correlation be
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
 
-#### Top Three Placing Competitive Outcomes
+#### Top Three Placing Competitive Outcomes for 4/5/6 Year Old Division Competitors
 Does a top three placing correlate with competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
 ***Figure 7***  
 *Horses Placing in the Top Three by Highest Level Competed*
 ![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
 
-#### Overall Score and FEI Achievement
+#### Overall Score and FEI Achievement for 4/5/6 Year Old Division Competitors
 Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.45 (the mean score across the dataset) or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.45 and above group as long as one of their scores met that criteria. 
 
 59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05).
@@ -100,7 +100,7 @@ Does a higher overall score correlate with a horse making it to FEI? To answer t
 *FEI Horses Scoring 7.45 or Above vs Below 7.45*
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
-#### Overall Score and Grand Prix Achievement
+#### Overall Score and Grand Prix Achievement for 4/5/6 Year Old Division Competitors
 Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the same overall score threshold as I did when analyzing overall score and FEI achievement (7.45, the mean overall score across the dataset) and applied it to the group of horses that made it to Grand Prix (*n*=147).
 
 67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or higher, compared to 32.7% (48/147) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
@@ -110,7 +110,7 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 ![FEI Achievement by Overall Score](images/grand-prix-by-overall-score.png)
 
 
-#### International Team Horses
+#### 4/5/6 Year Old Division Competitors International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
 Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
@@ -129,11 +129,22 @@ This is clearly a very small number. The number of horses that make a team will 
 | Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games             |
 
 ### 2002 - 2023, Developing Horse Division Competitive Outcomes
+
+#### Highest Level of Competition Achieved by Developing Horse Division Competitors
 Figure 9 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65% (184/283) competed to Grand Prix, 16.3% (46/283) I-1, 14.8% (42/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
 
 ***Figure 9***  
 *Highest Level of Competition Achieved by Developing Horse Program Participants*
 ![Highest Level Competed Breakdown](images/dh-highest-level-breakdown.png)
+
+#### CDI Level Competitive Outcomes for Developing Horse Division Competitors
+Of the horses that ceompeted in the Developing Prix St. Georges and Grand Prix divisions (*n*=283), how many competed at the CDI level (Figure 10)? As when looking at the Young Horse division competitors, I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
+
+The majority of Developing Horse division participants, 67.5% (191/283), participated in at least one CDI. 
+
+***Figure 10***  
+*CDI vs Non-CDI Developing Horse Division Competitors*
+![CDI vs Non-CDI Horses](images/dh-cdi-competitors.png)
 
 
 ### 2002 - 2024, Overall Scores Analysis
