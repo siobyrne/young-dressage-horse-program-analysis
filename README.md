@@ -146,12 +146,27 @@ The majority of Developing Horse division participants, 67.5% (191/283), partici
 *CDI vs Non-CDI Developing Horse Division Competitors*
 ![CDI vs Non-CDI Horses](images/dh-cdi-competitors.png)
 
-
-### 2002 - 2024, Overall Scores Analysis
-I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 2).
-
+#### Developing Horse Division Competitors International Team Horses
+As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.1% (6/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games), Rosevelt (Olympic Games), Sanceo (Olympic Games and Pan American Games), Lucky Strike (Pan American Games, did not compete due to injury in transport), Faro SQF (Pan American Games), and Jane (Olympic Games). Three of the six horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
 
 ***Table 2***  
+*Former Developing Horse Championship Competitors Selected For an International Team*
+
+| Horse        | Sire        | Damsire             | Country Bred   | Breeder           | Studbook   | Team Made                            |
+|:-------------|:------------|:--------------------|:---------------|:------------------|:-----------|:-------------------------------------|
+| Grandioso    | Grosso Z    | Palisandergrund     | Germany        | Willi Hillebrecht | Westfalen  | Pan American Games                   |
+| Rosevelt     | Rotspon     | Lauries Crusador xx | Germany        | Henry Peters      | Hanoverian | Olympic Games                        |
+| Sanceo       | San Remo    | Ramiro's Son II     | Germany        | Gerhard Dustmann  | Hanoverian | Olympic Games and Pan American Games |
+| Lucky Strike | Lord Laurie | His Highness        | Germany        | Monika Hartwitch  | Hanoverian | Pan American Games                   |
+| Faro SQF     | Fidertanz   | Rotspon             | USA            | Star Quarry Farm  | Hanoverian | Pan American Games                   |
+| Jane         | Desperado   | Metall              | Netherlands    | H.J. Van Oort     | KWPN       | Olympic Games                        |
+
+
+### 2002 - 2024, Overall Scores Analysis
+I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 3).
+
+
+***Table 3***  
 *Summary Statistics for Overall Scores in Championship Divisions* 
 
 | Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -182,9 +197,9 @@ Figure 10 below shows the inital visualization of all data.
 *Box and Whisker Plot for USEF 4 Year Old Division Scores*
 ![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
 
-From the calculated IQR (6.17-9.12), the outliers were identified (Table 3). 4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained.  Linear regression (Figure 11) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(275)=.34, *p*<.001). 
+From the calculated IQR (6.17-9.12), the outliers were identified (Table 4). 4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained.  Linear regression (Figure 11) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(275)=.34, *p*<.001). 
 
-***Table 3***  
+***Table 4***  
 *Outliers for USEF 4 Year Old Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -208,9 +223,9 @@ Figure 12 below shows the inital visualization of all data.
 *Box and Whisker Plot for FEI 5 Year Old Division Scores*
 ![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
 
-From the calculated IQR (6.23-8.92), the outliers were identified (Table 4). 7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 13) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(294)=.23, *p*<.001). 
+From the calculated IQR (6.23-8.92), the outliers were identified (Table 5). 7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 13) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(294)=.23, *p*<.001). 
 
-***Table 4***  
+***Table 5***  
 *Outliers for FEI 5 Year Old Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -243,10 +258,10 @@ Figure 14 below shows the inital visualization of all data.
 *Box and Whisker Plot for FEI 6 Year Old Division Scores*
 ![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
 
-From the calculated IQR (6.03-9), the outliers were identified (Table 5). 10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 15) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(279)=.29, *p*<.001). 
+From the calculated IQR (6.03-9), the outliers were identified (Table 6). 10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 15) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(279)=.29, *p*<.001). 
 
 
-***Table 5***  
+***Table 6***  
 *Outliers for FEI 6 Year Old Division Scores*
 
 |    Year| Division   |   OverallScore |
@@ -281,9 +296,9 @@ Figure 16 below shows the inital visualization of all data.
 *Box and Whisker Plot for Developing Prix St. Georges Division Scores*
 ![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
 
-From the calculated IQR (58.69-75.62), the outliers were identified (Table 6). 5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (*r*(248)=.45, *p*<.001).
+From the calculated IQR (58.69-75.62), the outliers were identified (Table 7). 5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (*r*(248)=.45, *p*<.001).
 
-***Table 6***  
+***Table 7***  
 *Outliers for Developing Prix St. Georges Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -308,9 +323,9 @@ Figure 18 below shows the inital visualization of all data.
 *Box and Whisker Plot for Developing Grand Prix Division Scores*
 ![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
 
-From the calculated IQR (56.44-73.23), the outliers were identified (Table 7). 3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (*r*(126)=.24, *p*=.005).
+From the calculated IQR (56.44-73.23), the outliers were identified (Table 8). 3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (*r*(126)=.24, *p*=.005).
 
-***Table 7***  
+***Table 8***  
 *Outliers for Developing Grand Prix Division Scores*
 
 |   Year | Division   |   OverallScore |
@@ -338,7 +353,7 @@ Because the scoring format for the 4/5/6 Year Old divisions is different than th
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
 The sire with the highest mean score in the Young Horse divisions is Grand Galaxy Win (8.218), with Vitalis a close second (8.133). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Sir Sinclair (7.665), Apache (7.655), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
 
-***Table 8***  
+***Table 9***  
 *Summary Table of Young Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
@@ -362,7 +377,7 @@ The sire with the highest mean score in the Young Horse divisions is Grand Galax
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
 The sire with the highest mean score in the Developing Horse divisions is Vivaldi (68.754%), with Charmeur (68.534%) and Jazz (68.452%) a very close second and third, respectively. The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Rousseau (65.809%), Quaterback (65.764%), Belissimo M (65.44%), Sandro Hit (64.629%), and Hochadel (64.068%). 
 
-***Table 9***  
+***Table 10***  
 *Summary Table of Developing Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
