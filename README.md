@@ -21,7 +21,7 @@ I had the most difficulty acquiring the data on bloodlines and breeders, ironica
 ## Analysis Overview
 I collected data on competitors from all years the championships have been held, 2002-2024, and all divisions (*N*=888). 
 
-For the analysis of competitve careers of Young Horse division participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
+For the analysis of competitve careers of Young Horse division participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). I made the decision not to include the FEI 7 Year Old division in this analysis, as this division was only added in 2022 and therefore has limited data. I plan on adding this division to the analysis in the future. 
 
 For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2008-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix. Note that this analysis starts in 2008 instead of 2002 like the Young Horse division analyis, as the Developing Prix St. Georges division wasn't offered until that year. 
 
@@ -52,7 +52,7 @@ The overwhelming majority, 69.5% (386/555), made it to FEI. 20.7% (115/555) comp
 Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386). 38.1% (147/386) of them competed to Grand Prix. 25.6% (99/386) competed to Prix St. Georges, 24.2% (91/386) I-1, 12% (45/386) I-2, 0.3% (1/386) I-A, 0.3% (1/386) I-B. 
 
 ***Figure 3***  
-*Breakdown by Level of Horses That Competed at FEI*
+*Breakdown by Level of Former Young Horse Division Competitors That Competed at FEI*
 ![FEI Level Breakdown](images/fei-level-breakdown.png)
 
 #### CDI Level Competitive Outcomes for Young Horse Division Competitors
@@ -74,13 +74,13 @@ The data shows a strong correlation between placing and FEI achievement: 76.7% (
 There could be several explanations for this. For one, horses placing in the top ten could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
 ***Figure 5***  
-*Percentage of FEI Horses in Top Ten vs 11 and Under*
+*Former Young Horse Division Competitors at FEI Placing in Top Ten vs 11 and Under*
 ![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
 
 When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 6). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the Grand Prix level (X2 (1, *n* = 555) = 32.4, *p* < .001).
 
 ***Figure 6***  
-*Grand Prix Horses by Placing at Championships*
+*Former Young Horse Division Competitors at Grand Prix by Placing at Championships*
 ![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
 
 
@@ -88,7 +88,7 @@ When we look at horses that competed to Grand Prix (*n*=147), the correlation be
 Does a top three placing correlate with competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
 ***Figure 7***  
-*Horses Placing in the Top Three by Highest Level Competed*
+*Former Young Horse Division Competitors Placing in the Top Three by Highest Level Competed*
 ![Horses in the Top Three by Highest Level](images/top-three-by-level.png)
 
 #### Overall Score and FEI Achievement for Young Horse Division Competitors
@@ -97,7 +97,7 @@ Does a higher overall score correlate with a horse making it to FEI? To answer t
 59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). While a chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05), the *P* value approached acceptance levels of statistical significance. 
 
 ***Figure 8***  
-*FEI Horses Scoring 7.45 or Above vs Below 7.45*
+*Former Young Horse Division Competitors at FEI Scoring 7.45 or Above vs Below 7.45*
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
 #### Overall Score and Grand Prix Achievement for Young Horse Division Competitors
@@ -106,8 +106,8 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or higher, compared to 32.7% (48/147) that scored below 7.45 (Figure 9). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
 
 ***Figure 9***  
-*Grand Prix Horses Scoring 7.45 or Above vs Below 7.45*
-![FEI Achievement by Overall Score](images/grand-prix-by-overall-score.png)
+*Former Young Horse Division Competitors at Grand Prix Scoring 7.45 or Above vs Below 7.45*
+![Grand Prix Achievement by Overall Score](images/grand-prix-by-overall-score.png)
 
 
 #### Young Horse Division Competitors International Team Horses
@@ -134,7 +134,7 @@ This is clearly a very small number. The number of horses that make a team will 
 Figure 10 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65% (184/283) competed to Grand Prix, 16.3% (46/283) I-1, 14.8% (42/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
 
 ***Figure 10***  
-*Highest Level of Competition Achieved by Former Developing Horse Program Participants*
+*Highest Level of Competition Achieved by Former Developing Horse Program Competitors*
 ![Highest Level Competed Breakdown](images/dh-highest-level-breakdown.png)
 
 #### CDI Level Competitive Outcomes for Developing Horse Division Competitors
@@ -171,7 +171,7 @@ As stated previously, one aim of these championships is to help identify horses 
 | Jane         | Desperado   | Metall              | Netherlands    | H.J. Van Oort     | KWPN       | Olympic Games                        |
 
 #### Young and Developing Horse Division Competitors
-Of the horses that competed in the Developing Horse divisions (*n*=283), ow many competed in at least one Young Horse division previously (Figure 12)? 62.2% (176/283) competed in only the Developing Horse division, compared to 37.8% (107/283) that competed in at least  one Young Horse division and one Developing Horse division.
+Of the horses that competed in the Developing Horse divisions (*n*=283), how many competed in at least one Young Horse division previously (Figure 12)? 62.2% (176/283) competed in only the Developing Horse division, compared to 37.8% (107/283) that competed in at least  one Young Horse division and one Developing Horse division.
 
 ***Figure 12***  
 *Horses That Competed In At Least One Young Horse and One Developing Horse Division*
