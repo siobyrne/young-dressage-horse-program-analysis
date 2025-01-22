@@ -23,7 +23,7 @@ I collected data on competitors from all years the championships have been held,
 
 For the analysis of competitve careers of Young Horse division participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). I made the decision not to include the FEI 7 Year Old division in this analysis, as this division was only added in 2022 and therefore has limited data. I plan on adding this division to the analysis in the future. 
 
-For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2008-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix. Note that this analysis starts in 2008 instead of 2002 like the Young Horse division analyis, as the Developing Prix St. Georges division wasn't offered until that year. 
+For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2008-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix. Note that this analysis starts in 2008 instead of 2002 like the Young Horse division analysis, as the Developing Prix St. Georges division wasn't offered until that year. 
 
 The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2024, and all Young and Developing Horse divisons (*N*=888). 
 
@@ -94,7 +94,7 @@ Does a top three placing correlate with competitive success (Figure 7)? A common
 #### Overall Score and FEI Achievement for Young Horse Division Competitors
 Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.45 (the mean score across the dataset) or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.45 and above group as long as one of their scores met that criteria. 
 
-59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). While a chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05), the *P* value approached acceptance levels of statistical significance. 
+59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). While a chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05), the *P* value approached acceptance levels of statistical significance (*P* value below .05). 
 
 ***Figure 8***  
 *Former Young Horse Division Competitors at FEI Scoring 7.45 or Above vs Below 7.45*
@@ -113,9 +113,7 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 #### Young Horse Division Competitors International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
-Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States).
-
-This is clearly a very small number. The number of horses that make a team will be small no matter what—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. While a horse needs to be of a certain quality to be a contender, there is also an element of luck—a poorly timed injury to horse or rider, or other extenuating circumstances, can knock a great horse out of contention. That said, there 
+Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States). 
 
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
@@ -353,7 +351,7 @@ The data analyzed clearly shows that the majority of Young Horse Championship pa
 
 Similarly, Developing Horse division competitors were also successful. The majority made it to Grand Prix (65%), and the majority were also CDI competitors (67.5%). 
 
-In terms of identifying up coming international team horses, both programs may not have been as successful as would be ideal. Only 0.7% of Young Horse competitors, and 2.5% of Developing Horse competitors went on to be named to a team. While of course the number of horses being named to a team is going to be small regardless, it would be worth looking into why we don't see more horses from both divisions, but in particular the Developing Horse division, growing into team contenders. 
+In terms of identifying up coming international team horses, both programs may not have been as successful as would be ideal. Only 0.7% of Young Horse competitors, and 2.5% of Developing Horse competitors went on to be named to a team. Of course, the number of horses being named to a team is going to be small regardless—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. However, it would be worth looking into why we don't see more horses from both divisions, but in particular the Developing Horse division, growing into team contenders. 
 
 Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end up with less ambitious riders, some will die young, some will become career broodmares. Sadly, for sure there will be some who end up pushed too hard too soon, never end up achieving their full potential. 
 
