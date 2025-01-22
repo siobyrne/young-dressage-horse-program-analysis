@@ -29,7 +29,7 @@ ytick.labelsize: 8
 axes.prop_cycle: cycler('color', ['0d6a87', 'f9c74f', 'e75a7c', 'f0ffb3', '6b3c80', '25a18b', 'f8961e', '00ffee', 'ba324f', 'aaa1c8', '83D7FC', '90be6d', 'ffb3c8', '6d8886', 'f3722c'])
 axes.facecolor: "#E5E4E2"
 axes.linewidth: 0.5
-axes.titlesize: 12
+axes.titlesize: 11
 axes.titleweight: bold
 axes.titlepad: 15
 axes.labelsize: 10

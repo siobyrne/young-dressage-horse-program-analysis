@@ -23,7 +23,7 @@ I collected data on competitors from all years the championships have been held,
 
 For the analysis of competitve careers of Young Horse division participants, I narrowed my focus to horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old dvisions from 2002-2020 (*n*=555). Horses that competed in the USEF 4 Year Old division in 2020 would be 8 in 2024, and 8 is the youngest age a horse is allowed to compete at the highest of the FEI levels, Grand Prix. While it is rare to see a horse competing at that level at that age, it is legal, so I went with the lowest legal age to compete at Grand Prix versus the more common lowest age (9-10 years old). 
 
-For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2002-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix.
+For the analysis of competitve careers of Developing Horse division participants, I focused on competitors in these divisions from 2008-2023 (*n*=283). Horses are eligible for the Developing Prix St. Georges from 7-9 years of age, so all participants from these years would be old enough in 2024 to legally compete at Grand Prix. Note that this analysis starts in 2008 instead of 2002 like the Young Horse division analyis, as the Developing Prix St. Georges division wasn't offered until that year. 
 
 The analysis of bloodlines and other breeding data will look at all years of the program, 2002-2024, and all Young and Developing Horse divisons (*N*=888). 
 
@@ -94,7 +94,7 @@ Does a top three placing correlate with competitive success (Figure 7)? A common
 #### Overall Score and FEI Achievement for Young Horse Division Competitors
 Does a higher overall score correlate with a horse making it to FEI? To answer this question, I separated FEI horses (*n*=386) into two categories, those that had an overall score of 7.45 (the mean score across the dataset) or above, and those that scored below that threshold. As with the analysis on placings, if a horse competed at the championships more than once, I considered them to be in the 7.45 and above group as long as one of their scores met that criteria. 
 
-59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). A chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05).
+59.1% of horses (228/386) that made it to FEI achieved an overall score of 7.45 or higher, compared to 40.9% (158/386) that scored below 7.45 (Figure 8). While a chi-square test of independence showed that there was no significant association between an overall score over 7.45 and a horse going on to compete at the FEI levels (X2 (1, *n* = 555) = 3.8, *p* = .05), the *P* value approached acceptance levels of statistical significance. 
 
 ***Figure 8***  
 *FEI Horses Scoring 7.45 or Above vs Below 7.45*
@@ -128,7 +128,7 @@ This is clearly a very small number. The number of horses that make a team will 
 | Sanceo       | San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann           | Hanoverian | Olympic and Pan American Games |
 | Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games             |
 
-### 2002 - 2023, Developing Horse Division Competitive Outcomes
+### 2008 - 2023, Developing Horse Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved by Developing Horse Division Competitors
 Figure 9 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65% (184/283) competed to Grand Prix, 16.3% (46/283) I-1, 14.8% (42/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
@@ -140,11 +140,20 @@ Figure 9 below shows the breakdown of the highest level achieved in competition 
 #### CDI Level Competitive Outcomes for Developing Horse Division Competitors
 Of the horses that ceompeted in the Developing Prix St. Georges and Grand Prix divisions (*n*=283), how many competed at the CDI level (Figure 10)? As when looking at the Young Horse division competitors, I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
 
-The majority of Developing Horse division participants, 67.5% (191/283), participated in at least one CDI. 
+The majority of Developing Horse division participants, 67.5% (191/283), participated in at least one CDI. This is significantly higher than the number of former Young Horse competitors who competed at the CDI level (45.9%). Why? One explanation is that Developing Horse division competitors are already at the FEI level—it is a smaller hill to climb to go from competing in the Developing PSG or GP divisions to competing in a CDI than it is for a 4, 5, or 6 year old to get there. Or, it may be the case that the riders aiming to compete in the Developing Horse divisions tend to be more focused on CDI competition as a goal. 
 
 ***Figure 10***  
 *CDI vs Non-CDI Developing Horse Division Competitors*
 ![CDI vs Non-CDI Horses](images/dh-cdi-competitors.png)
+
+#### Overall Score and Grand Prix Achievement for Developing Horse Division Competitors
+Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the mean overall score (65.9% for the Developing divisions) as the threshold, separating horses that competed to Grand Prix (*n*=184) as scoring equal to or above 65.9%, or below.
+
+59.2% of horses (109/184) that made it to Grand Prix achieved an overall score of 65.9% or higher, compared to 40.8% (75/184) that scored below 65.9% (Figure 11). A chi-square test of independence showed that there was no significant association between an overall score over 65.9% and a horse going on to compete at Grand Prix (X2 (1, *n* = 283) = 1.2, *p* = .27).
+
+***Figure 11***  
+*Grand Prix Horses Scoring 65.9% or Above vs Below 65.9%*
+![FEI Achievement by Overall Score](images/dh-grand-prix-by-overall-score.png)
 
 #### Developing Horse Division Competitors International Team Horses
 As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.1% (6/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games), Rosevelt (Olympic Games), Sanceo (Olympic Games and Pan American Games), Lucky Strike (Pan American Games, did not compete due to injury in transport), Faro SQF (Pan American Games), and Jane (Olympic Games). Three of the six horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
@@ -161,204 +170,26 @@ As stated previously, one aim of these championships is to help identify horses 
 | Faro SQF     | Fidertanz   | Rotspon             | USA            | Star Quarry Farm  | Hanoverian | Pan American Games                   |
 | Jane         | Desperado   | Metall              | Netherlands    | H.J. Van Oort     | KWPN       | Olympic Games                        |
 
-
-### 2002 - 2024, Overall Scores Analysis
-I wanted to look at overall scores over the years, to see if there was a relationship between year and overall score. My hypothesis was that scores would have a positive trend over time, as both breeding and training of horses has improved over the years. I did not include the FEI 7 Year Old division in this analysis, as this division has only been offered since 2022, and therefore does not have many data points, as seen in the summary table below (Table 3).
-
-
-***Table 3***  
-*Summary Statistics for Overall Scores in Championship Divisions* 
-
-| Division   |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
-|:-----------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| DHGP       |                131 |     64.2769  |        65      |             6.42082  |  41.2269   |
-| DHPSG      |                255 |     66.5084  |        67.306  |             5.56945  |  31.0188   |
-| FEI5       |                305 |      7.53145 |         7.58   |             0.855057 |   0.731123 |
-| FEI6       |                291 |      7.39842 |         7.516  |             0.992308 |   0.984675 |
-| FEI7       |                 40 |     70.175   |        70.7785 |             7.70386  |  59.3495   |
-| USEF4      |                281 |      7.60641 |         7.62   |             0.791772 |   0.626902 |
-
-The standard deviation for each the Young Horse divisions (4/5/6 Year Olds) is much smaller than that of the Developing Horse divisions, which makes sense given the way the scoring for these tests differs from regular dressage tests. Young Horse tests are scored by giving a numerical score from 1-10 (the score can utilize decimals, e.g. 7.5, 8.2) for the walk, trot, canter, submission, and perspective. The marks are added and then multiplied by 2. The final score is expressed as a number, not a percentage, so the decimal point is moved to the left by one place. [See the FEI 5 Year Old Final test for an example](https://inside.fei.org/system/files/Young%20Horses%205%20YO%20Final%202022.pdf). For instance, a horse given a 8.1 on the walk, 7.5 on the trot, 7.9 on the canter, 7.3 on submission and 7.7 on perspective would receive an overall score of 77, which would be reported as a score of 7.7. Other than the occasional lower score on submission, it is rare for individual scores to be below 6 at the championships. In order to compete at championships, there is a minimum qualifying score (for the 2024 championships, horses must have an overall average of 7.5). So the overall quality of horse, combined with the scoring method, results in very small numbers for both standard deviation and variance. 
-
-In contrast, the Developing Horse tests are scored by movement, and each test has 26-28 individually scored movements. The number of points earned is then used to calculate the final score by percentage, e.g. 66.75%. [See the USEF Developing Prix St. Georges test for an example](https://www.usdf.org/docs/showflash/web/tests/2023/2023%20Developing%20Horse%20Prix%20St%20George.pdf?t=7/8/2024%207:36:58%20PM).
-
-#### Methodology
-For each division, my first step was to use a box and whisker plot to visualize the data. I then used Pandas to find the upper and lower quantiles, calculate the IQR, and identify the outliers by finding the upper and lower outlier thresholds. 
-
-After the outliers were identified, I made the decision to drop only the outliers that were artificially low due to missing half of a score. Because the overall score is a weighted calculation (scores are worth 40% on day one, 60% on day two) of scores from two different days, a horse that either got eliminated or had to withdraw from one day will have an artificially low overall score. All other scores were retained. 
-
-I then created a scatterplot from the remaining scores, performed a linear regression on the data, and calculated the Pearson correlation coefficient and *P* value using SciPy. 
- 
-
-#### USEF 4 Year Old Scores Analysis
-Figure 10 below shows the inital visualization of all data. 
-
-***Figure 10***  
-*Box and Whisker Plot for USEF 4 Year Old Division Scores*
-![USEF 4 Year Old Division Boxplot](images/usef4-boxplot.png)
-
-From the calculated IQR (6.17-9.12), the outliers were identified (Table 4). 4 of the 6 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained.  Linear regression (Figure 11) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(275)=.34, *p*<.001). 
-
-***Table 4***  
-*Outliers for USEF 4 Year Old Division Scores*
-
-|   Year | Division   |   OverallScore |
-|-------:|-----------:|:---------------|
-|   2007 | USEF4      |          5.94  |
-|   2013 | USEF4      |          2.792 |
-|   2016 | USEF4      |          3.048 |
-|   2022 | USEF4      |          9.292 |
-|   2022 | USEF4      |          2.976 |
-|   2023 | USEF4      |          2.904 |
-
-
-***Figure 11***  
-*Scatterplot and Linear Regression for USEF 4 Year Old Division Scores*
-![USEF 4 Year Old Division Scatterplot](images/usef4-scatter.png)
-
-#### FEI 5 Year Old Scores Analysis
-Figure 12 below shows the inital visualization of all data.
+#### Young and Developing Horse Division Competitors
+Of the horses that competed in the Developing Horse divisions (*n*=283), ow many competed in at least one Young Horse division previously (Figure 12)? 62.2% (176/283) competed in only the Developing Horse division, compared to 37.8% (107/283) that competed in at least  one Young Horse division and one Developing Horse division.
 
 ***Figure 12***  
-*Box and Whisker Plot for FEI 5 Year Old Division Scores*
-![FEI 5 Year Old Division Boxplot](images/fei5-boxplot.png)
-
-From the calculated IQR (6.23-8.92), the outliers were identified (Table 5). 7 of the 15 outliers (all scores below 5.94) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 13) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(294)=.23, *p*<.001). 
-
-***Table 5***  
-*Outliers for FEI 5 Year Old Division Scores*
-
-|   Year | Division   |   OverallScore |
-|-------:|-----------:|:---------------|
-|   2004 | FEI5       |          9.14  |
-|   2004 | FEI5       |          6.22  |
-|   2004 | FEI5       |          5.94  |
-|   2010 | FEI5       |          4.56  |
-|   2011 | FEI5       |          3.112 |
-|   2013 | FEI5       |          9.012 |
-|   2017 | FEI5       |          2.904 |
-|   2019 | FEI5       |          9.056 |
-|   2019 | FEI5       |          3.016 |
-|   2020 | FEI5       |          2.944 |
-|   2021 | FEI5       |          9.518 |
-|   2021 | FEI5       |          8.964 |
-|   2022 | FEI5       |          9.248 |
-|   2023 | FEI5       |          3.432 |
-|   2023 | FEI5       |          3.144 |
-
-
-***Figure 13***  
-*Scatterplot and Linear Regression for FEI 5 Year Old Division Scores*
-![FEI 5 Year Old Division Scatterplot](images/fei5-scatter.png)
-
-#### FEI 6 Year Old Scores Analysis
-Figure 14 below shows the inital visualization of all data.
-
-***Figure 14***  
-*Box and Whisker Plot for FEI 6 Year Old Division Scores*
-![FEI 6 Year Old Division Boxplot](images/fei6-boxplot.png)
-
-From the calculated IQR (6.03-9), the outliers were identified (Table 6). 10 of the 12 outliers (all scores below 5.8) were due to the horse completing only one half of the competition, and were dropped. The remainder were retained. Linear regression (Figure 15) was performed on the remaining data. There was a weak positive correlation between year and overall score (*r*(279)=.29, *p*<.001). 
-
-
-***Table 6***  
-*Outliers for FEI 6 Year Old Division Scores*
-
-|    Year| Division   |   OverallScore |
-|-------:|-----------:|:---------------|
-|   2004 | FEI6       |          5.8   |
-|   2007 | FEI6       |          2.808 |
-|   2009 | FEI6       |          2.744 |
-|   2009 | FEI6       |          2.424 |
-|   2013 | FEI6       |          9.152 |
-|   2014 | FEI6       |          2.904 |
-|   2016 | FEI6       |          2.888 |
-|   2016 | FEI6       |          2.856 |
-|   2018 | FEI6       |          2.92  |
-|   2023 | FEI6       |          4.668 |
-|   2023 | FEI6       |          3.064 |
-|   2023 | FEI6       |          2.912 |
-
-
-***Figure 15***  
-*Scatterplot and Linear Regression for FEI 6 Year Old Division Scores*
-![FEI 6 Year Old Division Scatterplot](images/fei6-scatter.png)
-
-#### Young Horse Division Scores - Analysis Findings
-All three Young Horse divisions (USEF 4 Year Old, FEI 5 and 6 Year Old) showed a weak correlation coefficient, and a very low *P* (*p*<.001 across all divisions). 
-
-While the correlation coefficients are weak across the board, I would argue that this does not mean that the relationship between year and score is insignificant. The scoring system for these tests results in scores that are very tightly clustered—overall scores below 7.0 and above 7.9 are uncommon. There is clearly a relationship between year and overall score, which is for sure multifactorial. Breeders are breeding horses of higher quality, riding and training has improved, and judges have more experience and education in judging these tests. All of these things likely play a role in the positive relationship between year and overall score. 
-
-#### Developing Prix St. Georges Scores Analysis
-Figure 16 below shows the inital visualization of all data.
-
-***Figure 16***  
-*Box and Whisker Plot for Developing Prix St. Georges Division Scores*
-![Developing Horse Prix St. Georges Division Boxplot](images/dhpsg-boxplot.png)
-
-From the calculated IQR (58.69-75.62), the outliers were identified (Table 7). 5 of the 8 outliers (all scores below 55%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 17) was performed on the rest of the data. There was a moderate positive correlation between year and overall score (*r*(248)=.45, *p*<.001).
-
-***Table 7***  
-*Outliers for Developing Prix St. Georges Division Scores*
-
-|   Year | Division   |   OverallScore |
-|-------:|-----------:|:---------------|
-|   2008 | DHPSG      |         55.913 |
-|   2009 | DHPSG      |         58.45  |
-|   2014 | DHPSG      |         76.515 |
-|   2021 | DHPSG      |         26.509 |
-|   2021 | DHPSG      |         26.49  |
-|   2023 | DHPSG      |         43.333 |
-|   2023 | DHPSG      |         39.778 |
-|   2023 | DHPSG      |         38.361 |
-
-***Figure 17***  
-*Scatterplot and Linear Regression for Developing Prix St. Georges Division Scores*
-![Developing Horse Prix St. Georges Division Scatterplot](images/dhpsg-scatter.png)
-
-#### Developing Grand Prix Scores Analysis
-Figure 18 below shows the inital visualization of all data.
-
-***Figure 18***  
-*Box and Whisker Plot for Developing Grand Prix Division Scores*
-![Developing Horse Grand Prix Division Boxplot](images/dhgp-boxplot.png)
-
-From the calculated IQR (56.44-73.23), the outliers were identified (Table 8). 3 of the 7 outliers (all scores below 54%) were due to the horse completing only one half of the competition, and were dropped.  Linear regression (Figure 19) was performed on the rest of the data. There was a weak positive correlation between year and overall score (*r*(126)=.24, *p*=.005).
-
-***Table 8***  
-*Outliers for Developing Grand Prix Division Scores*
-
-|   Year | Division   |   OverallScore |
-|-------:|:-----------|:---------------|
-|   2012 | DHGP       |         54.271 |
-|   2013 | DHGP       |         56.649 |
-|   2019 | DHGP       |         25.666 |
-|   2019 | DHGP       |         23.254 |
-|   2021 | DHGP       |         75.519 |
-|   2023 | DHGP       |         56.128 |
-|   2023 | DHGP       |         38.75  |
-
-***Figure 19***  
-*Scatterplot and Linear Regression for Developing Grand Prix Division Scores*
-![Developing Horse Grand Prix Division Scatterplot](images/dhgp-scatter.png)
-
-#### Developing Horse Division Scores - Analysis Findings
-
+*Horses That Competed In At Least One Young Horse and One Developing Horse Division%*
+![DH and YH Competitors](images/yh-and-dh-competitors.png)
 
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
 ### Analysis of Scores by Sire 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. In order to have a better sample sizes, I included only stallions with 9 or more scores for the Young Horse divisions, and 5 or more for the Developing Horse divisions.
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. In order to have a better sample sizes, I included only stallions with 10 or more scores for the Young Horse divisions, and 7 or more for the Developing Horse divisions.
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
-The sire with the highest mean score in the Young Horse divisions is Grand Galaxy Win (8.218), with Vitalis a close second (8.133). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Sir Sinclair (7.665), Apache (7.655), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
+The sire with the highest mean score in the Young Horse divisions is Grand Galaxy Win (8.218). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
 
 ***Table 9***  
 *Summary Table of Young Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| Apache           |                  9 |      7.65533 |          7.708 |             0.528117 |   0.278908 |
 | Contucci         |                 10 |      7.628   |          7.452 |             0.81952  |   0.671612 |
 | Florestan I      |                 11 |      7.369   |          7.4   |             0.385015 |   0.148237 |
 | Furstenball      |                 22 |      7.79964 |          7.67  |             0.565568 |   0.319867 |
@@ -370,31 +201,24 @@ The sire with the highest mean score in the Young Horse divisions is Grand Galax
 | Sandro Hit       |                 31 |      7.68797 |          7.636 |             0.525052 |   0.27568  |
 | Secret           |                 10 |      7.758   |          7.608 |             0.319512 |   0.102088 |
 | Sir Donnerhall I |                 24 |      7.80379 |          7.718 |             0.382872 |   0.146591 |
-| Sir Sinclair     |                  9 |      7.66511 |          7.68  |             0.423529 |   0.179377 |
-| Vitalis          |                  9 |      8.13333 |          7.992 |             0.603659 |   0.364404 |
 
 
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
-The sire with the highest mean score in the Developing Horse divisions is Vivaldi (68.754%), with Charmeur (68.534%) and Jazz (68.452%) a very close second and third, respectively. The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Rousseau (65.809%), Quaterback (65.764%), Belissimo M (65.44%), Sandro Hit (64.629%), and Hochadel (64.068%). 
+The sire with the highest mean score in the Developing Horse divisions is Jazz (68.452%). The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Quaterback (65.764%), and Sandro Hit (64.629%). 
 
 ***Table 10***  
 *Summary Table of Developing Horse Divisions Scores by Sire*
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| Belissimo M      |                  5 |      65.4404 |        66.843  |              3.74205 |   14.003   |
-| Charmeur         |                  5 |      68.5348 |        69.152  |              2.66971 |    7.12733 |
 | Diamond Hit      |                  7 |      67.4623 |        67.774  |              1.72814 |    2.98647 |
 | Fidertanz        |                 13 |      67.2732 |        67.807  |              3.24802 |   10.5496  |
 | Florencio I      |                  7 |      67.5287 |        67.306  |              1.43564 |    2.06105 |
 | Florestan I      |                  6 |      67.1293 |        66.8035 |              1.75294 |    3.07282 |
-| Hochadel         |                  5 |      64.0688 |        63.885  |              3.61994 |   13.104   |
 | Jazz             |                  7 |      68.4527 |        68.705  |              2.76839 |    7.66396 |
 | Quaterback       |                  6 |      65.7647 |        65.201  |              2.79883 |    7.83345 |
-| Rousseau         |                  5 |      65.8092 |        65.67   |              2.13535 |    4.55973 |
 | Sandro Hit       |                  9 |      64.6292 |        64.273  |              2.26267 |    5.11968 |
 | Sir Donnerhall I |                 10 |      67.8955 |        68.7305 |              3.90009 |   15.2107  |
-| Vivaldi          |                  5 |      68.7544 |        68.052  |              2.20312 |    4.85374 |
 
 
 #### Distribution of Scores by Sire, Young Horse Division
