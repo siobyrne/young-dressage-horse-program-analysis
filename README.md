@@ -156,7 +156,7 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 ![FEI Achievement by Overall Score](images/dh-grand-prix-by-overall-score.png)
 
 #### Developing Horse Division Competitors International Team Horses
-As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.1% (6/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games), Rosevelt (Olympic Games), Sanceo (Olympic Games and Pan American Games), Lucky Strike (Pan American Games, did not compete due to injury in transport), Faro SQF (Pan American Games), and Jane (Olympic Games). Three of the six horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
+As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.5% (7/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games), Rosevelt (Olympic Games), Sanceo (Olympic Games and Pan American Games), Lucky Strike (Pan American Games, did not compete due to injury in transport), Faro SQF (Pan American Games), Fire Fly (Pan American Games), and Jane (Olympic Games). Three of the seven horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
 
 ***Table 2***  
 *Former Developing Horse Championship Competitors Selected For an International Team*
@@ -168,6 +168,7 @@ As stated previously, one aim of these championships is to help identify horses 
 | Sanceo       | San Remo    | Ramiro's Son II     | Germany        | Gerhard Dustmann  | Hanoverian | Olympic Games and Pan American Games |
 | Lucky Strike | Lord Laurie | His Highness        | Germany        | Monika Hartwitch  | Hanoverian | Pan American Games                   |
 | Faro SQF     | Fidertanz   | Rotspon             | USA            | Star Quarry Farm  | Hanoverian | Pan American Games                   |
+| Fire Fly     | Briar Junior | OO Seven           | Netherlands    | Anton Geessink    | KWPN       | Pan American Games                   |
 | Jane         | Desperado   | Metall              | Netherlands    | H.J. Van Oort     | KWPN       | Olympic Games                        |
 
 #### Young and Developing Horse Division Competitors
@@ -336,7 +337,7 @@ It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbo
 ![Most Prominent Studbooks](images/top-10-studbooks.png)
 
 #### Most Championship Appearances
-The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date (Figure 24) is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old Championships as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
+The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date (Figure 24) is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old divisions as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
 
 He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions, and went on to compete at the CDI level at Grand Prix. 
 
@@ -348,11 +349,15 @@ There were several horses that have five appearances at championships. Pikko del
 
 
 ## Final Thoughts
-The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). Four horses went on to make international teams. A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions.
+The data analyzed clearly shows that the majority of Young Horse Championship participants have been quite successful. The majority made it to FEI (69.5%), and of those that made it to FEI, a fair number made it to Grand Prix (38.1%). A mere 9.7% of horses that competed in the Young Horse divisions during the analyzed time frame never competed beyond the Young Horse divisions.
+
+Similarly, Developing Horse division competitors were also successful. The majority made it to Grand Prix (65%), and the majority were also CDI competitors (67.5%). 
+
+In terms of identifying up coming international team horses, both programs may not have been as successful as would be ideal. Only 0.7% of Young Horse competitors, and 2.5% of Developing Horse competitors went on to be named to a team. While of course the number of horses being named to a team is going to be small regardless, it would be worth looking into why we don't see more horses from both divisions, but in particular the Developing Horse division, growing into team contenders. 
 
 Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end up with less ambitious riders, some will die young, some will become career broodmares. Sadly, for sure there will be some who end up pushed too hard too soon, never end up achieving their full potential. 
 
-While certainly not the only path to success, the Young Horse program is one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
+While certainly not the only path to success, the Young Horse and Developing Horse programs are one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
 I hope to expand this analysis in the future to look at career length, as well as differentiating high performing horses at the FEI levels in general and at Grand Prix. If there is an area of inquiry that you think I have overlooked, you can [contact me by email](byrne.sio@gmail.com).
 
