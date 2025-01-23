@@ -12,11 +12,11 @@ The current format of the competition for all divisions (4/5/6/7 Year Old, Devel
 
 To complicate matters, a few early years of this program invited more horses to participate, and held both Final and Consolation Final rounds. To simplify this analysis, I did not include any Consolation Final results. 
 
-For more recent years of the competition (2021-2024), the competition software system [Equestrian Hub](www.equestrian-hub.com) has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) [website](www.usef.org/), but not all were available. For the years that had only the scores from each class available, I wrote a [small program in Python](resources/yh-score-calculator.py) to take each individual round of scores, and calculate the overall score using the 40/60 formula. While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, [please contact me](byrne.sio@gmail.com) and I will make the correction.
+For more recent years of the competition (2021-2024), the competition software system <a href="http://www.equestrian-hub.com" target="_blank">Equestrian Hub</a> has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) <a href="http://www.usef.org" target="_blank">website</a>, but not all were available. For the years that had only the scores from each class available, I wrote a [small program in Python](resources/yh-score-calculator.py) to take each individual round of scores, and calculate the overall score using the 40/60 formula. While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, <a href="mailto:byrne.sio@gmail.com">please contact me</a> and I will make the correction.
 
-Next, I looked up each horse in the United States Dressage Federation (USDF) [database](www.usdf.org/usdfscores), to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level, nor does it address competitive career length. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level other than the FEI Young Horse tests for 5, 6, and 7 Year Olds, or the FEI divisions that are limited to youth competitors (Pony/Children/Junior/Young Rider/U-25). 
+Next, I looked up each horse in the United States Dressage Federation (USDF) <a href="http://www.usdf.org/usdfscores" target="_blank">database</a>, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level, nor does it address competitive career length. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level other than the FEI Young Horse tests for 5, 6, and 7 Year Olds, or the FEI divisions that are limited to youth competitors (Pony/Children/Junior/Young Rider/U-25). 
 
-I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing [Horse Telex](www.horsetelex.com), a pedigree database. I also utilized old [Eurodressage](www.eurodressage.com) and [DressageDaily](www.dressagedaily.com) articles about various years of the championships. 
+I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing [Horse Telex](www.horsetelex.com), a pedigree database. I also utilized old <a href="http://www.eurodressage.com" target="_blank">Eurodressage</a> and <a href="http://www.dressagedaily.com" target="_blank">DressageDaily</a> articles about various years of the championships. 
 
 ## Analysis Overview
 I collected data on competitors from all years the championships have been held, 2002-2024, and all divisions (*N*=888). 
@@ -328,7 +328,7 @@ Oldenburg was third, with 22.4% (199/888). There was sometimes considerable diff
 
 The rest of the top ten were Westfalen 5.6% (50/888), Danish Warmblood 4.3% (38/888) , Rhinelander 2% (18/888), American Warmblood 1.1% (10/888), Pura Raza Espanola (PRE) 0.9% (8/888), Holsteiner 0.8% (7/888), and Swedish Warmblood 0.7% (6/888). 
 
-It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, [states on their website](https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na/) they have registered an average of more than 550 foals a year over the last decade. 
+It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, <a href="https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na" target="_blank">states on their website</a> they have registered an average of more than 550 foals a year over the last decade. 
 
 ***Figure 23***  
 *Top Ten Most Prominent Studbooks by Number of Horses*
@@ -357,15 +357,15 @@ Of course, it won't be the case that every horse that participates goes far in t
 
 While certainly not the only path to success, the Young Horse and Developing Horse programs are one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
-I hope to expand this analysis in the future to look at career length, as well as differentiating high performing horses at the FEI levels in general and at Grand Prix. If there is an area of inquiry that you think I have overlooked, you can [contact me by email](byrne.sio@gmail.com).
+I hope to expand this analysis in the future to look at career length, as well as differentiating high performing horses at the FEI levels in general and at Grand Prix. If there is an area of inquiry that you think I have overlooked, you can <a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather data:
 
-* [United States Dressage Federation (USDF)](www.usdf.org)
-* [United States Equestrian Federation (USEF)](www.usef.org)
-* [Equestrian Hub](www.equestrian-hub.com)
-* [Fox Village](www.foxvillage.com)
-* [Horse Telex](www.horsetelex.com)
-* [Eurodressage](www.eurodressage.com)
-* [DressageDaily](www.dressagedaily.com)
+* <a href="http://www.usdf.org" target="_blank">United States Dressage Federation (USDF)</a>
+* <a href="http://www.usef.org" target="_blank">United States Equestrian Federation (USEF)</a>
+* <a href="http://www.equestrian-hub.com" target="_blank">Equestrian Hub</a>
+* <a href="http://www.foxvillage.com" target="_blank">Fox Village</a>
+* <a href="http://www.horsetelex.com" target="_blank">Horse Telex</a>
+* <a href="http://www.eurodressage.com" target="_blank">Eurodressage</a>
+* <a href="http://www.dressagedaily.com" target="_blank">DressageDaily</a>
