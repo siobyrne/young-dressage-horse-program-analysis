@@ -5,7 +5,7 @@ The aim of this project is to analyze data from the USEF Young and Developing Ho
 
 My aim is to update this project at the end of each competition season. 
 
-Questions, comments, corrections, or suggestions for further areas of exploration are welcome—[contact me by email](byrne.sio@gmail.com).
+Questions, comments, corrections, or suggestions for further areas of exploration are welcome—<a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
 
 ## Data Acquisition and Cleaning
 The current format of the competition for all divisions (4/5/6/7 Year Old, Developing Prix St. Georges, and Developing Grand Prix) involves two rounds, with round one counting for 40% of the overall score, and round two counting for 60% of the overall score. Overall scores determine the final placings. For the Young Horse divisions, 4 year olds ride the USEF 4 Year Old test both times—in early years of the championships, round one was optional, and final placings were based solely on round two. The FEI 5, 6, and 7 Year Olds ride the Preliminary test in round one, and the Final test in round two. Developing Prix St. Georges horses ride the FEI Prix St. Georges in round one, and the USEF Developing Prix St. Georges test in round two. Developing Grand Prix horses ride the FEI Intermediate-2 test in round one, and the USEF Developing Grand Prix test in round two.
