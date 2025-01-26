@@ -14,7 +14,7 @@ To complicate matters, a few early years of this program invited more horses to 
 
 For more recent years of the competition (2021-2024), the competition software system <a href="http://www.equestrian-hub.com" target="_blank">Equestrian Hub</a> has automatically calculated these placings, which made it easy to obtain the data. For prior years, varying levels of detective work were required. I was able to find official overall placing records for some years on the United States Equestrian Federation (USEF) <a href="http://www.usef.org" target="_blank">website</a>, but not all were available. For the years that had only the scores from each class available, I wrote a [small program in Python](resources/yh-score-calculator.py) to take each individual round of scores, and calculate the overall score using the 40/60 formula. While I have endeavored to do this without error, the lack of official overall rankings to compare to means that there may be errors involved as to exact overall placings of some horses. If you come across an error, <a href="mailto:byrne.sio@gmail.com">please contact me</a> and I will make the correction.
 
-Next, I looked up each horse in the United States Dressage Federation (USDF) <a href="http://www.usdf.org/usdfscores" target="_blank">database</a>, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For a), I did not consider scores received—I was only concerned if that horse had a test on its record at that level. Therefore, this analysis does not differentiate between high and low scoring horses at any level, nor does it address competitive career length. For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level other than the FEI Young Horse tests for 5, 6, and 7 Year Olds, or the FEI divisions that are limited to youth competitors (Pony/Children/Junior/Young Rider/U-25). 
+Next, I looked up each horse in the United States Dressage Federation (USDF) <a href="http://www.usdf.org/usdfscores" target="_blank">database</a>, to determine a) what is the highest level to which this horse competed?,  and b) did this horse ever compete at the CDI (international) level? For b), I only considered horses to be CDI competitors if they had competed at a CDI at a level other than the FEI Young Horse tests for 5, 6, and 7 Year Olds, or the FEI divisions that are limited to youth competitors (Pony/Children/Junior/Young Rider/U-25). 
 
 I had the most difficulty acquiring the data on bloodlines and breeders, ironically. Because so many people fail to include this information on entry forms, lots of the data was incomplete. USEF does have a horse search function on their website, but they only list sire and dam (no damsire), and frequently the breeder and country of birth are left out. The USDF database also has frequently incomplete pedigree and breeder data. Finding this information required a lot of detective work in some cases, frequently utilizing [Horse Telex](www.horsetelex.com), a pedigree database. I also utilized old <a href="http://www.eurodressage.com" target="_blank">Eurodressage</a> and <a href="http://www.dressagedaily.com" target="_blank">DressageDaily</a> articles about various years of the championships. 
 
@@ -109,22 +109,29 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 *Former Young Horse Division Competitors at Grand Prix Scoring 7.45 or Above vs Below 7.45*
 ![Grand Prix Achievement by Overall Score](images/grand-prix-by-overall-score.png)
 
+#### Average Grand Prix Scores of Former Young Horse Competitors
+Figure 10 below show the breakdown of average Grand Prix scores of former Young Horse competitors at that level (*n*=147). 41.5% of horses (61/147) had an average score from 60-65%, 40.1% (59/147) had an average score from 65-70%, 8.2% (12/147) had an average score from 55-60%, 6.8% (10/147) had an average score of 70-75%, and 3.4% (5/147) had an average score of 50-55%. 
+
+***Figure 10***  
+*Average Grand Prix Scores of Former Young Horse Division Competitors*
+![Grand Prix Average Score](images/yh-gp-average-score.png)
 
 #### Young Horse Division Competitors International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
-Four horses from this time period, 0.7% (4/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), and Sanceo (Pan American and Olympic Games, for the United States). 
+Four horses from this time period, 0.9% (5/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), Sancette (Olympics and World Equestrian Games, for Australia) and Sanceo (Pan American and Olympic Games, for the United States). 
 
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
 
 
-| Horse        | Sire        | Damsire         | Country Bred  |  Breeder                   | Studbook   | Team Made                      |
-|:-------------|:------------|:----------------|:--------------|:---------------------------|:-----------|:-------------------------------|
-| Grandioso    | Grosso Z    | Palisandergrund | Germany       | Willi Hillebrecht          | Westfalen  | Pan American Games             |
-| Selten HW    | Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold  | Hanoverian | Olympic Games                  |
-| Sanceo       | San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann           | Hanoverian | Olympic and Pan American Games |
-| Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games             |
+| Horse        | Sire        | Damsire         | Country Bred  |  Breeder                   | Studbook   | Team Made                                |
+|:-------------|:------------|:----------------|:--------------|:---------------------------|:-----------|:-----------------------------------------|
+| Grandioso    | Grosso Z    | Palisandergrund | Germany       | Willi Hillebrecht          | Westfalen  | Pan American Games                       |
+| Selten HW    | Sandro Hit  | Hohenstein      | USA           | Irene Hoeflich-Wiederhold  | Hanoverian | Olympic Games                            |
+| Sancette     | Sandro Hit  | Contender       | Germany        | Dietrich Meyer            | Hanoverian | Olympic Games and World Equestrian Games | 
+| Sanceo       | San Remo    | Ramiro's Son II | Germany       | Gerhard Dustmann           | Hanoverian | Olympic and Pan American Games           |
+| Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games                       |
 
 ### 2008 - 2023, Developing Horse Division Competitive Outcomes
 
@@ -136,20 +143,20 @@ Figure 10 below shows the breakdown of the highest level achieved in competition
 ![Highest Level Competed Breakdown](images/dh-highest-level-breakdown.png)
 
 #### CDI Level Competitive Outcomes for Developing Horse Division Competitors
-Of the horses that ceompeted in the Developing Prix St. Georges and Grand Prix divisions (*n*=283), how many competed at the CDI level (Figure 10)? As when looking at the Young Horse division competitors, I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
+Of the horses that ceompeted in the Developing Prix St. Georges and Grand Prix divisions (*n*=283), how many competed at the CDI level (Figure 11)? As when looking at the Young Horse division competitors, I only considered competing at a CDI in the senior divisions (Prix St. Georges, I-1, I-2, Grand Prix) to count as competing at the CDI level. 
 
 The majority of Developing Horse division participants, 67.5% (191/283), participated in at least one CDI. This is significantly higher than the number of former Young Horse competitors who competed at the CDI level (45.9%). Why? One explanation is that Developing Horse division competitors are already at the FEI level—it is a smaller hill to climb to go from competing in the Developing PSG or GP divisions to competing in a CDI than it is for a 4, 5, or 6 year old to get there. Or, it may be the case that the riders aiming to compete in the Developing Horse divisions tend to be more focused on CDI competition as a goal. 
 
-***Figure 10***  
+***Figure 11***  
 *CDI vs Non-CDI Former Developing Horse Division Competitors*
 ![CDI vs Non-CDI Horses](images/dh-cdi-competitors.png)
 
 #### Overall Score and Grand Prix Achievement for Developing Horse Division Competitors
 Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the mean overall score (65.9% for the Developing divisions) as the threshold, separating horses that competed to Grand Prix (*n*=184) as scoring equal to or above 65.9%, or below.
 
-59.2% of horses (109/184) that made it to Grand Prix achieved an overall score of 65.9% or higher, compared to 40.8% (75/184) that scored below 65.9% (Figure 11). A chi-square test of independence showed that there was no significant association between an overall score over 65.9% and a horse going on to compete at Grand Prix (X2 (1, *n* = 283) = 1.2, *p* = .27).
+59.2% of horses (109/184) that made it to Grand Prix achieved an overall score of 65.9% or higher, compared to 40.8% (75/184) that scored below 65.9% (Figure 12). A chi-square test of independence showed that there was no significant association between an overall score over 65.9% and a horse going on to compete at Grand Prix (X2 (1, *n* = 283) = 1.2, *p* = .27).
 
-***Figure 11***  
+***Figure 12***  
 *Former Developing Horse Competitors at Grand Prix Scoring 65.9% or Above vs Below 65.9%*
 ![FEI Achievement by Overall Score](images/dh-grand-prix-by-overall-score.png)
 
@@ -170,11 +177,18 @@ As stated previously, one aim of these championships is to help identify horses 
 | Jane         | Desperado   | Metall              | Netherlands    | H.J. Van Oort     | KWPN       | Olympic Games                        |
 
 #### Young and Developing Horse Division Competitors
-Of the horses that competed in the Developing Horse divisions (*n*=283), how many competed in at least one Young Horse division previously (Figure 12)? 62.2% (176/283) competed in only the Developing Horse division, compared to 37.8% (107/283) that competed in at least  one Young Horse division and one Developing Horse division.
+Of the horses that competed in the Developing Horse divisions (*n*=283), how many competed in at least one Young Horse division previously (Figure 13)? 62.2% (176/283) competed in only the Developing Horse division, compared to 37.8% (107/283) that competed in at least  one Young Horse division and one Developing Horse division.
 
-***Figure 12***  
+***Figure 13***  
 *Horses That Competed In At Least One Young Horse and One Developing Horse Division*
 ![DH and YH Competitors](images/yh-and-dh-competitors.png)
+
+#### Average Grand Prix Scores of Former Developing Horse Competitors
+Figure 14 below show the breakdown of average Grand Prix scores of former Developing Horse competitors at that level (*n*=184). 56.5% of horses (104/184) had an average score from 65-70%, 33.2% (61/184) had an average score from 60-65%, 8.2% (12/147) had an average score from 55-60%, 7.1% (13/184) had an average score of 70-75%, and 3.3% (6/184) had an average score of 55-60%. No horses had an average score below 55%.  
+
+***Figure 14***  
+*Average Grand Prix Scores of Former Developing Horse Division Competitors*
+![Grand Prix Average Score](images/dh-gp-average-score.png)
 
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
@@ -222,20 +236,20 @@ The sire with the highest mean score in the Developing Horse divisions (Table 4)
 
 #### Distribution of Scores by Sire, Young Horse Division
 
-***Figure 13***  
+***Figure 15***  
 *Histogram of Young Horse Divisions Scores by Sire*
 ![Young Horse Scores by Sire Histogram](images/yh-score-by-sire.png)
 
 
 #### Distribution of Scores by Sire, Developing Horse Division
 
-***Figure 14***  
+***Figure 16***  
 *Histogram of Developing Horse Divisions Scores by Sire*
 ![Developing Horse Scores by Sire Histogram](images/dh-score-by-sire.png)
 
 
 #### US-Bred vs All Other Countries
-Far more horses participating in the championships are foreign-bred than bred in the USA (Figure 15). Of all horses competing at championships from 2002-2024 (*N*=888), 36.9%  of horses were bred in the USA (328/888). 35% (311/888) were bred in Germany, 19.5% (173/888) were bred in the Netherlands, 3.3% (29/888) were bred in Denmark, 0.9% (8/888) were bred in Belgium, 0.8% (7/888) were bred in Canada, 0.6% (5/888) were bred in Norway, 0.6% (5/888) were bred in Spain, 0.6% (5/888) were bred in Great Britain, and .02% (2/888) were bred in Sweden. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
+Far more horses participating in the championships are foreign-bred than bred in the USA (Figure 17). Of all horses competing at championships from 2002-2024 (*N*=888), 36.9%  of horses were bred in the USA (328/888). 35% (311/888) were bred in Germany, 19.5% (173/888) were bred in the Netherlands, 3.3% (29/888) were bred in Denmark, 0.9% (8/888) were bred in Belgium, 0.8% (7/888) were bred in Canada, 0.6% (5/888) were bred in Norway, 0.6% (5/888) were bred in Spain, 0.6% (5/888) were bred in Great Britain, and .02% (2/888) were bred in Sweden. Why are there so many more foreign-bred horses than US-bred horses? There are many possible explanations:
 
 * Many people shop for horses in Europe because it is easier to see many horses in one location versus the USA, where one can spend a lot of money traveling across the country to look at only one or two horses
 
@@ -253,76 +267,76 @@ Far more horses participating in the championships are foreign-bred than bred in
 
 * More young horse specialists in Europe makes it easier for buyers who may not have access to a good young horse specialist in their part of the USA
 
-***Figure 15***  
+***Figure 17***  
 *Championship Competitors by Country Bred*
 ![Horses by Country Bred](images/horses-by-country.png)
 
 
 #### Top Ten Sires Represented by Number of Horses
-Figure 16 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Furstenball (19), Sir Donnerhall I (18), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (12), Hotline (10), Grand Galaxy Win (10), Florencio I (9), Belissimo M (9), Secret (9), and Sir Sinclair (9). The four-way tie for tenth place in the top ten means there are actually 13 sires represented in this chart.
+Figure 18 below shows the top ten sires of championship competitors by number of offspring. The stallion with the most offspring competing was Sandro Hit (24). The rest of the top ten were Furstenball (19), Sir Donnerhall I (18), Jazz (13), Rotspon (12), Fidertanz (12), Florestan I (12), Hotline (10), Grand Galaxy Win (10), Florencio I (9), Belissimo M (9), Secret (9), and Sir Sinclair (9). The four-way tie for tenth place in the top ten means there are actually 13 sires represented in this chart.
 
-***Figure 16***  
+***Figure 18***  
 *Top Ten Sires by Number of Horses*
 ![Top Ten Sires](images/top-10-sires.png)
 
 
 #### Top Ten Damsires Represented by Number of Horses
-Figure 17 below shows the top ten damsires of championship competitors by number of horses. The damsire with the most horses competing was Rubinstein (25). The rest of the top ten were De Niro (20), Sandro Hit (20), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (14), Sir Donnerhall I (13), Krack C (11), and Rohdiamant (11). 
+Figure 19 below shows the top ten damsires of championship competitors by number of horses. The damsire with the most horses competing was Rubinstein (25). The rest of the top ten were De Niro (20), Sandro Hit (20), Jazz (16), Rotspon (16), Weltmeyer (14), Ferro (14), Sir Donnerhall I (13), Krack C (11), and Rohdiamant (11). 
 
 This column had the second most null values of all the columns (18/888 missing values, 2% of the total).
 
-***Figure 17***  
+***Figure 19***  
 *Top Ten Damsires by Number of Horses*
 ![Top Ten Damsires](images/top-10-damsires.png)
 
 
 #### Top Ten Sires of Grand Prix Horses 
-Figure 18 below shows the top ten sires of Grand Prix horses by number of horses. The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
+Figure 20 below shows the top ten sires of Grand Prix horses by number of horses. The top sire of Grand Prix horses was also Sandro Hit (11). The rest of the top ten were Sir Donnerhall I (9), Jazz (8), Fidertanz (6), Belissimo M (5), Florestan I (5), Florencio I (5), Rotspon (4), Hotline (4), and Quaterback (4). 
 
-***Figure 18***  
+***Figure 20***  
 *Top Ten Grand Prix Sires by Number of Horses*
 ![Top Ten Grand Prix Sires](images/top-gp-sires.png)
 
 #### Highest Percentage of Grand Prix Horses by Sire
-When looking at the highest percentage of Grand Prix horses, I only looked at sires with 9 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix horses by the highest percentage versus solely looking at the count, it shakes things up a bit (Figure 19).
+When looking at the highest percentage of Grand Prix horses, I only looked at sires with 9 or more offspring total, in order to have a better sample size (although this is obviously still quite small). When we look at sires of Grand Prix horses by the highest percentage versus solely looking at the count, it shakes things up a bit (Figure 21).
 
 While ranked third in terms of number of Grand Prix offspring, the top producer of Grand Prix horses by percentage was Jazz at 61.5% (8/13). Florencio I and Belissimo M were both at 55.6% (5/9), Sir Donnerhall I (9/18) Fidertanz (6/12) were both at 50%. While Sandro Hit had the highest number of Grand Prix offspring, this was only 45.8% of the total number of offspring (11/24). The rest were Florestan I at 41.7% (5/12), Hotline at 40% (4/10), Rotspon at 33.3% (4/12), Sir Sinclair at 33.3% (3/9), and Furstenball at 15.8% (3/19) It is interesting to note that while Furstenball was ranked second overall in terms of number of offspring competing, he was last by percentage of Grand Prix horses. 
 
-***Figure 19***  
+***Figure 21***  
 *Percentage of Grand Prix Offspring by Sire*
 ![Percentage of Grand Prix Horses by Sire](images/gp-sire-percentage.png)
 
 
 #### Top Ten Damsires of Grand Prix Horses 
-The top damsire of Grand Prix horses by number of horses (Figure 20) was De Niro (8). The rest of the top ten were Rubinstein (6), Rotspon (5), Ferro (5), Weltmeyer (5), Brentano II (5), Jazz (4), Rohdiamant (4), Wolkenstein II (4), and Sandro Hit (4). 
+The top damsire of Grand Prix horses by number of horses (Figure 22) was De Niro (8). The rest of the top ten were Rubinstein (6), Rotspon (5), Ferro (5), Weltmeyer (5), Brentano II (5), Jazz (4), Rohdiamant (4), Wolkenstein II (4), and Sandro Hit (4). 
 
 Once again, the prevalence of null values (2%) in the damsire column affects the completeness of this data. 
 
-***Figure 20***  
+***Figure 22***  
 *Top Ten Grand Prix Damsires by Number of Horses*
 ![Top Ten Grand Prix Damsires](images/top-gp-damsires.png)
 
 #### Highest Percentage of Grand Prix Horses by Damsire
-When looking at the highest percentage of Grand Prix horses (Figure 21), I only looked at damsires with 10 or more horses total, in order to have a better sample size. Just as with the percentage of Grand Prix horses by sire, there is a shakeup in the rankings.
+When looking at the highest percentage of Grand Prix horses (Figure 23), I only looked at damsires with 10 or more horses total, in order to have a better sample size. Just as with the percentage of Grand Prix horses by sire, there is a shakeup in the rankings.
 
 De Niro had both the highest count of Grand Prix horses, and the highest percentage at 40% (8/20). While ranked 8th in terms of number of Grand Prix horses,Rohdiamant came in second in percentage with 36.4% (4/11). Weltmeyer and Ferro both came in at 35.7% (5/14), then Rotspon with 31.2% (5/16). Romanov and Donnerhall were both at 30% (3/10), and Jazz at 25% (4/16). Interestingly, while Rubinstein was the second highest in terms of number of Grand Prix horses, he was second to last in terms of percentage at 24% (6/25). Sandro Hit was last in terms of number of Grand Prix horses and percentage, with 20% (4/20). 
 
-***Figure 21***  
+***Figure 23***  
 *Percentage of Grand Prix Horses by Damsire*
 ![Percentage of Grand Prix Horses by Damsire](images/gp-damsire-percentage.png)
 
 #### Top Ten Most Prominent Breeders by Horse Count
-The most prominent breeder over all years and divions (Figure 22) is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
+The most prominent breeder over all years and divions (Figure 24) is DG Bar Ranch (USA), with 17 horses. The rest of the top ten were Maryanna Haymon (USA, 13 horses), Nancy Holowesko (USA, 11 horses), Leatherdale Farms (USA, 7 horses), Jennifer Vanover (USA, 7 horses), Oak Hill Ranch (USA, 6 horses), Judy Yancey (USA, 6 horses), Horses Unlimited (USA, 6 horses), Gestut Lewitz (Germany, 6 horses), Maurine Swanson (USA, 6 horses), and Hilltop Farm (USA, 6 horses). 
 
 This column had the most null values overall—47 missing values, which equates to 5.3% of the total (*N*=888). This data was also frequently extremely difficult to track down. While making submission of registration papers a condition for a USEF/USDF number may not be practical for a variety of reasons, it would help American sporthorse breeding to make this data easily available. Breeders also clearly deserve recognition for the essential role they play in our sport. 
 
-***Figure 22***  
+***Figure 24***  
 *Top Ten Most Prominent Breeders by Number of Horses*
 ![Most Prominent Breeders](images/top-10-breeders.png)
 
 
 #### Top Ten Studbooks by Number of Horses
-In order to compete at these championships, all horses must be registered with a studbook recognized by the World Breeding Federation for Sport Horses (WBFSH), or a national breed registry such as Jockey Club (the national registry for Thoroughbreds). Warmbloods are not really a breed (the Trakhener being an exception), they are a type. While there is definitly a lot of crossover in bloodlines through all the warmblood studbooks, each has their own directives and requirements for approval of mares and stallions, and the registration of offspring. I was curious to see what the most represented studbooks were, so I calculated the number of horses attributed to each (Figure 23) from the database of championship competitors over all years of the program (*N*=888). The studbook with the most horses competing over all years was KWPN (Koninklijk Warmbloed Paardenstamboek Nederland, also known as Dutch Warmblood), with 29.1% (258/888). The Hanoverian studbook was a close second, with 28.2% (250/888). 
+In order to compete at these championships, all horses must be registered with a studbook recognized by the World Breeding Federation for Sport Horses (WBFSH), or a national breed registry such as Jockey Club (the national registry for Thoroughbreds). Warmbloods are not really a breed (the Trakhener being an exception), they are a type. While there is definitly a lot of crossover in bloodlines through all the warmblood studbooks, each has their own directives and requirements for approval of mares and stallions, and the registration of offspring. I was curious to see what the most represented studbooks were, so I calculated the number of horses attributed to each (Figure 25) from the database of championship competitors over all years of the program (*N*=888). The studbook with the most horses competing over all years was KWPN (Koninklijk Warmbloed Paardenstamboek Nederland, also known as Dutch Warmblood), with 29.1% (258/888). The Hanoverian studbook was a close second, with 28.2% (250/888). 
 
 Oldenburg was third, with 22.4% (199/888). There was sometimes considerable difficulty in differentiating horses that were truly in the official German Oldenburg studbook (Oldenburg Horse Breeders Society/GOV, which is also just referred to as Oldenburg by some), and horses registered with Oldenburg NA (an American studbook no longer affiliated with the German studbook but was at one point the official American branch, also often just referred to as Oldenburg). Because of this, all horses that were listed as bring registered Oldenburg are combined. 
 
@@ -330,18 +344,18 @@ The rest of the top ten were Westfalen 5.6% (50/888), Danish Warmblood 4.3% (38/
 
 It makes sense that KWPN, Hanoverian, and Oldenburg are the most dominant studbooks, as they have by far the biggest presence in the United States. The American branch of the KWPN, KWPN-NA, <a href="https://kwpn-na.org/the-kwpn-na/about/about-kwpn-na" target="_blank">states on their website</a> they have registered an average of more than 550 foals a year over the last decade. 
 
-***Figure 23***  
+***Figure 25***  
 *Top Ten Most Prominent Studbooks by Number of Horses*
 ![Most Prominent Studbooks](images/top-10-studbooks.png)
 
 #### Most Championship Appearances
-The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date (Figure 24) is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old divisions as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
+The horse with the most appearances at the Markel/USEF Young and Developing Horse Championships to date (Figure 26) is WakeUp, ridden by Emily Miles. WakeUp competed in the Four and Six Year Old divisions as a young horse, and represented the USA at the World Young Horse Championships in Verden, Germany as a 5 year old in 2010. 
 
 He also competed two years in a row in both the Developing Prix St. Georges and Developing Grand Prix divisions, and went on to compete at the CDI level at Grand Prix. 
 
 There were several horses that have five appearances at championships. Pikko del Cerro HU was the only one who competed in every division excluding the FEI 7 Year Old, which was only introduced in 2022 (USEF 4 Year Old, FEI 5 Year Old, FEI 6 Year Old, Developing Prix St. Georges, Developing Grand Prix). The rest consisted of Fashion Designer OLD (FEI 5 Year Old, FEI Six Year Old, two years in Developing Prix St. Georges, Developing Grand Prix), Quantum Jazz (USEF 4 Year Old, FEI 6 Year  Old, three years Developing Grand Prix), Floretienne (USEF 4 Year Old, FEI 6 Year Old, Developing Prix St. Georges, two years Developing Grand Prix), Sternlicht Hilltop (USEF 4 Year Old, FEI 6 Year Old, three years Developing Prix St. Georges), Don Cesar (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Flavius MF (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Au Revoir (FEI 5 Year Old, FEI 6 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Ronin (USEF 4 Year Old, FEI 5 Year Old, two years Developing Prix St. Georges, Developing Grand Prix), Sole Mio (USEF 4 Year Old, FEI 5 Year Old, Developing Prix St. Georges, two years Developing Grand Prix), and Spirit of Joy (FEI 5 Year Old, FEI 6 Year Old, Developing Prix St. Georges, two years Developing Grand Prix). 
 
-***Figure 24***  
+***Figure 26***  
 *Horses with Most Appearances at Championships*
 ![Most Appearances at Championships](images/most-appearances.png)
 
@@ -357,7 +371,7 @@ Of course, it won't be the case that every horse that participates goes far in t
 
 While certainly not the only path to success, the Young Horse and Developing Horse programs are one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
 
-I hope to expand this analysis in the future to look at career length, as well as differentiating high performing horses at the FEI levels in general and at Grand Prix. If there is an area of inquiry that you think I have overlooked, you can <a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
+I hope to expand this analysis in the future to look at career length. If there is an area of inquiry that you think I have overlooked, you can <a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather data:
