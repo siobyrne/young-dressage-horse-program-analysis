@@ -30,7 +30,7 @@ The analysis of bloodlines and other breeding data will look at all years of the
 ### 2002 - 2020, Young Horse (4/5/6 Year Old) Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved by Young Horse Division Competitors
-Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 26.5% (147/555) competed to Grand Prix, 17.8% (99/555) Prix St. Georges, 16% (89/555) I-1, 8.8% (49/555) I-2, 7.9% (44/555) Third Level, 6.8% (38/555) Fourth Level, 4.5% (25/555) FEI 5 Year Old, 3.4% (19/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.2% (12/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/555) FEI Junior, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) I-A, 0.2% (1/555) I-B.  
+Figure 1 below shows the breakdown of the highest level achieved in competition by the horses that competed in the USEF 4 Year Old, FEI 5 Year Old, and FEI 6 Year Old divisions from 2002-2020 (*n*=555). 27% (150/555) competed to Grand Prix, 17.5% (97/555) Prix St. Georges, 16% (89/555) I-1, 8.6% (48/555) I-2, 7.9% (44/555) Third Level, 6.8% (38/555) Fourth Level, 4.5% (25/555) FEI 5 Year Old, 3.4% (19/555) Second Level, 3.4% (19/555) USEF 4 Year Old, 2.2% (12/555) First Level, 1.4% (8/555) FEI 6 Year Old, 0.4% (2/555) FEI Junior, 0.4% (2/555) FEI 7 Year Old, 0.2% (1/555) I-A, 0.2% (1/555) I-B.  
 
 ***Figure 1***  
 *Breakdown of Highest Level of Competition Achieved by Former Young Horse Division Competitors*
@@ -66,22 +66,24 @@ The majority of horses, 54.1% (209/386), never competed in a CDI. Most horses, e
 *CDI vs Non-CDI Former Young Horse Division Competitors*
 ![CDI vs Non-CDI Horses](images/cdi-competitors.png)
 
-#### Top Ten vs Lower Placing Young Horse Division Competitors
-Are horses placing in the top ten versus lower placing horses (11 and under) more likely to make it to FEI (Figure 5)? To answer this question, I looked at the overall placings of the horses that made it to the FEI levels (*n*=386). Because some horses competed at the championships multiple years and placed in the top ten one year but not another, I considered a horse to be in the top ten group if it made top ten at least once. 
+#### Top Half vs Lower Half Placing Young Horse Division Competitors
+Are horses placing in the top half of their division versus the lower half more likely to make it to FEI (Figure 5)? To answer this question, I looked at the overall placings of the horses that made it to the FEI levels (*n*=386). In deciding the cutoff point for top half versus bottom half placings, I used the median overall placing (7) as my dividing line. 
 
-The data shows a strong correlation between placing and FEI achievement: 76.7% (296/386) of horses that made it to the FEI levels placed in the top ten of their division at the championships, versus 23.3% (90/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the FEI levels (X2 (1, *n* = 555) = 12.6, *p* < .001).
+Because some horses competed at the championships multiple years and placed in the top half one year but not another, I considered a horse to be in the top half group if it placed in the top half at least once. 
 
-There could be several explanations for this. For one, horses placing in the top ten could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
+The data shows a correlation between placing and FEI achievement: 55.4% (214/386) of horses that made it to the FEI levels placed in the top half of their division at the championships, versus 44.6% (172/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top half placing, and competing at the FEI levels (X2 (1, *n* = 555) = 6.5, *p* = .01).
+
+There could be several explanations for this. For one, horses placing in the top half could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
 ***Figure 5***  
 *Former Young Horse Division Competitors at FEI Placing in Top Ten vs 11 and Under*
-![Percentage of FEI Horses in Top Ten vs 11 and Under](images/top-ten-vs-bottom-ten.png)
+![Percentage of FEI Horses in Top Half vs Bottom Half](images/top-half-vs-bottom-half.png)
 
-When we look at horses that competed to Grand Prix (*n*=147), the correlation between a top ten placing and level achievment is even more impressive (Figure 6). 90.5% (133/147) of the horses that made it to Grand Prix placed in the top ten of their division, versus a mere 9.5% (14/147) in the 11 and under placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top ten placing, and competing at the Grand Prix level (X2 (1, *n* = 555) = 32.4, *p* < .001).
+When we look at horses that competed to Grand Prix (*n*=150), the correlation between a top half placing and level achievment is even stronger (Figure 6). 65.3% (98/150) of the horses that made it to Grand Prix placed in the top half of their division, versus 34.7% (52/150) in the bottom half placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top half placing, and competing at the Grand Prix level (X2 (1, *n* = 555) = 19.2, *p* < .001).
 
 ***Figure 6***  
 *Former Young Horse Division Competitors at Grand Prix by Placing at Championships*
-![Grand Prix Horses by Placing](images/gp-top-ten-placing.png)
+![Grand Prix Horses by Placing](images/gp-top-half-placing.png)
 
 
 #### Top Three Placing Competitive Outcomes for Young Horse Division Competitors
@@ -101,9 +103,9 @@ Does a higher overall score correlate with a horse making it to FEI? To answer t
 ![FEI Achievement by Overall Score](images/fei-by-overall-score.png)
 
 #### Overall Score and Grand Prix Achievement for Young Horse Division Competitors
-Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the same overall score threshold as I did when analyzing overall score and FEI achievement (7.45, the mean overall score across the dataset) and applied it to the group of horses that made it to Grand Prix (*n*=147).
+Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the same overall score threshold as I did when analyzing overall score and FEI achievement (7.45, the mean overall score across the dataset) and applied it to the group of horses that made it to Grand Prix (*n*=150).
 
-67.3% of horses (99/147) that made it to Grand Prix achieved an overall score of 7.45 or higher, compared to 32.7% (48/147) that scored below 7.45 (Figure 9). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 9.4, *p* = .002).
+66.7% of horses (100/150) that made it to Grand Prix achieved an overall score of 7.45 or higher, compared to 33.3% (50/150) that scored below 7.45 (Figure 9). A chi-square test of independence showed that there was a significant association between an overall score over 7.45 and a horse going on to compete at Grand Prix (X2 (1, *n* = 555) = 8.5, *p* = .003).
 
 ***Figure 9***  
 *Former Young Horse Division Competitors at Grand Prix Scoring 7.45 or Above vs Below 7.45*
@@ -119,7 +121,7 @@ Figure 10 below show the breakdown of average Grand Prix scores of former Young 
 #### Young Horse Division Competitors International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
-Four horses from this time period, 0.9% (5/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), Sancette (Olympics and World Equestrian Games, for Australia) and Sanceo (Pan American and Olympic Games, for the United States). 
+Four horses from this time period, 0.9% (5/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), Sancette (Olympic Games and World Equestrian Games, for Australia) and Sanceo (Pan American Games and Olympic Games, for the United States). 
 
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
@@ -134,14 +136,14 @@ Four horses from this time period, 0.9% (5/555) of the sample, went on to make i
 | Lucky Strike | Lord Laurie | His Highness    | Germany       | Monika Hartwitch           | Hanoverian | Pan American Games                       |
 
 #### Career Length of Young Horse Division Competitors
-Does the riding career length of Young Horse competitors differ by division? To answer this, I looked up the first year and last year of competition for all horses competing from 2002-2020 (*N*=888). I only considered a horse to have competed if they had a score in a dressage test at any level--materiale, suitability, and in-hand classes were not considered. Because of the impossibility of determining the reasons for any gaps in a competition record, I calculated career length as last year of competition minus first year of competition plus one (e.g. 2020 - 2020 + 1 = 1 year riding career). 
+Does the riding career length of Young Horse competitors differ by division? To answer this, I looked up the first year and last year of competition for all horses competing in the Young Horse divisions from 2002-2020 (*n*=555). I only considered scores earned in a dressage test at any level--materiale, suitability, and in-hand classes were not considered. Because of the impossibility of determining the reasons for any gaps in a competition record--a gap in competition does not necessarily mean the horse wasn't being trained--I calculated career length as last year of competition minus first year of competition plus one (e.g. 2020 - 2020 + 1 = 1 year riding career). 
 
-I then calculated the mean career length for each division (Figure 11). The division with the longest average career length was the FEI 6 Year Old division (8.8 years), followed by the FEI 5 Year Old division (8.6 years), and then the USEF 4 Year Old division (7.2 years). 
+I then calculated the mean career length for each division (Figure 11). The division with the longest average career length was the FEI 6 Year Old division (8.8 years), followed by the FEI 5 Year Old division (8.6 years), and then the USEF 4 Year Old division (7.2 years). A chi-square test of independence showed that there was no significant association between the division competed and career length (X2 (1, *n* = 555) = 55.4, *p* = .05).
 
-There are some difficulties parsing what this data actually shows us. One difficulty is that the majority of horses in this sample are imported, and may have competed a year or more before being brought to the USA, depending on the age of the horse. This means they may have a longer career than the data available indicates. There may also be horses who switched the discipline in which they compete (e.g. from dressage to hunter/jumper), so these results would not be in the USDF database. Additionally, some professionals choose not to compete their young horses much if at all at the lower levels, so while these horses may have been under saddle for several years they may not have started competing until they were older. That said, it would be interesting to compare this data with the average career length of all the horses in the USDF database.
+There are some difficulties parsing what this data actually shows us regarding career length. One difficulty is that the majority of horses in this sample are imported, and may have competed a year or more before being brought to the USA, depending on the age of the horse. This means they may have a longer career under saddle than the data available indicates. There may also be horses who switched the discipline in which they compete (e.g. from dressage to hunter/jumper), so these results would not be in the USDF database. Additionally, some professionals choose not to compete their young horses much if at all at the lower levels, so while these horses may have been under saddle for several years they may not have started competing until they were older. That said, it would be interesting to compare this data with the average career length of all the horses in the USDF database. 
 
 ***Figure 11***  
-*Average Career Length of Former Developing Horse Program Competitors by Division*
+*Average Career Length of Former Young Horse Program Competitors by Division*
 ![Career Length by Division](images/yh-career-length.png)
 
 ### 2008 - 2023, Developing Horse Division Competitive Outcomes
@@ -266,7 +268,7 @@ Far more horses participating in the championships are foreign-bred than bred in
 
 * Depending on the exchange rate, it may be advantageous cost-wise to buy from other countries, as breeders in the USA face much higher costs to produce and raise foals
 
-* The cost to raise a young horse to riding age is cheaper in Europe, so buying a foal overseas and leaving it there to grow up could also be adventageous to a buyer 
+* The cost to raise a young horse to riding age is cheaper in Europe, so buying a foal overseas and leaving it there to grow up could also be adventageous to a buyer
 
 * European countries produce far more warmblood foals than the USA, so more to choose from, as well as bloodlines that might not be as available in the USA
 
@@ -376,13 +378,13 @@ The data analyzed clearly shows that the majority of Young Horse Championship pa
 
 Similarly, Developing Horse division competitors were also successful. The majority made it to Grand Prix (65%), and the majority were also CDI competitors (67.5%). 
 
-In terms of identifying up coming international team horses, both programs may not have been as successful as would be ideal. Only 0.9% of Young Horse competitors, and 2.5% of Developing Horse competitors went on to be named to a team. Of course, the number of horses being named to a team is going to be small regardless—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. However, it would be worth looking into why we don't see more horses from both divisions, but in particular the Developing Horse division, growing into team contenders. 
+In terms of identifying up coming international team horses, both programs may not have been as successful as would be ideal. Only 0.9% of Young Horse competitors, and 2.5% of Developing Horse competitors went on to be named to a team. Of course, the number of horses being named to a team is going to be small regardless—a team consists of only three or four horses, depending on the competition, and these competitions occur only every four years. However, it would be worth looking into why we don't see more horses from both divisions, but in particular the Developing Horse division, growing into team contenders. Can we better support the development of these horses to make the jump to being international team horses? 
 
 Of course, it won't be the case that every horse that participates goes far in the sport. Some will have career-ending injuries, some will end up with people who aren't capable of training them up the levels, some will end up with less ambitious riders, some will die young, some will become career broodmares. Sadly, for sure there will be some who end up pushed too hard too soon, never end up achieving their full potential. 
 
-While certainly not the only path to success, the Young Horse and Developing Horse programs are one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development. 
+While certainly not the only path to success, the Young Horse and Developing Horse programs are one option. There are horses who can handle the requirements of these tests without undue stress, and those whose development doesn't align with the requirements of the tests. Both types of horses can make it to FEI, and be successful. The tests themselves are not the problem, the real issue is the lack of consideration for where a horse is in their development to force them to fit a certain mold. 
 
-I hope to expand this analysis in the future to look at career length. If there is an area of inquiry that you think I have overlooked, you can <a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
+This project will continue to be updated each year. If there is an area of inquiry that you think I have overlooked, you can <a href="mailto:byrne.sio@gmail.com">contact me by email</a>.
 
 ## Acknowledgements
 The following sites were utilized to research this project and gather data:
