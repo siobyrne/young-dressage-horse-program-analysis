@@ -149,7 +149,7 @@ There are some difficulties parsing what this data actually shows us regarding c
 ### 2008 - 2023, Developing Horse Division Competitive Outcomes
 
 #### Highest Level of Competition Achieved by Developing Horse Division Competitors
-Figure 12 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65% (184/283) competed to Grand Prix, 16.3% (46/283) I-1, 14.8% (42/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
+Figure 12 below shows the breakdown of the highest level achieved in competition by the horses that competed in the Developing Prix St. Georges and Developing Grand Prix divisions from 2002-2023 (*n*=283). 65.7% (186/283) competed to Grand Prix, 15.2% (43/283) I-1, 15.2% (43/283) I-2, 3.5% (10/283) Prix St. Georges, and 0.4% (1/283) I-A. 
 
 ***Figure 12***  
 *Highest Level of Competition Achieved by Former Developing Horse Program Competitors*
@@ -165,9 +165,9 @@ The majority of Developing Horse division participants, 67.5% (191/283), partici
 ![CDI vs Non-CDI Horses](images/dh-cdi-competitors.png)
 
 #### Overall Score and Grand Prix Achievement for Developing Horse Division Competitors
-Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the mean overall score (65.9% for the Developing divisions) as the threshold, separating horses that competed to Grand Prix (*n*=184) as scoring equal to or above 65.9%, or below.
+Does a higher overall score correlate with a horse making it to Grand Prix? To answer this, I used the mean overall score (65.9% for the Developing divisions) as the threshold, separating horses that competed to Grand Prix (*n*=186) as scoring equal to or above 65.9%, or below.
 
-59.2% of horses (109/184) that made it to Grand Prix achieved an overall score of 65.9% or higher, compared to 40.8% (75/184) that scored below 65.9% (Figure 14). A chi-square test of independence showed that there was no significant association between an overall score over 65.9% and a horse going on to compete at Grand Prix (X2 (1, *n* = 283) = 1.2, *p* = .27).
+58.6% of horses (109/186) that made it to Grand Prix achieved an overall score of 65.9% or higher, compared to 41.4% (77/186) that scored below 65.9% (Figure 14). A chi-square test of independence showed that there was no significant association between an overall score over 65.9% and a horse going on to compete at Grand Prix (X2 (1, *n* = 283) = 2, *p* = .15).
 
 ***Figure 14***  
 *Former Developing Horse Competitors at Grand Prix Scoring 65.9% or Above vs Below 65.9%*
@@ -197,7 +197,7 @@ Of the horses that competed in the Developing Horse divisions (*n*=283), how man
 ![DH and YH Competitors](images/yh-and-dh-competitors.png)
 
 #### Average Grand Prix Scores of Former Developing Horse Competitors
-Figure 16 below show the breakdown of average Grand Prix scores of former Developing Horse competitors at that level (*n*=184). 56.5% of horses (104/184) had an average score from 65-70%, 33.2% (61/184) had an average score from 60-65%, 8.2% (12/147) had an average score from 55-60%, 7.1% (13/184) had an average score of 70-75%, and 3.3% (6/184) had an average score of 55-60%. No horses had an average score below 55%.  
+Figure 16 below show the breakdown of average Grand Prix scores of former Developing Horse competitors at that level (*n*=186). 55.9% of horses (104/186) had an average score from 65-70%, 33.3% (62/186) had an average score from 60-65%, 7% (13/186) had an average score of 70-75%, 3.2% (6/186) had an average score from 55-60%, and 3.2% (6/186) had an average score of 55-60%, and 0.5% (1/186) had an average score below 55%. 
 
 ***Figure 16***  
 *Average Grand Prix Scores of Former Developing Horse Division Competitors*
