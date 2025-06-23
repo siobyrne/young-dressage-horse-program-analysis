@@ -112,7 +112,7 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 ![Grand Prix Achievement by Overall Score](images/grand-prix-by-overall-score.png)
 
 #### Average Grand Prix Scores of Former Young Horse Competitors
-Figure 10 below show the breakdown of average Grand Prix scores of former Young Horse competitors at that level (*n*=147). 41.5% of horses (61/147) had an average score from 60-65%, 40.1% (59/147) had an average score from 65-70%, 8.2% (12/147) had an average score from 55-60%, 6.8% (10/147) had an average score of 70-75%, and 3.4% (5/147) had an average score of 50-55%. 
+Figure 10 below show the breakdown of average Grand Prix scores of former Young Horse competitors at that level (*n*=150). 41.3% of horses (62/150) had an average score from 60-65%, 40.7% (61/150) had an average score from 65-70%, 8% (12/150) had an average score from 55-60%, 6.7% (10/150) had an average score of 70-75%, and 3.3% (5/150) had an average score of 50-55%. 
 
 ***Figure 10***  
 *Average Grand Prix Scores of Former Young Horse Division Competitors*
