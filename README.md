@@ -49,7 +49,7 @@ The overwhelming majority, 69.5% (386/555), made it to FEI. 20.7% (115/555) comp
 ![FEI vs Non-FEI Horses](images/fei-vs-non-fei.png)
 
 
-Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386). 38.1% (147/386) of them competed to Grand Prix. 25.6% (99/386) competed to Prix St. Georges, 24.2% (91/386) I-1, 12% (45/386) I-2, 0.3% (1/386) I-A, 0.3% (1/386) I-B. 
+Figure 3 below shows the level breakdown of horses that made it to FEI (*n*=386). 38.9% (150/386) of them competed to Grand Prix. 25.1% (97/386) competed to Prix St. Georges, 23.1% (89/386) I-1, 12.4% (48/386) I-2, 0.3% (1/386) I-A, 0.3% (1/386) I-B. 
 
 ***Figure 3***  
 *Breakdown by Level of Former Young Horse Division Competitors That Competed at FEI*
@@ -71,12 +71,12 @@ Are horses placing in the top half of their division versus the lower half more 
 
 Because some horses competed at the championships multiple years and placed in the top half one year but not another, I considered a horse to be in the top half group if it placed in the top half at least once. 
 
-The data shows a correlation between placing and FEI achievement: 55.4% (214/386) of horses that made it to the FEI levels placed in the top half of their division at the championships, versus 44.6% (172/386) in the 11 and under placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top half placing, and competing at the FEI levels (X2 (1, *n* = 555) = 6.5, *p* = .01).
+The data shows a correlation between placing and FEI achievement: 55.4% (214/386) of horses that made it to the FEI levels placed in the top half of their division at the championships, versus 44.6% (172/386) in the bottom half placing group. A chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top half placing, and competing at the FEI levels (X2 (1, *n* = 555) = 6.5, *p* = .01).
 
 There could be several explanations for this. For one, horses placing in the top half could simply be better quality horses. They may also be ridden by more experienced riders that are better able to train them up the levels. 
 
 ***Figure 5***  
-*Former Young Horse Division Competitors at FEI Placing in Top Ten vs 11 and Under*
+*Former Young Horse Division Competitors at FEI by Placing at Championships*
 ![Percentage of FEI Horses in Top Half vs Bottom Half](images/top-half-vs-bottom-half.png)
 
 When we look at horses that competed to Grand Prix (*n*=150), the correlation between a top half placing and level achievment is even stronger (Figure 6). 65.3% (98/150) of the horses that made it to Grand Prix placed in the top half of their division, versus 34.7% (52/150) in the bottom half placing group. Again, a chi-square test of independence was performed to examine the relationship. The results showed a significant relationship between a top half placing, and competing at the Grand Prix level (X2 (1, *n* = 555) = 19.2, *p* < .001).
@@ -87,7 +87,7 @@ When we look at horses that competed to Grand Prix (*n*=150), the correlation be
 
 
 #### Top Three Placing Competitive Outcomes for Young Horse Division Competitors
-Does a top three placing correlate with competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.2% (45/128) made it to Grand Prix, 17.2% (22/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
+Does a top three placing correlate with competitive success (Figure 7)? A common argument of people against the young horse development track is that horses successful in these divisions never make it to FEI, or that they "disappear and are never seen again". Of the horses that placed in the top three (*n*=128), 35.9% (46/128) made it to Grand Prix, 16.4% (21/128) Prix St. Georges, 14.8% (19/128) I-2, 14.1% (18/128) I-1, 4.7% (6/128) Fourth Level, 3.1% (4/128) FEI 5 Year Old, 2.3% (3/128) Third Level, 2.3% (3/128) FEI 6 Year Old, 2.3% (3/128) USEF 4 Year Old, 1.6% (2/128) First Level, 0.8% (1/128) I-B, 0.8% (1/128) FEI 7 Year Old, 0.8% (1/128) Second Level. These numbers add up to 82.3% (105/128) of top three competitors making it to the FEI levels. 
 
 ***Figure 7***  
 *Former Young Horse Division Competitors Placing in the Top Three by Highest Level Competed*
