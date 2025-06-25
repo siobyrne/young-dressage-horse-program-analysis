@@ -121,7 +121,7 @@ Figure 10 below show the breakdown of average Grand Prix scores of former Young 
 #### Young Horse Division Competitors International Team Horses
 As one aim of these championships is to help identify horses that may be potential international team horses, I wanted to see how many horses from this time period (*n*=555) went on to represent the USA (or any other country) on a team in a major championship. I defined this as being named a member of a Pan American Games, World Equestrian Games, or Olympic Games team. 
 
-Four horses from this time period, 0.9% (5/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport), Selten HW (Olympic Games, for Denmark), Sancette (Olympic Games and World Equestrian Games, for Australia) and Sanceo (Pan American Games and Olympic Games, for the United States). 
+Four horses from this time period, 0.9% (5/555) of the sample, went on to make international teams (Table 1). These horses were Grandioso (Pan American Games, for the United States, rider Cesar Parra), Lucky Strike (named to Pan American Games team for the United States, but did not compete due to injury during transport, rider Endel Ots), Selten HW (Olympic Games, for Denmark, rider Anders Dahl), Sancette (Olympic Games and World Equestrian Games, for Australia, rider Mary Hanna) and Sanceo (Pan American Games and Olympic Games, for the United States, rider Sabine Schut-Kery). 
 
 ***Table 1***  
 *Former Young Horse Championship Competitors Selected For an International Team*
@@ -174,7 +174,7 @@ Does a higher overall score correlate with a horse making it to Grand Prix? To a
 ![FEI Achievement by Overall Score](images/dh-grand-prix-by-overall-score.png)
 
 #### Developing Horse Division Competitors International Team Horses
-As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.5% (7/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games), Rosevelt (Olympic Games), Sanceo (Olympic Games and Pan American Games), Lucky Strike (Pan American Games, did not compete due to injury in transport), Faro SQF (Pan American Games), Fire Fly (Pan American Games), and Jane (Olympic Games). Three of the seven horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
+As stated previously, one aim of these championships is to help identify horses that may be potential international team (Olympics, Paralympics, World Equestrian Games, Pan American Games) horses. Of the competitors in the Developing Horse division during this time period (*n*=283), 2.5% (7/283) were named to international teams, all for the United States (Table 2). These horses were Grandioso (Pan American Games, rider Cesar Parra), Rosevelt (Olympic Games, rider Alison Brock), Sanceo (Olympic Games and Pan American Games, rider Sabine Schut-Kery), Lucky Strike (Pan American Games, did not compete due to injury in transport, rider Endel Ots), Faro SQF (Pan American Games, rider Nora Batcheldor), Fire Fly (Pan American Games, rider Anna Marek), and Jane (Olympic Games, rider Marcus Orlob). Three of the seven horses also competed in the Young Horse division in previous years (Grandioso, Sanceo, Lucky Strike). 
 
 ***Table 2***  
 *Former Developing Horse Championship Competitors Selected For an International Team*
@@ -206,7 +206,7 @@ Figure 16 below show the breakdown of average Grand Prix scores of former Develo
 ### 2002 - 2024, All Divisions (4/5/6 Year Old, Developing Prix St. Georges, Developing Grand Prix) Breeding and Bloodlines Analysis
 
 ### Analysis of Scores by Sire 
-Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. In order to have a better sample sizes, I included only stallions with 10 or more scores for the Young Horse divisions, and 6 or more for the Developing Horse divisions.
+Because the scoring format for the 4/5/6 Year Old divisions is different than the scoring format for the Developing Horse divisions, I broke out the analysis of scores by sire out into two different groups. In order to have a better sample sizes, I included only stallions with 10 or more scores for the Young Horse divisions, and 6 or more for the Developing Horse divisions. Additionally, I removed outlier scores that were abnormally low due to a horse completing only one half of the competition.
 
 #### Summary Statistics for Scores by Sire, Young Horse Divisions 
 The sire with the highest mean score in the Young Horse divisions (Table 3) is Grand Galaxy Win (8.218). The rest were Sir Donnerhall I (7.803), Furstenball (7.799), Jazz (7.764), Secret (7.758), San Amour (7.707), Sandro Hit (7.687), Contucci (7.628), Hotline (7.623), Rotspon (7.521), and Florestan I (7.369). 
@@ -216,18 +216,17 @@ The sire with the highest mean score in the Young Horse divisions (Table 3) is G
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
-| Contucci         |                 10 |      7.628   |          7.452 |             0.81952  |   0.671612 |
-| Florestan I      |                 11 |      7.369   |          7.4   |             0.385015 |   0.148237 |
-| Furstenball      |                 22 |      7.79964 |          7.67  |             0.565568 |   0.319867 |
 | Grand Galaxy Win |                 12 |      8.21858 |          8.119 |             0.579999 |   0.336399 |
-| Hotline          |                 13 |      7.62323 |          7.58  |             0.502625 |   0.252632 |
+| Sir Donnerhall I |                 24 |      7.80379 |          7.718 |             0.382872 |   0.146591 |
+| Furstenball      |                 22 |      7.79964 |          7.67  |             0.565568 |   0.319867 |
 | Jazz             |                 14 |      7.764   |          7.758 |             0.722566 |   0.522102 |
-| Rotspon          |                 10 |      7.5211  |          7.486 |             0.708312 |   0.501706 |
+| Secret           |                 10 |      7.758   |          7.608 |             0.319512 |   0.102088 |
 | San Amour        |                 10 |      7.7072  |          7.61  |             0.509099 |   0.259182 |
 | Sandro Hit       |                 31 |      7.68797 |          7.636 |             0.525052 |   0.27568  |
-| Secret           |                 10 |      7.758   |          7.608 |             0.319512 |   0.102088 |
-| Sir Donnerhall I |                 24 |      7.80379 |          7.718 |             0.382872 |   0.146591 |
-
+| Contucci         |                 10 |      7.628   |          7.452 |             0.81952  |   0.671612 |
+| Hotline          |                 13 |      7.62323 |          7.58  |             0.502625 |   0.252632 |
+| Rotspon          |                 10 |      7.5211  |          7.486 |             0.708312 |   0.501706 |
+| Florestan I      |                 11 |      7.369   |          7.4   |             0.385015 |   0.148237 |
 
 #### Summary Statistics for Scores by Sire, Developing Horse Divisions
 The sire with the highest mean score in the Developing Horse divisions (Table 4) is Jazz (68.452%). The rest of the group were Sir Donnerhall I (67.895%), Florencio I (67.528%), Diamond Hit (67.462%), Fidertanz (67.273%), Florestan I (67.129%), Quaterback (65.764%), and Sandro Hit (64.629%). 
@@ -237,15 +236,14 @@ The sire with the highest mean score in the Developing Horse divisions (Table 4)
 
 | Sire             |   Number of Scores |   Mean Score |   Median Score |   Standard Deviation |   Variance |
 |:-----------------|-------------------:|-------------:|---------------:|---------------------:|-----------:|
+| Jazz             |                  7 |      68.4527 |        68.705  |              2.76839 |    7.66396 |
+| Sir Donnerhall I |                 10 |      67.8955 |        68.7305 |              3.90009 |   15.2107  |
+| Florencio I      |                  7 |      67.5287 |        67.306  |              1.43564 |    2.06105 |
 | Diamond Hit      |                  7 |      67.4623 |        67.774  |              1.72814 |    2.98647 |
 | Fidertanz        |                 13 |      67.2732 |        67.807  |              3.24802 |   10.5496  |
-| Florencio I      |                  7 |      67.5287 |        67.306  |              1.43564 |    2.06105 |
 | Florestan I      |                  6 |      67.1293 |        66.8035 |              1.75294 |    3.07282 |
-| Jazz             |                  7 |      68.4527 |        68.705  |              2.76839 |    7.66396 |
 | Quaterback       |                  6 |      65.7647 |        65.201  |              2.79883 |    7.83345 |
 | Sandro Hit       |                  9 |      64.6292 |        64.273  |              2.26267 |    5.11968 |
-| Sir Donnerhall I |                 10 |      67.8955 |        68.7305 |              3.90009 |   15.2107  |
-
 
 #### Distribution of Scores by Sire, Young Horse Division
 
